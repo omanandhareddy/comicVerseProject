@@ -1,0 +1,60 @@
+<div class="comic-carousel-wrapper">
+
+  <h2 class="comic-carousel-section-title">Trending Comics</h2>
+  <div class="comic-carousel-section">
+    <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(trendingScroll)">&#10094;</button>
+
+    <div class="comic-carousel-scroll-container" #trendingScroll>
+      <div class="comic-carousel-comic-card" *ngFor="let comic of trendingComics" (click)="showComic(comic)">
+        <img class="comic-carousel-cover-img" [src]="comic?.cover" [alt]="comic?.title" loading="lazy" />
+        <h4 class="comic-carousel-comic-title">{{ comic?.title }}</h4>
+      </div>
+    </div>
+
+    <button class="comic-carousel-nav-btn comic-carousel-nav-right" (click)="scrollRight(trendingScroll)">&#10095;</button>
+  </div>
+
+  <h2 class="comic-carousel-section-title">Originals</h2>
+  <div class="comic-carousel-section">
+    <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(originalScroll)">&#10094;</button>
+
+    <div class="comic-carousel-scroll-container" #originalScroll>
+      <div class="comic-carousel-comic-card" *ngFor="let comic of originalComics" (click)="showComic(comic)">
+        <img class="comic-carousel-cover-img" [src]="comic.cover" [alt]="comic.title" loading="lazy" />
+        <h4 class="comic-carousel-comic-title">{{ comic.title }}</h4>
+      </div>
+    </div>
+
+    <button class="comic-carousel-nav-btn comic-carousel-nav-right" (click)="scrollRight(originalScroll)">&#10095;</button>
+  </div>
+
+  <h2 class="comic-carousel-section-title">UpComing Comics</h2>
+  <div class="comic-carousel-section">
+    <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(upcomingScroll)">&#10094;</button>
+
+    <div class="comic-carousel-scroll-container" #upcomingScroll>
+      <div class="comic-carousel-comic-card" *ngFor="let comic of upcomingComics" (click)="showComic(comic)">
+        <img class="comic-carousel-cover-img" [src]="comic.cover" [alt]="comic.title" loading="lazy" />
+        <h4 class="comic-carousel-comic-title">{{ comic.title }}</h4>
+      </div>
+    </div>
+
+    <button class="comic-carousel-nav-btn comic-carousel-nav-right" (click)="scrollRight(upcomingScroll)">&#10095;</button>
+  </div>
+
+  <div class="comic-carousel-popup-wrapper" *ngIf="selectedComic">
+    <div class="comic-carousel-popup-content">
+      <div>
+      <button class="comic-carousel-close-btn" (click)="selectedComic = null">X</button>
+      <h2 class="comic-carousel-popup-title">{{ selectedComic.title }}</h2>
+      <p class="comic-carousel-popup-desc">{{ selectedComic.desc }}</p>
+      <p class="comic-carousel-popup-publisher">{{ selectedComic.publisher }}</p>
+      <button class="comic-carousel-add-btn" (click)="addToFavourites()">Add To Favourites</button>
+      </div>
+      <div>
+        <img class="comic-carousel-cover-pop-img" [src]="selectedComic.cover" [alt]="selectedComic.title" loading="lazy" />
+      </div>
+    </div>
+   
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="heroes-wall-wrapper">
+
+  <div class="heroes-top-bar">
+    <button class="heroes-back-btn" (click)="goBack()">⬅</button>
+    <h1 class="heroes-title">HEROES</h1>
+  </div>
+
+  <div class="heroes-gallery">
+    <div class="heroes-card" *ngFor="let hero of heros" (click)="selectHero(hero)">
+      <img [src]="hero.image" alt="{{ hero.name }}" class="heroes-image" />
+      <h2 class="heroes-name">{{ hero.name }}</h2>
+    </div>
+  </div>
+
+  <div class="heroes-modal" *ngIf="selectedHero" (click)="closeModal()">
+    <div class="heroes-modal-content" (click)="$event.stopPropagation()">
+      <img [src]="selectedHero.image" alt="{{ selectedHero.name }}" class="heroes-modal-img" />
+      <h2 class="heroes-modal-title">
+        {{ selectedHero.name }}
+        <span class="heroes-modal-alias">({{ selectedHero.alias }})</span>
+      </h2>
+      <p class="heroes-universe">{{ selectedHero.universe }}</p>
+      <p>Abilities</p>
+      <div class="heroes-powers">
+        <span class="heroes-power-label" *ngFor="let power of selectedHero.powers">
+           {{ power }}
+        </span>
+      </div>   
+      <p class="heroes-lore">{{ selectedHero.lore }}</p>
+    </div>
+  </div>
+
+</div>
+
+<app-footer></app-footer>

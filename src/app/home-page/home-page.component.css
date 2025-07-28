@@ -1,0 +1,72 @@
+.comic-footer {
+  background-color: #000;
+  color: #e50914; /* Netflix red for bold vibe */
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #e50914;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: #e50914;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}

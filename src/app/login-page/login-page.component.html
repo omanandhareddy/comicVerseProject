@@ -1,0 +1,11 @@
+<div class="login-background">
+  <div class="login-container" >
+    <h2>Login to <span>ComicVerse</span></h2>
+    <input type="email" [(ngModel)]="Username" placeholder="Username" #email="ngModel"/>
+    <div *ngIf="email.invalid && email.touched">Username is required</div>
+    <input type="password" [(ngModel)]="password" required placeholder="Password" #pwd="ngModel"/>
+    <div *ngIf="pwd.invalid && pwd.touched">Password is required</div>
+    <button (click)="onLogin()">Login</button>
+    <p class="forgot">Forgot your password?</p>
+  </div>
+</div>

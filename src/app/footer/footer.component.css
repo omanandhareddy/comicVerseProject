@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  font-family: 'Bangers', cursive;
+  background-color: #111;
+  color: white;
+}
+
+.comic-footer {
+  background-color: #000;
+  color: white;
+  padding: 50px 20px 20px;
+  
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-section h3 {
+  color: #ff0000;
+  font-size: 24px;
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom: 15px;
+}
+
+.footer-section .logo {
+  color: #ff0000;
+  font-family: 'Rampart One', cursive;
+  font-size: 2rem;
+  color: #c62828;
+}
+
+.footer-section .logo span {
+  color: white;
+}
+
+.footer-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ccc;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+    font-family: 'Comic Neue', cursive;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px red;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+}
+
+.social-icons a {
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #888;
+  margin-top: 40px;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 600px) {
+  .footer-section h3 {
+    font-size: 20px;
+  }
+
+  .footer-section .logo {
+    font-size: 28px;
+  }
+
+  .footer-section p,
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+}

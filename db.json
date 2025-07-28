@@ -1,0 +1,2737 @@
+{
+    "COMICS" : [
+      {
+        "title": "Uncanny Avenger",
+        "writer": "Greg Rucka",
+        "penciler": "David Marquez",
+        "publisher": "DC Comics",
+        "cover": "https://iwt.sfo2.cdn.digitaloceanspaces.com/cbr-covers/5607edbba597358d9bad542d45783ea8_xl.jpg",
+        "lore": "A NEW ERA FOR VISION: ARTIFICIAL TRUTH BEGINS HERE! Vision faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Vision must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Vision, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Superman: Red Son Rising",
+        "writer": "Brian Michael Bendis",
+        "penciler": "Alex Ross",
+        "publisher": "DC Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Superman_5c3fc2758f6984.90100206.jpg?w=384",
+        "lore": "A NEW ERA FOR SUPERMAN: RED SON RISING BEGINS HERE! Superman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Superman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Superman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Black Widow: Red Vengeance",
+        "writer": "Brian Michael Bendis",
+        "penciler": "Frank Quitely",
+        "publisher": "DC Comics",
+        "cover": "https://m.media-amazon.com/images/I/819rey4hTiL._UF1000,1000_QL80_.jpg",
+        "lore": "A NEW ERA FOR BLACK WIDOW: RED VENGEANCE BEGINS HERE! Black Widow faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Black Widow must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Black Widow, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Scarlet Witch: Hexed Realities",
+        "writer": "Jeph Loeb",
+        "penciler": "Ivan Reis",
+        "publisher": "Marvel Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/7/00/66a7f5998b1b1/clean.jpg",
+        "lore": "A NEW ERA FOR SCARLET WITCH: HEXED REALITIES BEGINS HERE! Scarlet Witch faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Scarlet Witch must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Scarlet Witch, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Ant-Man: Microscopic Menace",
+        "writer": "Ed Brubaker",
+        "penciler": "Alex Ross",
+        "publisher": "DC Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/e0/5e99c2a783b34/clean.jpg",
+        "lore": "A NEW ERA FOR ANT-MAN: MICROSCOPIC MENACE BEGINS HERE! Ant-Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Ant-Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Ant-Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Thor: Storm of Realms",
+        "writer": "Jason Aaron",
+        "penciler": "Valerio Schiti",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://m.media-amazon.com/images/I/81hLHeb4jeL._UF1000,1000_QL80_.jpg",
+        "lore": "A NEW ERA FOR THOR: STORM OF REALMS BEGINS HERE! Thor faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Thor must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Thor, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Jessica Jones: Alias Awakened",
+        "writer": "Kelly Sue DeConnick",
+        "penciler": "David Marquez",
+        "publisher": "DC Comics",
+        "cover": "https://m.media-amazon.com/images/I/913FIAsGlbL._UF1000,1000_QL80_.jpg",
+        "lore": "A NEW ERA FOR JESSICA JONES: ALIAS AWAKENED BEGINS HERE! Jessica Jones faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Jessica Jones must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Jessica Jones, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Wonder Woman: Dark Gods",
+        "writer": "Jeph Loeb",
+        "penciler": "Alex Ross",
+        "publisher": "Image Comics",
+        "cover": "https://m.media-amazon.com/images/I/81YeTtIsO4L._UF1000,1000_QL80_.jpg",
+        "lore": "A NEW ERA FOR WONDER WOMAN: MYTH REBORN BEGINS HERE! Wonder Woman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Wonder Woman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Wonder Woman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Captain America: Shadows of Latveria",
+        "writer": "Jason Aaron",
+        "penciler": "Alex Ross",
+        "publisher": "Image Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/30/685c54025d1eb/clean.jpg",
+        "lore": "A NEW ERA FOR CAPTAIN AMERICA: SHADOWS OF LATVERIA BEGINS HERE! Captain America faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Captain America must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Captain America, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Black Panther: Kings and Shadows",
+        "writer": "Chip Zdarsky",
+        "penciler": "Steve McNiven",
+        "publisher": "Image Comics",
+        "cover": "https://nerdinitiative.com/wp-content/uploads/2024/05/large-4958709-3.jpg",
+        "lore": "A NEW ERA FOR BLACK PANTHER: KINGS AND SHADOWS BEGINS HERE! Black Panther faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Black Panther must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Black Panther, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Spider-Man: Web of Destiny",
+        "writer": "Tom King",
+        "penciler": "Fiona Staples",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://comichub.blob.core.windows.net/high/74c1e8f7-6b31-42b1-a3d0-87f6f8e2915d.jpg",
+        "lore": "A NEW ERA FOR SPIDER-MAN: WEB OF DESTINY BEGINS HERE! Spider-Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Spider-Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Spider-Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Star-Lord: Rebel's Galaxy",
+        "writer": "Scott Snyder",
+        "penciler": "Alex Ross",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://130698151.cdn6.editmysite.com/uploads/1/3/0/6/130698151/RMGCHJNY6YFAENTEKLCUA2XQ.jpeg",
+        "lore": "A NEW ERA FOR STAR-LORD: REBEL'S GALAXY BEGINS HERE! Star-Lord faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Star-Lord must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Star-Lord, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Captain Marvel: Binary Eclipse",
+        "writer": "Ed Brubaker",
+        "penciler": "Frank Quitely",
+        "publisher": "Image Comics",
+        "cover": "https://pbs.twimg.com/media/Gv1ivwtWEAIr751?format=jpg&name=4096x4096",
+        "lore": "A NEW ERA FOR CAPTAIN MARVEL: BINARY ECLIPSE BEGINS HERE! Captain Marvel faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Captain Marvel must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Captain Marvel, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Shazam!: Thunderstruck",
+        "writer": "Gail Simone",
+        "penciler": "Adam Kubert",
+        "publisher": "Image Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Shazam_5c53a74aefbb12.02099042.jpg?w=384",
+        "lore": "A NEW ERA FOR SHAZAM!: THUNDERSTRUCK BEGINS HERE! Shazam! faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Shazam! must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Shazam!, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Green Arrow: Silent Arrows",
+        "writer": "Jeph Loeb",
+        "penciler": "Steve McNiven",
+        "publisher": "DC Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenArrow_5c4915494b3fb9.17530021.jpg?w=384",
+        "lore": "A NEW ERA FOR GREEN ARROW: SILENT ARROWS BEGINS HERE! Green Arrow faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Green Arrow must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Green Arrow, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns.",
+        "favorite":true
+      },
+      {
+        "title": "Doctor Strange: Mystic Boundaries",
+        "writer": "Tom King",
+        "penciler": "Steve McNiven",
+        "publisher": "Image Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/40/6596e224c01ec/portrait_uncanny.jpg",
+        "lore": "A NEW ERA FOR DOCTOR STRANGE: MYSTIC BOUNDARIES BEGINS HERE! Doctor Strange faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Doctor Strange must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Doctor Strange, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Hawkeye: Sharp Justice",
+        "writer": "Kelly Sue DeConnick",
+        "penciler": "Frank Quitely",
+        "publisher": "DC Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/30/68519a151d15c/portrait_uncanny.jpg",
+        "lore": "A NEW ERA FOR HAWKEYE: SHARP JUSTICE BEGINS HERE! Hawkeye faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Hawkeye must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Hawkeye, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Deadpool: Merc Without Limits",
+        "writer": "Greg Rucka",
+        "penciler": "Jim Lee",
+        "publisher": "Image Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/e0/66e34844e922c/clean.jpg",
+        "lore": "A NEW ERA FOR DEADPOOL: MERC WITHOUT LIMITS BEGINS HERE! Deadpool faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Deadpool must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Deadpool, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Wolverine: Hunter's Blood",
+        "writer": "Tom King",
+        "penciler": "Alex Ross",
+        "publisher": "Image Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/673370548bc7a/clean.jpg",
+        "lore": "A NEW ERA FOR WOLVERINE: HUNTER'S BLOOD BEGINS HERE! Wolverine faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Wolverine must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Wolverine, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Batman: Gotham's Reckoning",
+        "writer": "Gail Simone",
+        "penciler": "David Marquez",
+        "publisher": "Image Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Batman_20190116_5c3fc4b40fae42.85141247.jpg?w=384",
+        "lore": "A NEW ERA FOR BATMAN: GOTHAM'S RECKONING BEGINS HERE! Batman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Batman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Batman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Doctor Doom: Iron Rule",
+        "writer": "Jeph Loeb",
+        "penciler": "Adam Kubert",
+        "publisher": "Image Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/66c8c518381b2/clean.jpg",
+        "lore": "A NEW ERA FOR DOCTOR DOOM: IRON RULE BEGINS HERE! Doctor Doom faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Doctor Doom must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Doctor Doom, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Green Lantern: Cosmic Will",
+        "writer": "Gail Simone",
+        "penciler": "Valerio Schiti",
+        "publisher": "Marvel Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenLantern_20200721_5f173ac65f56f7.70929296.jpg?w=384",
+        "lore": "A NEW ERA FOR GREEN LANTERN: COSMIC WILL BEGINS HERE! Green Lantern faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Green Lantern must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Green Lantern, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Gamora: Blade of Zen-Whoberi",
+        "writer": "Jason Aaron",
+        "penciler": "Alex Ross",
+        "publisher": "Marvel Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/40/58cac3ad39d25/clean.jpg",
+        "lore": "A NEW ERA FOR GAMORA: BLADE OF ZEN-WHOBERI BEGINS HERE! Gamora faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Gamora must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Gamora, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Flash: Velocity Paradox",
+        "writer": "Scott Snyder",
+        "penciler": "David Marquez",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Flash_20190116_5c3fcaaa18f023.90325986.jpg?w=1200",
+        "lore": "A NEW ERA FOR FLASH: VELOCITY PARADOX BEGINS HERE! Flash faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Flash must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Flash, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Rocket Raccoon: Tailspin Trouble",
+        "writer": "Tom King",
+        "penciler": "Steve McNiven",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/a0/645111936022a/clean.jpg",
+        "lore": "A NEW ERA FOR ROCKET RACCOON: TAILSPIN TROUBLE BEGINS HERE! Rocket Raccoon faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Rocket Raccoon must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Rocket Raccoon, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Silver Surfer: Edge of Infinity",
+        "writer": "Tom King",
+        "penciler": "David Marquez",
+        "publisher": "DC Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/70/6596e16b4b2b4/clean.jpg",
+        "lore": "A NEW ERA FOR SILVER SURFER: EDGE OF INFINITY BEGINS HERE! Silver Surfer faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Silver Surfer must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Silver Surfer, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Luke Cage: Steel Heart",
+        "writer": "Jason Aaron",
+        "penciler": "Jim Lee",
+        "publisher": "Marvel Comics",
+        "cover": "https://aiptcomics.com/wp-content/uploads/2017/05/CAGE2017001_preview.jpeg",
+        "lore": "A NEW ERA FOR LUKE CAGE: STEEL HEART BEGINS HERE! Luke Cage faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Luke Cage must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Luke Cage, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+      {
+        "title": "Iron Man: Legacy of Steel",
+        "writer": "Gail Simone",
+        "penciler": "Frank Quitely",
+        "publisher": "Dark Horse Comics",
+        "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/60/67112f7a087e2/clean.jpg",
+        "lore": "A NEW ERA FOR IRON MAN: LEGACY OF STEEL BEGINS HERE! Iron Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Iron Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Iron Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+    
+      {
+        "title": "Harley Quinn: Mayhem Manifest",
+        "writer": "Scott Snyder",
+        "penciler": "Fiona Staples",
+        "publisher": "DC Comics",
+        "cover": "https://static.dc.com/sites/default/files/imce/HARLEY_Cv27_ds_59af1b70299585.45987799.jpg",
+        "lore": "A NEW ERA FOR HARLEY QUINN: MAYHEM MANIFEST BEGINS HERE! Harley Quinn faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Harley Quinn must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Harley Quinn, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+      },
+  {
+    "title": "Batman: Shadow of the Bat",
+    "writer": "Scott Snyder",
+    "penciler": "Greg Capullo",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/81FeYngesLL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR BATMAN BEGINS HERE! Gotham's Dark Knight faces his greatest challenge yet as a mysterious new villain emerges from the shadows, testing Batman's limits like never before."
+  },
+  {
+    "title": "Spider-Man: Web of Shadows",
+    "writer": "Dan Slott",
+    "penciler": "Mark Bagley",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/80/606f6203a7f48/clean.jpg",
+    "lore": "A NEW ERA FOR SPIDER-MAN BEGINS HERE! Peter Parker must confront a sinister symbiote threat that's turning New York's heroes and villains against each other in this explosive saga."
+  },
+  {
+    "title": "Wonder Woman: Gods and Mortals",
+    "writer": "George Perez",
+    "penciler": "George Perez",
+    "publisher": "DC Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625919367i/58526673.jpg",
+    "lore": "A NEW ERA FOR WONDER WOMAN BEGINS HERE! Diana must bridge the gap between Olympus and Earth when ancient gods declare war on humanity."
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "writer": "Chris Claremont",
+    "penciler": "John Byrne",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/4/00/6826064fee159/portrait_uncanny.jpg",
+    "lore": "A NEW ERA FOR X-MEN BEGINS HERE! In a dystopian future where mutants are hunted, Kitty Pryde must send her consciousness back in time to prevent a catastrophic event."
+  },
+  {
+    "title": "Green Lantern: Emerald Twilight",
+    "writer": "Ron Marz",
+    "penciler": "Darryl Banks",
+    "publisher": "DC Comics",
+    "cover": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/a1dpbniy1fl_sl1500.jpg",
+    "lore": "A NEW ERA FOR GREEN LANTERN BEGINS HERE! After the destruction of Coast City, Hal Jordan's grief drives him to madness and a confrontation with the entire Green Lantern Corps."
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "writer": "Frank Miller",
+    "penciler": "David Mazzucchelli",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/81DlFDB1EFL.jpg",
+    "lore": "A NEW ERA FOR DAREDEVIL BEGINS HERE! Matt Murdock's life is systematically destroyed by Kingpin, forcing him to rebuild himself from nothing in this gritty street-level saga."
+  },
+  {
+    "title": "The Sandman: Preludes & Nocturnes",
+    "writer": "Neil Gaiman",
+    "penciler": "Sam Kieth",
+    "publisher": "DC Comics",
+    "cover": "https://jeroenthoughts.wordpress.com/wp-content/uploads/2022/08/image031.jpg",
+    "lore": "A NEW ERA FOR THE DREAMING BEGINS HERE! Morpheus, Lord of Dreams, escapes decades of imprisonment and sets out to reclaim his lost objects of power."
+  },
+  {
+    "title": "Invincible Iron Man: Demon in a Bottle",
+    "writer": "David Michelinie",
+    "penciler": "Bob Layton",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/50/5a6a4ea86d50f/clean.jpg",
+    "lore": "A NEW ERA FOR IRON MAN BEGINS HERE! Tony Stark's alcoholism comes to a head as his life spirals out of control while battling corporate espionage and super-villains."
+  },
+  {
+    "title": "Hellboy: Seed of Destruction",
+    "writer": "Mike Mignola",
+    "penciler": "Mike Mignola",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://images.darkhorse.com/covers/600/30/3004627.jpg",
+    "lore": "A NEW ERA FOR HELLBOY BEGINS HERE! The paranormal investigator confronts his mysterious origins when an ancient evil threatens to destroy the world."
+  },
+  {
+    "title": "The Walking Dead: Days Gone Bye",
+    "writer": "Robert Kirkman",
+    "penciler": "Tony Moore",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81E1DCPTh3L.jpg",
+    "lore": "A NEW ERA FOR SURVIVAL HORROR BEGINS HERE! Sheriff Rick Grimes awakens from a coma to find the world overrun by zombies in this groundbreaking series."
+  },
+  {
+    "title": "Saga: Chapter One",
+    "writer": "Brian K. Vaughan",
+    "penciler": "Fiona Staples",
+    "publisher": "Image Comics",
+    "cover": "https://i.pinimg.com/474x/15/e6/07/15e607d50085eb31b69e473e74757af9.jpg",
+    "lore": "A NEW ERA FOR SPACE OPERA BEGINS HERE! Two soldiers from opposite sides of an intergalactic war fall in love and risk everything to protect their newborn daughter."
+  },
+  {
+    "title": "Watchmen: Chapter I",
+    "writer": "Alan Moore",
+    "penciler": "Dave Gibbons",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/M/MV5BMjc5NGFlMzMtZjkwZS00MzliLTg5NzktZDYzNGNhNjdjNzAzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "lore": "A NEW ERA FOR GRAPHIC NOVELS BEGINS HERE! In an alternate 1985 where superheroes exist, the murder of a government agent pulls retired vigilantes back into action."
+  },
+  {
+    "title": "The Umbrella Academy: Apocalypse Suite",
+    "writer": "Gerard Way",
+    "penciler": "Gabriel Bá",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://m.media-amazon.com/images/I/8195eNvnoCL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR ECCENTRIC SUPERHEROES BEGINS HERE! A dysfunctional family of adopted super-powered siblings reunites to solve their father's mysterious death."
+  },
+  {
+    "title": "Ms. Marvel: No Normal",
+    "writer": "G. Willow Wilson",
+    "penciler": "Adrian Alphona",
+    "publisher": "Marvel Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654683789i/61249603.jpg",
+    "lore": "A NEW ERA FOR MS. MARVEL BEGINS HERE! Kamala Khan, a Muslim teenager from Jersey City, gains incredible shape-shifting powers and takes up the mantle of her hero."
+  },
+  {
+    "title": "Y: The Last Man: Unmanned",
+    "writer": "Brian K. Vaughan",
+    "penciler": "Pia Guerra",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/71MRrQzF6vL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR POST-APOCALYPTIC FICTION BEGINS HERE! Yorick Brown becomes the last surviving male human after a mysterious plague wipes out every mammal with a Y chromosome."
+  },
+  {
+    "title": "Miles Morales: Ultimate Spider-Man",
+    "writer": "Brian Michael Bendis",
+    "penciler": "Sara Pichelli",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91S6Fg-cGuL.jpg",
+    "lore": "A NEW ERA FOR SPIDER-MAN BEGINS HERE! After Peter Parker's death, teenager Miles Morales takes up the mantle of Spider-Man in the Ultimate Universe."
+  },
+  {
+    "title": "The Authority: Relentless",
+    "writer": "Warren Ellis",
+    "penciler": "Bryan Hitch",
+    "publisher": "Wildstorm",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518640805i/546887.jpg",
+    "lore": "A NEW ERA FOR SUPERHERO TEAMS BEGINS HERE! The Authority takes a more proactive approach to saving the world, making tough decisions that traditional heroes wouldn't."
+  },
+  {
+    "title": "Black Hammer: Secret Origins",
+    "writer": "Jeff Lemire",
+    "penciler": "Dean Ormston",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://m.media-amazon.com/images/I/81pvkZBKy9L.jpg",
+    "lore": "A NEW ERA FOR META SUPERHERO STORIES BEGINS HERE! A group of forgotten superheroes are trapped in a mysterious small town, trying to solve the puzzle of their exile."
+  },
+  {
+    "title": "Invincible: Family Matters",
+    "writer": "Robert Kirkman",
+    "penciler": "Cory Walker",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81YvRpWxtzL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR TEEN SUPERHEROES BEGINS HERE! Mark Grayson discovers his alien heritage and begins his journey to become the superhero Invincible."
+  },
+  {
+    "title": "Preacher: Gone to Texas",
+    "writer": "Garth Ennis",
+    "penciler": "Steve Dillon",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/71WRnpnrGwL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR CONTROVERSIAL COMICS BEGINS HERE! A small-town preacher possessed by a supernatural entity embarks on a road trip to find God and hold Him accountable."
+  },
+  {
+    "title": "Fables: Legends in Exile",
+    "writer": "Bill Willingham",
+    "penciler": "Lan Medina",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/81N+GKLlRnL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR FAIRYTALE RECONTEXTUALIZATION BEGINS HERE! Storybook characters live in exile in modern New York, with Snow White investigating the apparent murder of her sister Rose Red."
+  },
+  {
+    "title": "Spawn: Origins",
+    "writer": "Todd McFarlane",
+    "penciler": "Todd McFarlane",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81zKbmpe8cL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR DARK SUPERHEROES BEGINS HERE! Al Simmons returns from Hell as the monstrous Spawn, caught between Heaven and Hell's eternal conflict."
+  },
+  {
+    "title": "The Wicked + The Divine: The Faust Act",
+    "writer": "Kieron Gillen",
+    "penciler": "Jamie McKelvie",
+    "publisher": "Image Comics",
+    "cover": "https://www.wordsworth.co.za/cdn/shop/products/357807_6182a40f25b3b9.67103888_9781632150196.jpg?v=1640892284",
+    "lore": "A NEW ERA FOR MYTHOLOGICAL FICTION BEGINS HERE! Every ninety years, twelve gods incarnate as humans - and in two years, they're all dead. This time, something's different."
+  },
+  {
+    "title": "100 Bullets: First Shot, Last Call",
+    "writer": "Brian Azzarello",
+    "penciler": "Eduardo Risso",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/61A5zfzHMsL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR CRIME NOIR BEGINS HERE! A mysterious man offers people a chance at revenge with an untraceable gun and 100 bullets, no questions asked."
+  },
+  {
+    "title": "Locke & Key: Welcome to Lovecraft",
+    "writer": "Joe Hill",
+    "penciler": "Gabriel Rodríguez",
+    "publisher": "IDW Publishing",
+    "cover": "https://goldenapplecomics.com/cdn/shop/products/81998-hr.jpg?v=1682208043",
+    "lore": "A NEW ERA FOR HORROR FANTASY BEGINS HERE! After their father's murder, the Locke children move into Keyhouse, a New England mansion filled with magical keys and dark secrets."
+  },
+  {
+    "title": "Chew: Taster's Choice",
+    "writer": "John Layman",
+    "penciler": "Rob Guillory",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/71o1EIoAB5L.jpg",
+    "lore": "A NEW ERA FOR OFFBEAT CRIME BEGINS HERE! FDA agent Tony Chu solves crimes by getting psychic impressions from anything he eats - including people - in a world where chicken is illegal."
+  },
+  {
+    "title": "Bone: Out from Boneville",
+    "writer": "Jeff Smith",
+    "penciler": "Jeff Smith",
+    "publisher": "Cartoon Books",
+    "cover": "https://m.media-amazon.com/images/I/819vThpT3iL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR ALL-AGES FANTASY BEGINS HERE! The Bone cousins find themselves lost in a mysterious valley filled with creatures and ancient dangers after being run out of Boneville."
+  },
+  {
+    "title": "Transmetropolitan: Back on the Street",
+    "writer": "Warren Ellis",
+    "penciler": "Darick Robertson",
+    "publisher": "Vertigo",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320606005i/22416.jpg",
+    "lore": "A NEW ERA FOR CYBERPUNK JOURNALISM BEGINS HERE! Cynical journalist Spider Jerusalem returns to the City to fulfill a book contract, exposing corruption and societal decay."
+  },
+  {
+    "title": "The Boys: The Name of the Game",
+    "writer": "Garth Ennis",
+    "penciler": "Darick Robertson",
+    "publisher": "Dynamite Entertainment",
+    "cover": "https://m.media-amazon.com/images/I/71I509tOf2L.jpg",
+    "lore": "A NEW ERA FOR ANTI-SUPERHERO STORIES BEGINS HERE! A CIA black ops team keeps corrupt superheroes in check through any means necessary in this brutal deconstruction of hero worship."
+  },
+  {
+    "title": "Rat Queens: Sass & Sorcery",
+    "writer": "Kurtis J. Wiebe",
+    "penciler": "Roc Upchurch",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/71hRJVFgz+L.jpg",
+    "lore": "A NEW ERA FOR FANTASY COMEDY BEGINS HERE! This booze-soaked, monster-killing mercenary quartet redefines what it means to be an adventurer in a traditional fantasy world."
+  },
+  {
+    "title": "Batman: The Court of Owls",
+    "writer": "Scott Snyder",
+    "penciler": "Greg Capullo",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/91tNCMbEiCL.jpg",
+    "lore": "A NEW ERA FOR THE DARK KNIGHT BEGINS HERE! When a series of brutal murders rocks Gotham City, Batman uncovers evidence of the Court of Owls - a secret society that has controlled Gotham for centuries. As the Caped Crusader delves deeper into this conspiracy, he finds himself trapped in their labyrinth, physically and psychologically tortured. This groundbreaking arc redefines Batman's world, introducing his most formidable foes yet while exploring the limits of his endurance. The Court's deadly assassins, the Talons, emerge from the shadows to claim Gotham as their own, forcing Batman to question everything he knows about his city's history and his own family legacy."
+  },
+  {
+    "title": "Spider-Man: Kraven's Last Hunt",
+    "writer": "J.M. DeMatteis",
+    "penciler": "Mike Zeck",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/71TpDrhX55L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR SPIDER-MAN BEGINS HERE! In this psychological masterpiece, Kraven the Hunter achieves his ultimate victory over Spider-Man - not by killing him, but by defeating and burying him alive. Assuming Spider-Man's identity, Kraven sets out to prove himself superior by cleaning up New York's streets with brutal efficiency. Meanwhile, Peter Parker must claw his way back from the brink of death and madness, confronting his deepest fears in the suffocating darkness underground. This haunting tale explores themes of mortality, identity, and the animalistic nature of heroism, culminating in one of the most shocking and poignant endings in Spider-Man history."
+  },
+  {
+    "title": "Moon Knight: From the Dead",
+    "writer": "Warren Ellis",
+    "penciler": "Declan Shalvey",
+    "publisher": "Marvel Comics",
+    "cover": "https://weirdsciencemarvelcomics.com/wp-content/uploads/2023/11/moon-knight-cotd-5-featured.jpg",
+    "lore": "A NEW ERA FOR MOON KNIGHT BEGINS HERE! Marc Spector reinvents himself as New York's nocturnal protector, using brutal precision and psychological warfare against street-level threats. Each issue features a standalone mission—from stopping a sniper with a crescent dart to infiltrating a ghost subway train—showcasing Moon Knight's tactical genius and fractured psyche. Ellis' minimalist storytelling and Shalvey's stark white-on-black costume design redefine the character for modern audiences. The final confrontation with a cult harvesting body parts in a high-rise will leave you questioning who's truly unhinged: Moon Knight or the world he protects."
+  },
+  {
+    "title": "Animal Man: The Hunt",
+    "writer": "Grant Morrison",
+    "penciler": "Chas Truog",
+    "publisher": "DC Comics",
+    "cover": "https://www.horrordna.com/images/reviews_a_g/animal-man/volume-1/previews1/animal-man-volume-1-01.jpg",
+    "lore": "A NEW ERA FOR ANIMAL MAN BEGINS HERE! Buddy Baker gains terrifying new abilities after encountering alien technology, but his powers come at a horrific cost. When his family is targeted by a mysterious organization experimenting on metahumans, Animal Man must embrace his connection to 'The Red'—the life-force connecting all creatures. Morrison's meta-narrative builds to a universe-shattering climax where Buddy breaks the fourth wall, confronting his own writer in one of comics' most existential moments. This revolutionary run blends superhero action with ecological horror and postmodern philosophy."
+  },
+  {
+    "title": "Black Cat: Grand Theft Marvel",
+    "writer": "Jed MacKay",
+    "penciler": "Travel Foreman",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/71F4a-vbE-L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR FELICIA HARDY BEGINS HERE! The Queen of Thieves pulls off her most audacious heist yet—stealing from Doctor Doom's castle during a supervillain gala. MacKay's witty dialogue and Foreman's dynamic layouts turn each issue into a rollercoaster of acrobatic thefts and narrow escapes. The shocking reveal of Felicia's true target—a cosmic artifact that could rewrite her tragic past—forces her to choose between personal happiness and her moral code. Packed with Marvel Universe cameos and a showstopping fight against Doombots in Latveria's treasure vault."
+  },
+  {
+    "title": "The Question: Zen and Violence",
+    "writer": "Dennis O'Neil",
+    "penciler": "Denys Cowan",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/51LOoOaNGiL._AC_UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR VIC SAGE BEGINS HERE! After nearly dying in an alleyway, the faceless detective abandons his brutal methods to study under martial arts master Richard Dragon. O'Neil's street-level noir explores Eastern philosophy through gritty urban crime stories, as Sage battles corrupt politicians and drug lords without throwing a single punch. Cowan's chiaroscuro artwork makes Hub City's shadows feel alive. The iconic 'I am the spirit of the city' monologue redefines what it means to be a hero in a world without easy answers."
+  },
+  {
+    "title": "Hawkeye: My Life as a Weapon",
+    "writer": "Matt Fraction",
+    "penciler": "David Aja",
+    "publisher": "Marvel Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1525360660i/16002136.jpg",
+    "lore": "A NEW ERA FOR CLINT BARTON BEGINS HERE! When he's not saving the world with the Avengers, Hawkeye protects his Coney Island apartment building from Russian mobsters—badly. Fraction's snarky dialogue and Aja's minimalist art (featuring iconic purple-tinted action sequences) turn mundane moments into cinematic gold. From surviving a car crash using only a bow to teaching his deaf protégé Kate Bishop the ropes, this run proves you don't need superpowers to be extraordinary. The 'Pizza Dog' issue told entirely from a dog's perspective remains groundbreaking."
+  },
+  {
+    "title": "Lucifer: Devil in the Gateway",
+    "writer": "Mike Carey",
+    "penciler": "Scott Hampton",
+    "publisher": "Vertigo",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309577911i/359195.jpg",
+    "lore": "A NEW ERA FOR THE LORD OF HELL BEGINS HERE! After abandoning his throne, Lucifer Morningstar opens a piano bar in Los Angeles—until God's exorcist Elaine Belloc arrives with a cosmic proposition. Carey expands Sandman's mythology with celestial intrigue, as Lucifer outwits angels, Norse gods, and the Japanese pantheon to claim his freedom. The breathtaking 'Gate of Yggdrasil' sequence—where Lucifer carves a doorway through reality using the World Tree—redefines cosmic-scale storytelling. A philosophical masterpiece about free will versus divine plan."
+  },
+  {
+    "title": "Daredevil: The Devil, Inside and Out",
+    "writer": "Ed Brubaker",
+    "penciler": "Michael Lark",
+    "publisher": "Marvel Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453926488i/106034.jpg",
+    "lore": "A NEW ERA FOR MATT MURDOCK BEGINS HERE! Framed for murder and imprisoned in Ryker's Island, Daredevil must survive a gauntlet of supervillain inmates while uncovering a conspiracy involving the Kingpin's successor. Brubaker's crime-noir pacing and Lark's gritty pencils make every prison riot feel terrifyingly real. The shocking moment when Bullseye—paralyzed and helpless—becomes Matt's unlikely ally will rewrite your understanding of these iconic rivals. A masterclass in how to escalate tension across six explosive issues."
+  },
+  {
+    "title": "The Wicked + The Divine: Commercial Suicide",
+    "writer": "Kieron Gillen",
+    "penciler": "Various",
+    "publisher": "Image Comics",
+    "cover": "https://images.epagine.fr/777/9782344020777_1_75.jpg",
+    "lore": "A NEW ERA FOR THE GODLY POP STARS BEGINS HERE! After Lucifer's very public execution, the Pantheon fractures—and each issue spotlights a different deity through unique artistic styles. From Baal's corporate rap empire to Baphomet's queer BDSM poetry, Gillen deconstructs fame and divinity through wildly inventive one-shots. The Cassandra issue—drawn entirely as a YouTube video transcript—predicts internet cancel culture years before its time. A risky creative gamble that redefined what monthly comics could achieve."
+  },
+  {
+    "title": "Gideon Falls: The Black Barn",
+    "writer": "Jeff Lemire",
+    "penciler": "Andrea Sorrentino",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/819+5Lqca7L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR HORROR BEGINS HERE! A paranoid recluse collects pieces of a mysterious black barn that appears randomly throughout history, while a washed-up priest investigates murders linked to the same structure. Sorrentino's panel-breaking layouts—like a murder scene unfolding through a shattered mirror—create unbearable tension. The revelation that the barn is a sentient entity feeding on human madness will haunt you. Stephen King meets David Lynch in this award-winning nightmare."
+  },
+  {
+    "title": "Ultimate Spider-Man: Power and Responsibility",
+    "writer": "Brian Michael Bendis",
+    "penciler": "Mark Bagley",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/81FKcEB6j0L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR PETER PARKER BEGINS HERE! In this streamlined 21st-century origin, teenage Peter gains spider-powers and quickly learns that Uncle Ben's death wasn't random—it connects to Norman Osborn's illegal experiments. Bendis' snappy teen dialogue and Bagley's expressive art capture the wonder and terror of becoming a hero. The heartbreaking twist? Peter's final phone call to Aunt May before confronting the Green Goblin is one of comics' most raw emotional moments."
+  },
+  {
+    "title": "Sweet Tooth: Out of the Deep Woods",
+    "writer": "Jeff Lemire",
+    "penciler": "Jeff Lemire",
+    "publisher": "Vertigo",
+    "cover": "https://imgix-media.wbdndc.net/ingest/book/preview/b5a9dd36-d3af-42c0-ba2e-af0b5b1713ad/055b2c5e-4bc0-4a11-976a-f661cea48f02/0.jpg",
+    "lore": "A NEW ERA FOR POST-APOCALYPTIC FICTION BEGINS HERE! Gus—a boy with deer antlers—lives alone in the woods after a pandemic wipes out most humans. When hunter Jepperd promises to take him to 'The Preserve,' their journey through America's ruins begins. Lemire's watercolor art conveys both the beauty and brutality of this world. The gut-punch revelation about why hybrid children like Gus exist will leave you speechless. A tender fable about found family in the end times."
+  },
+  {
+    "title": "The Immortal Hulk: Or Is He Both?",
+    "writer": "Al Ewing",
+    "penciler": "Joe Bennett",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91FAH-UNSML.jpg",
+    "lore": "A NEW ERA FOR BRUCE BANNER BEGINS HERE! After dying (again), Banner discovers he now resurrects at nightfall—but his Hulk form is a horror-show monster fueled by gamma radiation's connection to cosmic evil. Bennett's body-horror transformations and Ewing's theological themes create Marvel's most chilling book. The 'Devil Hulk' persona's protective rage toward abused children adds heartbreaking depth. When the Hulk literally walks through Hell to confront the One Below All, you'll never see green the same way."
+  },
+  {
+    "title": "Paper Girls: The Apocalypse Suite",
+    "writer": "Brian K. Vaughan",
+    "penciler": "Cliff Chiang",
+    "publisher": "Image Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1656764541i/28204534.jpg",
+    "lore": "A NEW ERA FOR TIME-TRAVELING TEENS BEGINS HERE! In 1988, four newspaper delivery girls stumble into a war between rival factions of time-tourists. Chiang's pastel-colored apocalypse contrasts with Vaughan's razor-sharp dialogue about adolescence and destiny. The mind-bending reveal about the girls' *true* connection across timelines elevates this from nostalgia trip to existential sci-fi masterpiece. A love letter to '80s pop culture with shocking emotional depth."
+  },
+  {
+    "title": "Die: Fantasy Heartbreaker",
+    "writer": "Kieron Gillen",
+    "penciler": "Stephanie Hans",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81SRGSLHe6L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR DARK FANTASY BEGINS HERE! Six adults are dragged back into the RPG world they escaped as teens—except now they're trapped in their character classes (The Dictator, The Neo, The Grief Knight). Hans' painterly art turns dice-roll mechanics into visceral trauma. The reveal that their missing Game Master has become the world's god-king—and remembers their every betrayal—will shake tabletop gamers to their core. Jumanji meets Berserk in this psychological odyssey."
+  },
+  {
+    "title": "Something Is Killing the Children: The Slaughter",
+    "writer": "James Tynion IV",
+    "penciler": "Werther Dell'Edera",
+    "publisher": "Boom! Studios",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626296573i/57772525.jpg",
+    "lore": "A NEW ERA FOR HORROR BEGINS HERE! Children in Archer's Peak keep disappearing—except for those who describe a monster only they can see. Enter Erica Slaughter, a chainsaw-wielding hunter with a ghostly companion named 'The Thing in the Walls.' Dell'Edera's jagged linework makes every shadow feel alive. The brutal twist about the town's secret pact with the creatures will make you question who the real monsters are. Stranger Things meets Buffy with razor-sharp claws."
+  },
+  {
+    "title": "Department of Truth: The End of the World",
+    "writer": "James Tynion IV",
+    "penciler": "Martin Simmonds",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81lXIMf1W0L.jpg",
+    "lore": "A NEW ERA FOR CONSPIRACY THRILLERS BEGINS HERE! FBI agent Cole Turner learns a terrifying secret: collective belief can literally reshape reality. Simmonds' photorealistic collages—mixing UFO lore, flat earth theory, and cryptid sightings—create a paranoid visual feast. The moment Cole witnesses a 'Mandela Effect' altering live TV proves this isn't just another X-Files knockoff. A chilling examination of how misinformation spreads in the internet age."
+  },
+  {
+    "title": "Undiscovered Country: Destiny Man",
+    "writer": "Scott Snyder",
+    "penciler": "Giuseppe Camuncoli",
+    "publisher": "Image Comics",
+    "cover": "https://oxfordcomicsandgames.com/cdn/shop/products/202307-0000426054.jpg?v=1703026870",
+    "lore": "A NEW ERA FOR DYSTOPIAN SCI-FI BEGINS HERE! Thirty years after America sealed itself behind a wall, an expedition team enters to find the nation split into six surreal zones (from a Wild West tech-wasteland to a Disney-esque fascist paradise). Camuncoli's hyper-detailed designs make each region feel alive. The shocking truth about the 'American Destiny' cult's time-manipulating leader rewrites history itself. Mad Max meets Bioshock Infinite in this high-concept thriller."
+  },
+  {
+    "title": "Once & Future: The Great Game",
+    "writer": "Kieron Gillen",
+    "penciler": "Dan Mora",
+    "publisher": "Boom! Studios",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlfmCWygAzo3y1eKUvoJduI7bCePOG6Koilw&s",
+    "lore": "A NEW ERA FOR ARTHURIAN LEGEND BEGINS HERE! Retired monster hunter Bridgette McGuire drags her reluctant grandson into a war against undead knights and fairy-tale horrors leaking into modern England. Mora's kinetic action sequences—like a shotgun blast decapitating the Green Knight—are legendary. The revelation that Merlin orchestrated Brexit to weaken reality's fabric is both hilarious and terrifying. National Treasure meets Hellboy with a British punk edge."
+  },
+  {
+    "title": "The Nice House on the Lake: Welcome",
+    "writer": "James Tynion IV",
+    "penciler": "Álvaro Martínez Bueno",
+    "publisher": "DC Comics",
+    "cover": "https://i0.wp.com/comicbookdispatch.com/wp-content/uploads/2021/05/tnhotl_cv1.jpg?fit=1987%2C3056&ssl=1",
+    "lore": "A NEW ERA FOR APOCALYPTIC HORROR BEGINS HERE! Twelve friends are invited to a lakeside mansion by their enigmatic mutual acquaintance Walter—only to learn the world outside has ended. Bueno's shifting art styles (from manga to watercolors) reflect each character's psyche. The slow-burn reveal that Walter is an alien testing humanity's worth will leave you questioning every interaction. A chilling character study disguised as a sci-fi mystery."
+  },
+  {
+    "title": "Monstress: The Blood of Ten Chiefs",
+    "writer": "Marjorie Liu",
+    "penciler": "Sana Takeda",
+    "publisher": "Image Comics",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAGSM40rJWCAPpSYQRhQVIdZKVuHRCJ3huQQ&s",
+    "lore": "A NEW ERA FOR DARK FANTASY BEGINS HERE! In an alternate 1900s Asia, teenage Maika Halfwolf battles ancient gods and her own demonic arm while uncovering secrets about her mother's death. Takeda's Art Nouveau-meets-kaiju designs are breathtaking. The gut-wrenching truth about the Zinn entity living inside Maika—and its connection to a cosmic war—redefines 'body horror.' A feminist epic with more worldbuilding per page than most novels."
+  },
+
+  {
+    "title": "Wonder Woman: The Hiketeia",
+    "writer": "Greg Rucka",
+    "penciler": "J.G. Jones",
+    "publisher": "DC Comics",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Hiketeia.jpg",
+    "lore": "A NEW ERA FOR WONDER WOMAN BEGINS HERE! When a young woman named Danielle performs the ancient Greek ritual of Hiketeia - binding herself to Diana as a supplicant - Wonder Woman becomes honor-bound to protect her, even from Batman. As the Dark Knight pursues Danielle for crimes committed in Gotham, Diana finds herself torn between justice and sacred obligation. This powerful story delves deep into Wonder Woman's mythological roots, contrasting modern ethics with ancient traditions. The emotional climax forces Diana to make an impossible choice that will haunt her forever, showcasing the true weight of Amazonian honor in a world that no longer understands such concepts."
+  },
+  {
+    "title": "X-Men: God Loves, Man Kills",
+    "writer": "Chris Claremont",
+    "penciler": "Brent Anderson",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/510GBseM30L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR MUTANTKIND BEGINS HERE! Reverend William Stryker launches a holy war against mutantkind, using kidnapped children as bait for the X-Men. This graphic novel presents Marvel's mutants at their most vulnerable, confronting raw bigotry and religious extremism. Professor X and Magneto find common ground against a threat that weaponizes faith, while Cyclops and Storm lead the team through their most harrowing battle yet - not against super-villains, but against the darkest aspects of human nature. The story's chilling relevance grows with each passing year, making it one of the most important X-Men tales ever told."
+  },
+  {
+    "title": "Green Lantern: Sinestro Corps War",
+    "writer": "Geoff Johns",
+    "penciler": "Ivan Reis",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/71Z0rfmObTL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR THE EMERALD KNIGHT BEGINS HERE! The universe trembles as Sinestro establishes his own corps wielding yellow rings powered by fear. This galaxy-spanning war pushes Hal Jordan and the Green Lantern Corps to their limits, introducing the terrifying concept of emotional spectrum warfare. When Parallax possesses Kyle Rayner and the Anti-Monitor joins Sinestro's forces, the Guardians' worst fears are realized. The shocking conclusion redefines the nature of willpower and fear, while setting the stage for the coming of other colored corps. Epic space battles, personal betrayals, and universe-shaking revelations make this the definitive Green Lantern saga."
+  },
+  {
+    "title": "Daredevil: Guardian Devil",
+    "writer": "Kevin Smith",
+    "penciler": "Joe Quesada",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/61AX5Ybf15L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR HELL'S KITCHEN BEGINS HERE! When a mysterious woman leaves an infant in Matt Murdock's care, claiming the child may be the messiah or the antichrist, Daredevil's faith is put to the ultimate test. As his personal life unravels and friends turn against him, the Man Without Fear finds himself manipulated by forces beyond his comprehension. This gripping story combines street-level crime with supernatural horror, culminating in heart-wrenching tragedy. The shocking finale leaves Matt questioning his Catholic faith, his role as a hero, and whether any victory is worth the personal cost."
+  },
+  {
+    "title": "The Sandman: Season of Mists",
+    "writer": "Neil Gaiman",
+    "penciler": "Various",
+    "publisher": "DC Comics",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/17/Season_of_Mist.jpg",
+    "lore": "A NEW ERA FOR THE DREAMING BEGINS HERE! Morpheus returns to Hell to rescue his former lover Nada, only to find Lucifer has abandoned his domain and given the key to Hell... to Dream. This award-winning arc sees deities from every pantheon converging on the Dreaming to claim the vacant underworld, from Norse gods to Japanese spirits. The delicate negotiations reveal profound truths about the nature of responsibility, redemption, and cosmic balance. When Dream finally makes his unexpected choice for Hell's new ruler, it creates ripple effects across the DC Universe that endure to this day."
+  },
+  {
+    "title": "Iron Man: Extremis",
+    "writer": "Warren Ellis",
+    "penciler": "Adi Granov",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/5/b0/5c015b5ab3762/clean.jpg",
+    "lore": "A NEW ERA FOR TECHNOLOGY BEGINS HERE! Tony Stark faces his greatest technological challenge when a failed super-soldier experiment creates the Extremis virus - capable of rewriting human biology. As a terrorist enhanced by Extremis wreaks havoc, Stark must upgrade both his armor and himself to meet this threat. This groundbreaking story modernizes Iron Man's origin while introducing the nanotechnology that would define his capabilities for years to come. The tense narrative explores transhumanism, corporate responsibility, and whether technological advancement can outpace human wisdom."
+  },
+  {
+    "title": "Hellboy: The Chained Coffin",
+    "writer": "Mike Mignola",
+    "penciler": "Mike Mignola",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://m.media-amazon.com/images/I/81mXAVsvBfL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR PARANORMAL INVESTIGATION BEGINS HERE! Hellboy returns to his mysterious origins in this collection of haunting short stories. When a village's dark secret leads to a confrontation with his own destiny, the Right Hand of Doom must choose between fate and free will. The titular story reveals shocking truths about Hellboy's childhood, while other tales showcase Mignola's mastery of folklore and gothic horror. From Irish banshees to Russian witches, each story builds the rich mythology of the B.P.R.D. universe while exploring themes of identity and purpose."
+  },
+  {
+    "title": "The Walking Dead: Safety Behind Bars",
+    "writer": "Robert Kirkman",
+    "penciler": "Charlie Adlard",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81E1DCPTh3L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR SURVIVAL BEGINS HERE! Rick's group discovers a prison that could be their salvation, but clearing it of walkers is only the first challenge. As they establish new routines behind the fences, internal conflicts and external threats test their fragile community. The introduction of the Governor's forces begins a chain reaction of betrayal and violence that will define the series' most brutal arc. This volume masterfully contrasts moments of hope with crushing despair, proving that in the zombie apocalypse, the living are often more dangerous than the dead."
+  },
+  {
+    "title": "Saga: Volume Two",
+    "writer": "Brian K. Vaughan",
+    "penciler": "Fiona Staples",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/71Ei35rfqbL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR INTERGALACTIC DRAMA BEGINS HERE! As Marko and Alana continue fleeing from both sides of the galaxy's endless war, they seek refuge on the exotic planet Quietus with author D. Oswald Heist. Meanwhile, Prince Robot IV closes in on his targets, and The Will's moral compass is tested by Slave Girl's plight. This volume expands the rich universe while deepening character relationships, blending heartfelt family moments with shocking violence. The introduction of new allies and enemies showcases Vaughan and Staples' unparalleled world-building, culminating in a cliffhanger that changes everything for the star-crossed family."
+  },
+  {
+    "title": "Watchmen: Chapter II",
+    "writer": "Alan Moore",
+    "penciler": "Dave Gibbons",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/M/MV5BOGEyYTQ2ODctNzQ1NS00NWEyLWE5NzEtNjgzYTIwYjlmODE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "lore": "A NEW ERA FOR GRAPHIC STORYTELLING BEGINS HERE! As the investigation into the Comedian's death deepens, Rorschach uncovers a possible mask-killer conspiracy. This chapter masterfully interweaves present-day events with poignant flashbacks, revealing how Edward Blake's brutal worldview shaped generations of heroes. The haunting sequences at the Gila Flats test site showcase Moore's examination of power and morality, while the recurring Black Freighter comic-within-a-comic parallels the main narrative's descent into darkness. Every meticulously crafted panel builds toward the series' devastating conclusion, with themes of nostalgia, trauma, and impending doom."
+  },
+  {
+    "title": "The Umbrella Academy: Dallas",
+    "writer": "Gerard Way",
+    "penciler": "Gabriel Bá",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://m.media-amazon.com/images/I/81i62fkLzIL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR DYSFUNCTIONAL SUPERHEROES BEGINS HERE! The Hargreeves siblings find themselves embroiled in a time-travel conspiracy connected to the JFK assassination. Number Five's mysterious past comes into focus as the team confronts the terrifying Commission and their army of Hazel and Cha-Cha variants. This volume blends dark comedy with existential dread, exploring how childhood trauma manifests in adult lives. The shocking climax at Dealey Plaza redefines the team's understanding of destiny and free will, while introducing the haunting concept of 'the event that can't be stopped.'"
+  },
+  {
+    "title": "Ms. Marvel: Generation Why",
+    "writer": "G. Willow Wilson",
+    "penciler": "Adrian Alphona",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91y2ow4TC3L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR HEROISM BEGINS HERE! Kamala Khan teams up with Wolverine to uncover the secrets of The Inventor - a bizarre villain claiming to be Thomas Edison cloned from cockatiel DNA. As she balances school, family, and superheroics, Kamala's journey of self-discovery resonates with hilarious and heartfelt moments. This volume cements Ms. Marvel as a champion of Jersey City's diverse community, tackling issues of xenophobia and generational divides with warmth and sincerity. The Inventor's twisted vision of youth rebellion provides the perfect foil for Kamala's authentic, compassionate heroism."
+  },
+  {
+    "title": "Y: The Last Man - Cycles",
+    "writer": "Brian K. Vaughan",
+    "penciler": "Pia Guerra",
+    "publisher": "Vertigo",
+    "cover": "https://media.mycomicshop.com/n_iv/600/734335.jpg",
+    "lore": "A NEW ERA FOR POST-APOCALYPTIC FICTION BEGINS HERE! Yorick Brown's cross-country journey takes dangerous turns as he, Agent 355, and Dr. Mann reach Marrisville - a town with a shocking secret. This volume explores how different communities adapt (or fail to adapt) to the gendercide, from militant survivalists to religious cults. The introduction of the mysterious 'Daughters of the Amazon' raises the stakes, while Yorick's growing skills as a escape artist are tested like never before. Vaughan's masterful storytelling balances humor, horror, and humanity in equal measure."
+  },
+  {
+    "title": "Miles Morales: Spider-Man - Straight Out of Brooklyn",
+    "writer": "Saladin Ahmed",
+    "penciler": "Javier Garrón",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91PLzY5FIUL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR THE ULTIMATE SPIDER-MAN BEGINS HERE! Miles struggles to balance his superhero duties with school pressures and a shocking family secret. When the Rhino attacks Brooklyn, Spider-Man teams up with an unexpected ally - his uncle Aaron, the Prowler. This heartfelt run explores Miles' Puerto Rican heritage and complicated family dynamics while delivering spectacular action. The introduction of the chilling Ultimatum terrorist organization raises the stakes, forcing Miles to confront what it truly means to wear the mask."
+  },
+  {
+    "title": "The Authority: Under New Management",
+    "writer": "Mark Millar",
+    "penciler": "Frank Quitely",
+    "publisher": "Wildstorm",
+    "cover": "https://m.media-amazon.com/images/I/91iJlGGhNEL._AC_UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR SUPERHERO GOVERNANCE BEGINS HERE! The Authority takes their mission global by overthrowing dictators and installing democracy - whether the world wants it or not. This controversial arc sees the team confront the U.S. President, battle an alternate universe's evil counterparts, and make impossible moral choices. Millar and Quitely push superhero storytelling to its limits with jaw-dropping action sequences and political commentary. The shocking finale asks whether absolute power can ever be benevolent, leaving lasting consequences for the DC Universe."
+  },
+  {
+    "title": "Black Hammer: The Event",
+    "writer": "Jeff Lemire",
+    "penciler": "Dean Ormston",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://cdn2.penguin.com.au/covers/original/9781506732541.jpg",
+    "lore": "A NEW ERA FOR META-TEXTUAL HEROISM BEGINS HERE! The stranded superheroes of Spiral City finally learn the truth about their mysterious exile to Rockwood. This mind-bending volume reveals the shocking connection between Black Hammer and the Anti-God, while paying homage to DC's Crisis events. Lemire masterfully deconstructs golden age tropes while crafting deeply human drama about regret and redemption. The emotional climax forces each character to confront their past mistakes, leading to an unforgettable sacrifice that changes everything."
+  },
+  {
+    "title": "Invincible: Perfect Strangers",
+    "writer": "Robert Kirkman",
+    "penciler": "Ryan Ottley",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.imagecomics.com/assets/i/releases/17070/invincible-vol-2-eight-is-enough_fadfda7aab.jpg",
+    "lore": "A NEW ERA FOR TEEN SUPERHEROES BEGINS HERE! Mark Grayson's world is rocked when the Guardians of the Globe are brutally murdered - and the culprit hits closer to home than he could imagine. This volume contains one of the most shocking twists in comic history, fundamentally changing Invincible's relationship with his father and understanding of heroism. Kirkman's masterful pacing builds unbearable tension before the devastating reveal, while Ottley's artwork makes every punch feel visceral. The aftermath explores trauma and denial with raw emotional honesty."
+  },
+  {
+    "title": "Preacher: Until the End of the World",
+    "writer": "Garth Ennis",
+    "penciler": "Steve Dillon",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/91s2SYX0IOL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR BLASPHEMOUS STORYTELLING BEGINS HERE! Jesse Custer's quest for God leads him to the twisted Saint of Killers and the Grail's secret stronghold. This volume introduces Herr Starr and reveals more about Genesis' origins, blending dark comedy with shocking violence. The extended sequence at Messiah, Texas showcases Ennis' talent for balancing humor and horror, culminating in one of comics' most infamous dinner parties. Themes of free will versus destiny take center stage as Jesse's mission becomes dangerously personal."
+  },
+  {
+    "title": "Fables: Animal Farm",
+    "writer": "Bill Willingham",
+    "penciler": "Mark Buckingham",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/71WJ+d47IPL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR FAIRYTALE REVOLUTION BEGINS HERE! Snow White visits the upstate farm where non-human Fables reside, only to find Goldilocks leading a violent rebellion. This Orwell-inspired volume explores prejudice and oppression within Fabletown's society, with shocking consequences. The Three Little Pigs' revenge and the fate of Weyland Smith highlight the story's moral complexity, while Rose Red's coming-of-age arc begins in earnest. A brutal commentary on revolution and its costs, wrapped in Willingham's signature blend of folklore and noir."
+  },
+  {
+    "title": "Spawn: Blood Feud",
+    "writer": "Alan Moore",
+    "penciler": "Tony Daniel",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/71fBtn1oOtL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR HELLSPAWN BEGINS HERE! Al Simmons finds himself caught in a supernatural gang war between mob boss Tony Twist and the demonic Clown. Moore's take on Spawn delves deep into the character's tragic psychology while delivering blockbuster action. The introduction of the Freak showcases Spawn's creative powers, while Violator's manipulations reach new heights. This arc balances street-level crime with cosmic horror, culminating in a shocking betrayal that changes Spawn's understanding of his powers and purpose."
+  },
+  {
+    "title": "The Wicked + The Divine: Fandemonium",
+    "writer": "Kieron Gillen",
+    "penciler": "Jamie McKelvie",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81QGigRbRLL._AC_UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR GODLY POP STARS BEGINS HERE! The Pantheon's first public concert turns tragic when an apparent assassination shocks the world. Laura's investigation reveals shocking truths about the recurrence cycle, while Cassandra's reporting puts her in danger. This volume explores fandom's dark side through stunning musical sequences and brutal violence. The mystery of Ananke deepens as the gods confront their impending mortality, leading to a concert finale that redefines the series' stakes."
+  },
+  {
+    "title": "100 Bullets: Split Second Chance",
+    "writer": "Brian Azzarello",
+    "penciler": "Eduardo Risso",
+    "publisher": "Vertigo",
+    "cover": "https://m.media-amazon.com/images/I/611WboMP2BL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR CRIME NOIR BEGINS HERE! Agent Graves' mysterious game expands as new players receive their attache cases and impossible choices. This volume introduces fan-favorite character Cole Burns, whose tragic backstory reveals more about the Trust's origins. Azzarello's interwoven narratives showcase his mastery of hardboiled dialogue, while Risso's shadow-drenched artwork creates unbearable tension. The recurring motif of second chances takes dark turns as more recipients learn the terrible price of revenge."
+  },
+  {
+    "title": "Locke & Key: Head Games",
+    "writer": "Joe Hill",
+    "penciler": "Gabriel Rodríguez",
+    "publisher": "IDW Publishing",
+    "cover": "https://m.media-amazon.com/images/I/71kvRxkT5IL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR MAGICAL HORROR BEGINS HERE! Tyler discovers the Head Key - capable of entering minds as physical space - while Dodge's manipulations grow more sinister. This volume's exploration of memory and trauma reaches heartbreaking depths as Bode explores his late father's mind. The introduction of Zack Wells raises the stakes, while the Locke children's grief manifests in increasingly dangerous ways. Rodríguez's inventive mindscapes visualize psychological concepts with stunning creativity, making this the series' most emotionally powerful installment."
+  },
+  {
+    "title": "Chew: International Flavor",
+    "writer": "John Layman",
+    "penciler": "Rob Guillory",
+    "publisher": "Image Comics",
+    "cover": "https://www.worthing.in/cdn/shop/files/c4_234921_0_Chew9Part4_5b8f8a43-960c-4ca4-8111-aaa22476f078.jpg?v=1752587956",
+    "lore": "A NEW ERA FOR CIBOPATHIC CRIME BEGINS HERE! Tony Chu's investigation of a bizarre chicken-related murder takes him to a remote island nation with shocking secrets. This volume introduces the deadly Vampire and expands the series' bizarre food-powered abilities. The escalating conflict between FDA and USDA reaches absurd new heights, while Amelia's food-writing career takes a dark turn. Layman and Guillory's signature blend of humor and horror shines as Tony discovers the terrifying truth about the avian flu's origins."
+  },
+  {
+    "title": "Bone: The Great Cow Race",
+    "writer": "Jeff Smith",
+    "penciler": "Jeff Smith",
+    "publisher": "Cartoon Books",
+    "cover": "https://m.media-amazon.com/images/I/81LagO40-SL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR ALL-AGES FANTASY BEGINS HERE! Fone Bone's crush on Thorn complicates preparations for the annual cow race, while Phoney's latest scheme goes disastrously wrong. This volume deepens the valley's mysteries with the introduction of the Hooded One and the Lord of the Locusts. Smith's masterful cartooning balances slapstick comedy with growing dread, as the Bones' simple adventures slowly merge with an epic fantasy narrative. The titular race remains one of comics' funniest sequences, even as it advances the darker plot."
+  },
+  { "id": 1, "title": "Iron Avenger", "issue": "#45", "cover": "https://i.pinimg.com/originals/95/d9/20/95d920ade2a64eef837561dc3ddc0314.jpg", "desc": "Tony Stark faces Ultron's rebirth in a battle of minds.", "publisher": "Marvel" },
+  { "id": 2, "title": "Spider Fury", "issue": "#12", "cover": "https://cdn.marvel.com/content/1x/asm2022026_larraz.jpg", "desc": "Venom threatens New York's skyline.", "publisher": "Marvel" },
+  { "id": 3, "title": "Knight Vengeance", "issue": "#9", "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/8/70/661541ae1cc0b/clean.jpg", "desc": "The Dark Knight faces an underground cult.", "publisher": "DC" },
+  { "id": 4, "title": "Galactic Ghosts", "issue": "#22", "cover": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/space_ghost_001_2024_digital_dekabro_empire_000.jpg", "desc": "Space station Frontier-9 is haunted.", "publisher": "Image" },
+  { "id": 5, "title": "Doctor Doomrise", "issue": "#6", "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/0/04/5fda7def3e917/clean.jpg", "desc": "Victor Von Doom seeks the Infinity Sigil.", "publisher": "Marvel" },
+  { "id": 6, "title": "Flashbolt", "issue": "#18", "cover": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1686849472-91tGH-GCuiL.jpg?crop=1xw:1xh;center,top&resize=980:*", "desc": "Speed vs time distortion. Can Flashbolt fix reality?", "publisher": "DC" },
+  { "id": 7, "title": "Night Howler", "issue": "#30", "cover": "https://lairofreviews.com/wp-content/uploads/2021/09/the-night-howler-main.jpg", "desc": "A werewolf detective in a noir mystery.", "publisher": "Dark Horse" },
+  { "id": 8, "title": "Cyber Force", "issue": "#3", "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534310339/cyber-force-awakening-volume-2-9781534310339_lg.jpg", "desc": "AI gone rogue in a neon-soaked world.", "publisher": "Image" },
+  { "id": 9, "title": "Web Slayer", "issue": "#77", "cover": "https://64.media.tumblr.com/b3aa326499d6e7250d0ee089ff4fa82b/tumblr_p9ex97Ow9R1ttwla3o2_r1_1280.jpg", "desc": "Multiverse spiders unite to stop Oblivion Queen.", "publisher": "Marvel" },
+  { "id": 10, "title": "Crusader from Mars", "issue": "#1", "cover": "https://media.mycomicshop.com/n_iv/600/784961.jpg", "desc": "The universe’s last hope dawns.", "publisher": "IDW" },
+  { "id": 11, "title": "Solo", "issue": "#10", "cover": "https://i.ebayimg.com/images/g/C0QAAOSw435kL5~I/s-l400.jpg", "desc": "A secret military op exposes alien tech.", "publisher": "Valiant" },
+  { "id": 12, "title": "Wraithborn", "issue": "#11", "cover": "https://freshcomics.s3.amazonaws.com/cache/23/f3/23f3477faf6c1174fb5bb31507163da1.jpg", "desc": "Shadow assassins invade the mortal realm.", "publisher": "DC" },
+  { "id": 13, "title": "Jester's Rage", "issue": "#66", "cover": "https://freshcomics.s3.amazonaws.com/cache/c8/88/c8883a2eb6b15ff85905dc742bd89b51.jpg", "desc": "A villain gets his origin — chaos begins.", "publisher": "Marvel" },
+  { "id": 14, "title": "StartFinder", "issue": "#14", "cover": "https://thehallofcomics.com/cdn/shop/files/PXL_20230609_150633757.jpg?v=1686324469&width=1946", "desc": "Planets collide when a love story unfolds.", "publisher": "Image" },
+  { "id": 15, "title": "Shadow Claw", "issue": "#2", "cover": "https://cdn5.vectorstock.com/i/1000x1000/52/39/comic-book-cover-template-vector-17835239.jpg", "desc": "Hunter or hunted? Claw stalks through dimensions.", "publisher": "Dark Horse" },
+  { "id": 16, "title": "Dragon Soul", "issue": "#27", "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1651854768i/61043765.jpg", "desc": "Eastern magic and ancient dragons clash.", "publisher": "Boom!" },
+  { "id": 17, "title": "Tomb Raider", "issue": "#50", "cover": "https://media.mycomicshop.com/n_iv/600/869383.jpg", "desc": "Raiding minds in digital warzones.", "publisher": "Marvel" },
+  { "id": 18, "title": "Titan Age", "issue": "#13", "cover": "https://images.darkhorse.com/covers/300/t/tae1.jpg", "desc": "Giants return to reclaim Earth.", "publisher": "DC" },
+  { "id": 19, "title": "Blade Slinger", "issue": "#32", "cover": "https://theslingsandarrows.com/wp-content/uploads/2020/10/Blade-by-Guggenheim.jpg", "desc": "Demonic cowboys in wild-west dimension.", "publisher": "Image" },
+  { "id": 20, "title": "Astral Surge", "issue": "#8", "cover": "https://m.media-amazon.com/images/I/51lh81ggIjL.SL1200.jpg", "desc": "Time travelers battle psychic wars.", "publisher": "IDW" },
+  { "id": 21, "title": "Mega Might", "issue": "#99", "cover": "https://vignette.wikia.nocookie.net/megaman/images/5/58/MegaManArchieC039.jpg/revision/latest?cb=20140625032109", "desc": "World’s strongest hero falls from glory.", "publisher": "Marvel" },
+  { "id": 22, "title": "Sky Wrath", "issue": "#7", "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534453593/the-song-of-wrath-9781534453593_xlg.jpg", "desc": "Sky cities burn as rebels rise.", "publisher": "DC" },
+  { "id": 23, "title": "Quantum Shift", "issue": "#16", "cover": "https://m.media-amazon.com/images/I/81UmuTKApqL.SL1500.jpg", "desc": "Scientists become superheroes by accident.", "publisher": "Image" },
+  { "id": 24, "title": "Lunar Boy", "issue": "#5", "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710341401i/196774351.jpg", "desc": "A girl bonds with the Moon's spirit.", "publisher": "Boom!" },
+  {
+    "title": "X-Men: Hellfire Gala 2024",
+    "writer": "Gerry Duggan",
+    "penciler": "Lucas Werneck",
+    "publisher": "Marvel Comics",
+    "cover": "https://www.irenebrination.com/.a/6a00e55290e7c488330278801d6afe200d-800wi",
+    "lore": "Krakoa's most extravagant event returns! The mutant nation hosts its annual met gala where shocking reveals and political maneuvers unfold beneath the glamour. Expect game-changing status quo shifts as Marvel teases 'three deaths and three new X-Men' from this star-studded affair where every floral-adorned costume hides lethal intentions."
+  },
+  {
+    "title": "Batman: The Gotham War",
+    "writer": "Chip Zdarsky",
+    "penciler": "Jorge Jiménez",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/919fCCVel7L._UF1000,1000_QL80_.jpg",
+    "lore": "Bruce Wayne's radical plan to eliminate crime backfires catastrophically when Catwoman organizes Gotham's criminals into a regulated thieves guild. As Batman's no-kill rule clashes with her pragmatic reform, the Bat-Family fractures in this brutal ideological war. Jiménez's kinetic art makes every rooftop brawl feel like cinematic combat."
+  },
+
+  {
+    "title": "Knight Terrors",
+    "writer": "Joshua Williamson",
+    "penciler": "Howard Porter",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/813N9oLOw3L._UF1000,1000_QL80_.jpg",
+    "lore": "DC's 2023 horror event plunges heroes into personalized nightmares when Insomnia steals the Dreamstone. Batman battles zombie Robins, Superman faces Krypton's ghosts, and Wonder Woman confronts Amazons-turned-demons. Porter's surreal art makes every sleep-deprived hallucination more terrifying than the last."
+  },
+  {
+    "title": "Ultimate Invasion",
+    "writer": "Jonathan Hickman",
+    "penciler": "Bryan Hitch",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91TeaG++5LL._UF1000,1000_QL80_.jpg",
+    "lore": "Hickman reboots Marvel's Ultimate Universe with a terrifying twist: the Maker (evil Reed Richards) reshapes reality to eliminate superheroes. When young Tony Stark discovers his destiny wasn't to build armor but to prevent its creation, Hitch's widescreen action meets Hickman's signature dense worldbuilding for a fresh take on familiar icons."
+  },
+  {
+    "title": "World's Finest: Teen Titans",
+    "writer": "Mark Waid",
+    "penciler": "Emanuela Lupacchino",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/91CHQoThpPL._UF1000,1000_QL80_.jpg",
+    "lore": "Waid's nostalgic yet modern take on Dick Grayson's original Titans squad bursts with youthful energy. Lupacchino's expressive art captures Speedy's arrogance, Donna's grace, and Aqualad's awkwardness as they face the Brotherhood of Evil. The shocking identity of their mysterious benefactor will rewrite Titans history."
+  },
+  {
+    "title": "Venom: Lethal Protector II",
+    "writer": "David Michelinie",
+    "penciler": "Iban Coello",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/A16Y33LggVL._UF1000,1000_QL80_.jpg",
+    "lore": "The original Venom creative team reunites for a sequel to the 1993 classic. Eddie Brock returns to San Francisco to battle new symbiote hybrids, with Coello rendering every tendril and tooth in grotesque detail. The reveal of a 'good' symbiote police force creates moral dilemmas for Marvel's most complex antihero."
+  },
+  {
+    "title": "The Penguin",
+    "writer": "Tom King",
+    "penciler": "Rafael De Latorre",
+    "publisher": "DC Comics",
+    "cover": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1728495827-91FdZpmG-IL.jpg?crop=1xw:1xh;center,top&resize=980:*",
+    "lore": "King's noir masterpiece follows Oswald Cobblepot's rise from disgraced mobster to Gotham's crime emperor. De Latorre's rain-soaked art makes every umbrella conceal a weapon, every restaurant meal a power play. The heartbreaking flashbacks to young Penguin's abuse redefine Batman's most underestimated foe."
+  },
+  {
+    "title": "G.O.D.S.",
+    "writer": "Jonathan Hickman",
+    "penciler": "Valerio Schiti",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/9/e0/65298fe6c3bf0/clean.jpg",
+    "lore": "Hickman's ambitious new cosmology introduces The-Powers-That-Be vs. The-Natural-Order-Of-Things, with mortal wizard Wyn as their pawn. Schiti's mind-bending designs make abstract concepts like 'The Cubisk' feel tangible. This isn't just a comic—it's a metaphysical blueprint for Marvel's next decade."
+  },
+  {
+    "title": "Unstoppable Doom Patrol",
+    "writer": "Dennis Culver",
+    "penciler": "Chris Burnham",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/91o6OFOP0tL._UF1000,1000_QL80_.jpg",
+    "lore": "The world's strangest heroes return with Burnham's psychedelic art amplifying their weirdness. When metahuman organs become black market commodities, Robotman's cyber-rage, Crazy Jane's personas, and Negative Man's energy form collide in chaotic battles that redefine disability representation in comics."
+  },
+  {
+    "title": "Carnage Reigns",
+    "writer": "Alex Paknadel",
+    "penciler": "Francesco Manna",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/916YhwQ5EvL._UF1000,1000_QL80_.jpg",
+    "lore": "Cletus Kasady evolves into a god-tier threat by bonding with the Darkhold, creating symbiote-worshipping cults worldwide. Manna's horror-influenced art makes every tendril ooze menace as Miles Morales and Iron Man unite against this apocalyptic threat. The chilling 'Carnage-verse' finale will leave symbiote fans screaming."
+  },
+  {
+    "title": "Green Arrow: The Longbow Hunters Saga",
+    "writer": "Joshua Williamson",
+    "penciler": "Sean Izaakse",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/817vaVvWGwL.jpg",
+    "lore": "Reimagining Mike Grell's classic, this modern take follows Ollie and Dinah's bloody crusade against human traffickers. Izaakse's kinetic archery sequences and Williamson's political edge make every arrow strike resonate. The shocking return of a fan-favorite villain will change Green Arrow's mythology forever."
+  },
+  {
+    "title": "Moon Knight: City of the Dead",
+    "writer": "David Pepose",
+    "penciler": "Marcelo Ferreira",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/e/60/64b04e1ec1cab/clean.jpg",
+    "lore": "Marc Spector becomes the avatar of Egyptian death god Anubis, protecting souls trapped in a supernatural limbo beneath Cairo. Ferreira's haunting art makes every hallucination indistinguishable from reality. The twist about Moon Knight's 'fourth personality' will shatter fans' expectations."
+  },
+  {
+    "title": "The Joker: Year One",
+    "writer": "Matthew Rosenberg",
+    "penciler": "Francesco Francavilla",
+    "publisher": "DC Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710817939i/210141458.jpg",
+    "lore": "Francavilla's neon-noir art style reimagines the Clown Prince's early days through unreliable narrators. Is he a failed comedian? A mob enforcer? A grieving father? Rosenberg's script keeps you guessing until the chilling final page that recontextualizes Batman's entire rogues gallery."
+  },
+  {
+    "title": "Children of the Vault",
+    "writer": "Deniz Camp",
+    "penciler": "Luca Maresca",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91uwv+d+JRL._UF1000,1000_QL80_.jpg",
+    "lore": "This X-Men spin-off explores the posthuman civilization that evolved in isolation for 6,000 years. Maresca's sleek designs make their advanced technology feel alien yet plausible. When Cable invades their paradise to prevent humanity's extinction, the moral complexities will divide mutant fans."
+  },
+  {
+    "title": "The Vigil",
+    "writer": "Ram V",
+    "penciler": "Lalit Kumar Sharma",
+    "publisher": "DC Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692926571i/186491446.jpg",
+    "lore": "DC's new Indian superhero team blends cyberpunk with Hindu mythology. Sharma's Mumbai-set action sequences are packed with inventive tech like chakra-powered neural interfaces. The revelation that their leader may be an ancient god in disguise adds philosophical depth to the explosive action."
+  },
+  {
+    "title": "Ghost Rider/Wolverine: Weapons of Vengeance",
+    "writer": "Benjamin Percy",
+    "penciler": "Geoff Shaw",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/A1GyY3EVWtL._UF1000,1000_QL80_.jpg",
+    "lore": "Johnny Blaze and Logan hunt a demonic serial killer collecting cursed weapons. Shaw's visceral art makes every hellfire chain and adamantium slash feel brutal. The 'Bloodstone Bastard' villain's connection to both characters' pasts creates Marvel's most violent buddy-cop dynamic."
+  },
+  {
+    "title": "Alan Scott: The Green Lantern",
+    "writer": "Tim Sheridan",
+    "penciler": "Cian Tormey",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/81RI9lIBA6L.jpg",
+    "lore": "DC's first gay superhero headlines this 1940s-set mystery where his ring's magic is tied to queer persecution. Tormey's art channels vintage pulp with modern sensitivity. The emotional climax involving Alan's wartime lover will redefine Green Lantern's origin for a new generation."
+  },
+  {
+    "title": "Rogue & Gambit",
+    "writer": "Stephanie Phillips",
+    "penciler": "Carlos Gomez",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/81ogHDhLqFL.jpg",
+    "lore": "Marvel's favorite on-again-off-again couple star in a romantic heist adventure through mutant paradise. Gomez captures their chemistry in every smoldering glance and acrobatic team-up. The theft of a 'love amplifier' device leads to hilarious and heartfelt revelations about their decades-long dance."
+  },
+  {
+    "title": "The Riddler: Year One",
+    "writer": "Paul Dano",
+    "penciler": "Stevan Subic",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/81DfWFBck6L._UF1000,1000_QL80_.jpg",
+    "lore": "The actor who portrayed Riddler in 'The Batman' pens this psychological origin story. Subic's scribbly, anxious art style mirrors Edward Nashton's unraveling mind. The final puzzle reveals a chilling connection to Bruce Wayne's childhood that even Batman never suspected."
+  }
+  
+]
+  ,
+  "trendig":[
+      {
+    "title": "Uncanny Avenger",
+    "writer": "Greg Rucka",
+    "penciler": "David Marquez",
+    "publisher": "DC Comics",
+    "cover": "https://iwt.sfo2.cdn.digitaloceanspaces.com/cbr-covers/5607edbba597358d9bad542d45783ea8_xl.jpg",
+    "lore": "A NEW ERA FOR VISION: ARTIFICIAL TRUTH BEGINS HERE! Vision faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Vision must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Vision, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Superman: Red Son Rising",
+    "writer": "Brian Michael Bendis",
+    "penciler": "Alex Ross",
+    "publisher": "DC Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Superman_5c3fc2758f6984.90100206.jpg?w=384",
+    "lore": "A NEW ERA FOR SUPERMAN: RED SON RISING BEGINS HERE! Superman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Superman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Superman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Black Widow: Red Vengeance",
+    "writer": "Brian Michael Bendis",
+    "penciler": "Frank Quitely",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/819rey4hTiL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR BLACK WIDOW: RED VENGEANCE BEGINS HERE! Black Widow faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Black Widow must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Black Widow, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Scarlet Witch: Hexed Realities",
+    "writer": "Jeph Loeb",
+    "penciler": "Ivan Reis",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/7/00/66a7f5998b1b1/clean.jpg",
+    "lore": "A NEW ERA FOR SCARLET WITCH: HEXED REALITIES BEGINS HERE! Scarlet Witch faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Scarlet Witch must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Scarlet Witch, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Ant-Man: Microscopic Menace",
+    "writer": "Ed Brubaker",
+    "penciler": "Alex Ross",
+    "publisher": "DC Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/e0/5e99c2a783b34/clean.jpg",
+    "lore": "A NEW ERA FOR ANT-MAN: MICROSCOPIC MENACE BEGINS HERE! Ant-Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Ant-Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Ant-Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Thor: Storm of Realms",
+    "writer": "Jason Aaron",
+    "penciler": "Valerio Schiti",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://m.media-amazon.com/images/I/81hLHeb4jeL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR THOR: STORM OF REALMS BEGINS HERE! Thor faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Thor must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Thor, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Jessica Jones: Alias Awakened",
+    "writer": "Kelly Sue DeConnick",
+    "penciler": "David Marquez",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/913FIAsGlbL._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR JESSICA JONES: ALIAS AWAKENED BEGINS HERE! Jessica Jones faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Jessica Jones must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Jessica Jones, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Wonder Woman: Dark Gods",
+    "writer": "Jeph Loeb",
+    "penciler": "Alex Ross",
+    "publisher": "Image Comics",
+    "cover": "https://m.media-amazon.com/images/I/81YeTtIsO4L._UF1000,1000_QL80_.jpg",
+    "lore": "A NEW ERA FOR WONDER WOMAN: MYTH REBORN BEGINS HERE! Wonder Woman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Wonder Woman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Wonder Woman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Captain America: Shadows of Latveria",
+    "writer": "Jason Aaron",
+    "penciler": "Alex Ross",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/30/685c54025d1eb/clean.jpg",
+    "lore": "A NEW ERA FOR CAPTAIN AMERICA: SHADOWS OF LATVERIA BEGINS HERE! Captain America faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Captain America must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Captain America, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Black Panther: Kings and Shadows",
+    "writer": "Chip Zdarsky",
+    "penciler": "Steve McNiven",
+    "publisher": "Image Comics",
+    "cover": "https://nerdinitiative.com/wp-content/uploads/2024/05/large-4958709-3.jpg",
+    "lore": "A NEW ERA FOR BLACK PANTHER: KINGS AND SHADOWS BEGINS HERE! Black Panther faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Black Panther must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Black Panther, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  }
+    
+  ],
+  "originals":[
+     {
+    "title": "Spider-Man: Web of Destiny",
+    "writer": "Tom King",
+    "penciler": "Fiona Staples",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://comichub.blob.core.windows.net/high/74c1e8f7-6b31-42b1-a3d0-87f6f8e2915d.jpg",
+    "lore": "A NEW ERA FOR SPIDER-MAN: WEB OF DESTINY BEGINS HERE! Spider-Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Spider-Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Spider-Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Star-Lord: Rebel's Galaxy",
+    "writer": "Scott Snyder",
+    "penciler": "Alex Ross",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://130698151.cdn6.editmysite.com/uploads/1/3/0/6/130698151/RMGCHJNY6YFAENTEKLCUA2XQ.jpeg",
+    "lore": "A NEW ERA FOR STAR-LORD: REBEL'S GALAXY BEGINS HERE! Star-Lord faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Star-Lord must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Star-Lord, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Captain Marvel: Binary Eclipse",
+    "writer": "Ed Brubaker",
+    "penciler": "Frank Quitely",
+    "publisher": "Image Comics",
+    "cover": "https://pbs.twimg.com/media/Gv1ivwtWEAIr751?format=jpg&name=4096x4096",
+    "lore": "A NEW ERA FOR CAPTAIN MARVEL: BINARY ECLIPSE BEGINS HERE! Captain Marvel faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Captain Marvel must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Captain Marvel, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Shazam!: Thunderstruck",
+    "writer": "Gail Simone",
+    "penciler": "Adam Kubert",
+    "publisher": "Image Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Shazam_5c53a74aefbb12.02099042.jpg?w=384",
+    "lore": "A NEW ERA FOR SHAZAM!: THUNDERSTRUCK BEGINS HERE! Shazam! faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Shazam! must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Shazam!, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Green Arrow: Silent Arrows",
+    "writer": "Jeph Loeb",
+    "penciler": "Steve McNiven",
+    "publisher": "DC Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenArrow_5c4915494b3fb9.17530021.jpg?w=384",
+    "lore": "A NEW ERA FOR GREEN ARROW: SILENT ARROWS BEGINS HERE! Green Arrow faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Green Arrow must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Green Arrow, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns.",
+    "favorite":true
+  },
+  {
+    "title": "Doctor Strange: Mystic Boundaries",
+    "writer": "Tom King",
+    "penciler": "Steve McNiven",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/40/6596e224c01ec/portrait_uncanny.jpg",
+    "lore": "A NEW ERA FOR DOCTOR STRANGE: MYSTIC BOUNDARIES BEGINS HERE! Doctor Strange faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Doctor Strange must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Doctor Strange, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Hawkeye: Sharp Justice",
+    "writer": "Kelly Sue DeConnick",
+    "penciler": "Frank Quitely",
+    "publisher": "DC Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/30/68519a151d15c/portrait_uncanny.jpg",
+    "lore": "A NEW ERA FOR HAWKEYE: SHARP JUSTICE BEGINS HERE! Hawkeye faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Hawkeye must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Hawkeye, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Deadpool: Merc Without Limits",
+    "writer": "Greg Rucka",
+    "penciler": "Jim Lee",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/e0/66e34844e922c/clean.jpg",
+    "lore": "A NEW ERA FOR DEADPOOL: MERC WITHOUT LIMITS BEGINS HERE! Deadpool faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Deadpool must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Deadpool, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Wolverine: Hunter's Blood",
+    "writer": "Tom King",
+    "penciler": "Alex Ross",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/673370548bc7a/clean.jpg",
+    "lore": "A NEW ERA FOR WOLVERINE: HUNTER'S BLOOD BEGINS HERE! Wolverine faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Wolverine must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Wolverine, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Batman: Gotham's Reckoning",
+    "writer": "Gail Simone",
+    "penciler": "David Marquez",
+    "publisher": "Image Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Batman_20190116_5c3fc4b40fae42.85141247.jpg?w=384",
+    "lore": "A NEW ERA FOR BATMAN: GOTHAM'S RECKONING BEGINS HERE! Batman faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Batman must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Batman, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Doctor Doom: Iron Rule",
+    "writer": "Jeph Loeb",
+    "penciler": "Adam Kubert",
+    "publisher": "Image Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/90/66c8c518381b2/clean.jpg",
+    "lore": "A NEW ERA FOR DOCTOR DOOM: IRON RULE BEGINS HERE! Doctor Doom faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Doctor Doom must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Doctor Doom, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Green Lantern: Cosmic Will",
+    "writer": "Gail Simone",
+    "penciler": "Valerio Schiti",
+    "publisher": "Marvel Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenLantern_20200721_5f173ac65f56f7.70929296.jpg?w=384",
+    "lore": "A NEW ERA FOR GREEN LANTERN: COSMIC WILL BEGINS HERE! Green Lantern faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Green Lantern must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Green Lantern, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Gamora: Blade of Zen-Whoberi",
+    "writer": "Jason Aaron",
+    "penciler": "Alex Ross",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/40/58cac3ad39d25/clean.jpg",
+    "lore": "A NEW ERA FOR GAMORA: BLADE OF ZEN-WHOBERI BEGINS HERE! Gamora faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Gamora must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Gamora, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Flash: Velocity Paradox",
+    "writer": "Scott Snyder",
+    "penciler": "David Marquez",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://static.dc.com/dc/files/default_images/Char_Thumb_Flash_20190116_5c3fcaaa18f023.90325986.jpg?w=1200",
+    "lore": "A NEW ERA FOR FLASH: VELOCITY PARADOX BEGINS HERE! Flash faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Flash must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Flash, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Rocket Raccoon: Tailspin Trouble",
+    "writer": "Tom King",
+    "penciler": "Steve McNiven",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/c/a0/645111936022a/clean.jpg",
+    "lore": "A NEW ERA FOR ROCKET RACCOON: TAILSPIN TROUBLE BEGINS HERE! Rocket Raccoon faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Rocket Raccoon must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Rocket Raccoon, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Silver Surfer: Edge of Infinity",
+    "writer": "Tom King",
+    "penciler": "David Marquez",
+    "publisher": "DC Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/70/6596e16b4b2b4/clean.jpg",
+    "lore": "A NEW ERA FOR SILVER SURFER: EDGE OF INFINITY BEGINS HERE! Silver Surfer faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Silver Surfer must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Silver Surfer, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Luke Cage: Steel Heart",
+    "writer": "Jason Aaron",
+    "penciler": "Jim Lee",
+    "publisher": "Marvel Comics",
+    "cover": "https://aiptcomics.com/wp-content/uploads/2017/05/CAGE2017001_preview.jpeg",
+    "lore": "A NEW ERA FOR LUKE CAGE: STEEL HEART BEGINS HERE! Luke Cage faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Luke Cage must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Luke Cage, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+  {
+    "title": "Iron Man: Legacy of Steel",
+    "writer": "Gail Simone",
+    "penciler": "Frank Quitely",
+    "publisher": "Dark Horse Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/60/67112f7a087e2/clean.jpg",
+    "lore": "A NEW ERA FOR IRON MAN: LEGACY OF STEEL BEGINS HERE! Iron Man faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Iron Man must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Iron Man, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  },
+
+  {
+    "title": "Harley Quinn: Mayhem Manifest",
+    "writer": "Scott Snyder",
+    "penciler": "Fiona Staples",
+    "publisher": "DC Comics",
+    "cover": "https://static.dc.com/sites/default/files/imce/HARLEY_Cv27_ds_59af1b70299585.45987799.jpg",
+    "lore": "A NEW ERA FOR HARLEY QUINN: MAYHEM MANIFEST BEGINS HERE! Harley Quinn faces challenges in a world where secrets, war, and inner conflicts collide. As powerful enemies rise and alliances shift, Harley Quinn must navigate treacherous paths to defend justice, honor, and truth. This thrilling arc introduces a new chapter in the legacy of Harley Quinn, filled with heart-pounding moments, deep character revelations, and unforgettable showdowns."
+  }
+  
+  ]
+  ,
+ "comicCharacters" : [
+  {
+    "name": "Spider-Man",
+    "alias": "Peter Parker",
+    "powers": ["Superhuman strength", "Wall-crawling", "Spider-sense", "Web-shooting"],
+    "firstAppearance": "Amazing Fantasy #15 (1962)",
+    "affiliations": ["Avengers", "Fantastic Four"],
+    "universe": "Marvel",
+    "image": "https://images6.alphacoders.com/690/690889.jpg",
+    "lore": "With great power comes great responsibility."
+  },
+  {
+    "name": "Batman",
+    "alias": "Bruce Wayne",
+    "powers": ["Peak human condition", "Master detective", "Martial arts", "Gadgets"],
+    "firstAppearance": "Detective Comics #27 (1939)",
+    "affiliations": ["Justice League", "Bat Family"],
+    "universe": "DC",
+    "image": "https://www.shutterstock.com/image-vector/jakartaindonesia-july-13-2023-batman-600nw-2331169731.jpg",
+    "lore": "I'm vengeance. I'm the night. I'm Batman!"
+  },
+  {
+    "name": "Superman",
+    "alias": "Clark Kent",
+    "powers": ["Super strength", "Flight", "Heat vision", "Freeze breath", "X-ray vision"],
+    "firstAppearance": "Action Comics #1 (1938)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://i.pinimg.com/564x/9d/21/e6/9d21e6212a607f0989311662bc05f908.jpg",
+    "lore": "Truth, justice, and a better tomorrow."
+  },
+  {
+    "name": "Iron Man",
+    "alias": "Tony Stark",
+    "powers": ["Genius intellect", "Powered armor suit", "Flight", "Weapon systems"],
+    "firstAppearance": "Tales of Suspense #39 (1963)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/564x/1e/0b/87/1e0b87d9c1de493f4b8f2eb26df4bf90.jpg",
+    "lore": "I am Iron Man."
+  },
+  {
+    "name": "Wolverine",
+    "alias": "Logan",
+    "powers": ["Healing factor", "Adamantium claws", "Enhanced senses"],
+    "firstAppearance": "The Incredible Hulk #180 (1974)",
+    "affiliations": ["X-Men", "Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/564x/42/49/e2/4249e2052dd1ea6a310ea2a7cbe92519.jpg",
+    "lore": "I'm the best there is at what I do, but what I do best isn't very nice."
+  },
+
+  {
+    "name": "Wonder Woman",
+    "alias": "Diana Prince",
+    "powers": ["Superhuman strength", "Lasso of Truth", "Flight", "Combat skills"],
+    "firstAppearance": "All Star Comics #8 (1941)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://i.pinimg.com/originals/99/c9/83/99c983a0a270c42012721fbf308ca330.jpg",
+    "lore": "It's not about deserve, it's about what you believe."
+  },
+  {
+    "name": "Captain America",
+    "alias": "Steve Rogers",
+    "powers": ["Peak human condition", "Shield mastery", "Enhanced agility"],
+    "firstAppearance": "Captain America Comics #1 (1941)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/d7/90/b7/d790b714d8c17170407147afc9f1f643.jpg",
+    "lore": "I can do this all day."
+  },
+  {
+    "name": "Hulk",
+    "alias": "Bruce Banner",
+    "powers": ["Superhuman strength", "Invulnerability", "Regeneration"],
+    "firstAppearance": "The Incredible Hulk #1 (1962)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWigeilncjw1VjQBhxx0qAhiYSi-bf-w-P3Tu7n0gW1tUYU0-y0kPNpGuCwMqYDQOoZYqcnQ_1DUNWYjVCKv4wbiwG5UAicDH-nuwBBD_oiuAlJioi_04FMk1odHoNB-ntW8c_bK9Mko4/w1200-h630-p-k-no-nu/Hulk.png",
+    "lore": "Hulk smash!"
+  },
+  {
+    "name": "Black Panther",
+    "alias": "T'Challa",
+    "powers": ["Enhanced abilities", "Vibranium suit", "Genius intellect"],
+    "firstAppearance": "Fantastic Four #52 (1966)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/34/25/d5/3425d5432785a42a47f3a9024859aa52.jpg",
+    "lore": "Wakanda forever!"
+  },
+  {
+    "name": "Thor",
+    "alias": "Thor Odinson",
+    "powers": ["Superhuman strength", "Weather control", "Mjolnir mastery"],
+    "firstAppearance": "Journey into Mystery #83 (1962)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/1200x/ec/bf/2f/ecbf2f9b0fc996018a9149156f75ea3e.jpg",
+    "lore": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
+  },
+
+  {
+    "name": "Flash",
+    "alias": "Barry Allen",
+    "powers": ["Super speed", "Time travel", "Phasing"],
+    "firstAppearance": "Showcase #4 (1956)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://alexcipriano.wordpress.com/wp-content/uploads/2012/04/flash.jpg",
+    "lore": "My name is Barry Allen, and I'm the fastest man alive."
+  },
+  {
+    "name": "Deadpool",
+    "alias": "Wade Wilson",
+    "powers": ["Healing factor", "Master martial artist", "Breaking fourth wall"],
+    "firstAppearance": "New Mutants #98 (1991)",
+    "affiliations": ["X-Force"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/c6/49/08/c64908df1e209849b81991c9fe31001d.jpg",
+    "lore": "Maximum effort!"
+  },
+  {
+    "name": "Aquaman",
+    "alias": "Arthur Curry",
+    "powers": ["Superhuman strength", "Underwater breathing", "Telepathy with sea life"],
+    "firstAppearance": "More Fun Comics #73 (1941)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+        "image": "https://cdna.artstation.com/p/assets/images/images/016/765/034/large/richard-boyd-asset.jpg?1559064475",
+    "lore": "I talk to fish."
+  },
+  {
+    "name": "Green Lantern",
+    "alias": "Hal Jordan",
+    "powers": ["Power ring constructs", "Flight", "Energy projection"],
+    "firstAppearance": "Showcase #22 (1959)",
+    "affiliations": ["Justice League", "Green Lantern Corps"],
+    "universe": "DC",
+    "image": "https://i.pinimg.com/736x/ba/00/00/ba0000099f69d990b0651b111697285a.jpg",
+    "lore": "In brightest day, in blackest night..."
+  },
+  {
+    "name": "Doctor Strange",
+    "alias": "Stephen Strange",
+    "powers": ["Mastery of magic", "Time manipulation", "Dimensional travel"],
+    "firstAppearance": "Strange Tales #110 (1963)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/7f/52/a1/7f52a113198d6ee4c10ec4e028a522ad.jpg",
+    "lore": "Dormammu, I've come to bargain!"
+  },
+
+  {
+    "name": "Black Widow",
+    "alias": "Natasha Romanoff",
+    "powers": ["Master spy", "Expert martial artist", "Peak human conditioning"],
+    "firstAppearance": "Tales of Suspense #52 (1964)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/6e/42/4e/6e424e2b0dcdac6099211e78d8d56603.jpg",
+    "lore": "I'm always picking up after you boys."
+  },
+  {
+    "name": "Captain Marvel",
+    "alias": "Carol Danvers",
+    "powers": ["Superhuman strength", "Energy projection", "Flight"],
+    "firstAppearance": "Marvel Super-Heroes #13 (1968)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/ea/42/90/ea4290b33f35902527cab461b3d3147e.jpg",
+    "lore": "Higher, further, faster."
+  },
+  {
+    "name": "Nightwing",
+    "alias": "Dick Grayson",
+    "powers": ["Peak human condition", "Master acrobat", "Expert detective"],
+    "firstAppearance": "Detective Comics #38 (1940)",
+    "affiliations": ["Bat Family", "Teen Titans"],
+    "universe": "DC",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNBQZmO8VGVxh6gbylPPs_521qUJuHsIq1UEhM5hmp14na2q98B-eQJAIwfdtfW2R6HVQtEzgA9ZeNBTTo79A2ku4Au4meoVJ6sVodil-ODJsLmgiDhzadFi-r1uF9D9b24OZC0Mwc93E/s1600/DS_676_Nightwing.jpg",
+    "lore": "I'm not Batman. I'm better."
+  },
+  {
+    "name": "Storm",
+    "alias": "Ororo Munroe",
+    "powers": ["Weather manipulation", "Flight", "Elemental control"],
+    "firstAppearance": "Giant-Size X-Men #1 (1975)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://www.drawinghowtodraw.com/stepbystepdrawinglessons/wp-content/uploads/2011/07/finished-storm-step-13.png",
+    "lore": "I am the wind and the rain and the lightning!"
+  },
+  {
+    "name": "Cyclops",
+    "alias": "Scott Summers",
+    "powers": ["Optic blast", "Tactical genius"],
+    "firstAppearance": "X-Men #1 (1963)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://www.drawingforall.net/wp-content/uploads/2015/08/How-to-draw-Cyclops-from-X-Men.jpg",
+    "lore": "To me, my X-Men!"
+  },
+
+  {
+    "name": "Daredevil",
+    "alias": "Matt Murdock",
+    "powers": ["Enhanced senses", "Radar sense", "Master martial artist"],
+    "firstAppearance": "Daredevil #1 (1964)",
+    "affiliations": ["Defenders"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/ca/70/dc/ca70dc765b08d5460b8258ecc80bd3d2.jpg",
+    "lore": "Justice is blind."
+  },
+  {
+    "name": "Green Arrow",
+    "alias": "Oliver Queen",
+    "powers": ["Master archer", "Peak human condition", "Tactical genius"],
+    "firstAppearance": "More Fun Comics #73 (1941)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://i.pinimg.com/736x/39/d5/6d/39d56def5f1c241a05bcfeb676c08d07.jpg",
+    "lore": "You have failed this city!"
+  },
+  {
+    "name": "Ant-Man",
+    "alias": "Scott Lang",
+    "powers": ["Size manipulation", "Insect communication", "Superhuman strength at small size"],
+    "firstAppearance": "Marvel Premiere #47 (1979)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/8c/e7/56/8ce756e5cd49be6b8b6ea78ada93929c.jpg",
+    "lore": "I'm the guy who shrinks."
+  },
+  {
+    "name": "Wasp",
+    "alias": "Janet van Dyne",
+    "powers": ["Size manipulation", "Flight", "Bio-electric blasts"],
+    "firstAppearance": "Tales to Astonish #44 (1963)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/31/50/51/315051c46ee469c62083a17e0bb1a846.jpg",
+    "lore": "It's not the size of the hero in the fight, it's the size of the fight in the hero."
+  },
+  {
+    "name": "Vision",
+    "alias": "Victor Shade",
+    "powers": ["Density control", "Solar jewel", "Superhuman strength"],
+    "firstAppearance": "Avengers #57 (1968)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/564x/92/46/e5/9246e58c85d761d4e71751283c55bcba.jpg",
+    "lore": "I am not Ultron. I am not Jarvis. I am... I am."
+  },
+
+  {
+    "name": "Scarlet Witch",
+    "alias": "Wanda Maximoff",
+    "powers": ["Reality warping", "Chaos magic", "Probability manipulation"],
+    "firstAppearance": "X-Men #4 (1964)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/19/eb/da/19ebdafaffe45810748aa4b9df122079.jpg",
+    "lore": "No more mutants."
+  },
+  {
+    "name": "Quicksilver",
+    "alias": "Pietro Maximoff",
+    "powers": ["Super speed"],
+    "firstAppearance": "X-Men #4 (1964)",
+    "affiliations": ["Avengers", "X-Men"],
+    "universe": "Marvel",
+    "image": "https://sketchok.com/images/articles/02-comics/002-superheroes/66/13.jpg",
+    "lore": "You didn't see that coming?"
+  },
+  {
+    "name": "Hawkeye",
+    "alias": "Clint Barton",
+    "powers": ["Master archer", "Peak human condition"],
+    "firstAppearance": "Tales of Suspense #57 (1964)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/c1/b4/66/c1b4663a4c2c0398f5916848c1fac521.jpg",
+    "lore": "I have a bow and arrow. None of this makes sense."
+  },
+  {
+    "name": "Martian Manhunter",
+    "alias": "J'onn J'onzz",
+    "powers": ["Shape-shifting", "Telepathy", "Superhuman strength", "Intangibility"],
+    "firstAppearance": "Detective Comics #225 (1955)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://i.pinimg.com/474x/55/10/dd/5510dd2b33a461eab13d13a78726aae1.jpg",
+    "lore": "I am the last Martian."
+  },
+  {
+    "name": "Shazam",
+    "alias": "Billy Batson",
+    "powers": ["Superhuman strength", "Flight", "Lightning control"],
+    "firstAppearance": "Whiz Comics #2 (1940)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "https://www.getcoloringpages.com/images/4r/4rx1mze.png",
+    "lore": "SHAZAM!"
+  },
+
+  {
+    "name": "Black Canary",
+    "alias": "Dinah Lance",
+    "powers": ["Canary Cry", "Master martial artist"],
+    "firstAppearance": "Flash Comics #86 (1947)",
+    "affiliations": ["Justice League", "Birds of Prey"],
+    "universe": "DC",
+    "image": "https://cafans.b-cdn.net/images/Category_50292/subcat_111898/3ZGsfnFg_1010171247551gpadd.jpg",
+    "lore": "I don't just scream, I fight."
+  },
+  {
+    "name": "The Punisher",
+    "alias": "Frank Castle",
+    "powers": ["Master tactician", "Weapons expert", "Peak human condition"],
+    "firstAppearance": "Amazing Spider-Man #129 (1974)",
+    "affiliations": [],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9cdbf0ea-a9c7-4610-8797-ef0ea4e7fdd3/d1s9sc1-0f0e0bac-8e0c-4c2a-bf22-ed7ac4d96582.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljZGJmMGVhLWE5YzctNDYxMC04Nzk3LWVmMGVhNGU3ZmRkM1wvZDFzOXNjMS0wZjBlMGJhYy04ZTBjLTRjMmEtYmYyMi1lZDdhYzRkOTY1ODIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aPd6Jlj_E0CxTAiE3IIMkx4-oxiERDOps1Wo76lC4S8",
+    "lore": "Innocence proves nothing."
+  },
+  {
+    "name": "Doctor Doom",
+    "alias": "Victor Von Doom",
+    "powers": ["Genius intellect", "Master of magic", "Powered armor"],
+    "firstAppearance": "Fantastic Four #5 (1962)",
+    "affiliations": ["Latveria"],
+    "universe": "Marvel",
+    "image": "https://64.media.tumblr.com/d1046165982139e755b7aa68f2c6152a/tumblr_plz9iuf9tZ1ug9aljo1_1280.jpg",
+    "lore": "It is not enough that I should succeed - others should fail."
+  },
+  {
+    "name": "Magneto",
+    "alias": "Erik Lehnsherr",
+    "powers": ["Magnetism control", "Force field generation"],
+    "firstAppearance": "X-Men #1 (1963)",
+    "affiliations": ["X-Men", "Brotherhood of Mutants"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/564x/45/85/b3/4585b31ad3e33fd05cda54b876a5c008.jpg",
+    "lore": "Peace was never an option."
+  },
+  {
+    "name": "Professor X",
+    "alias": "Charles Xavier",
+    "powers": ["Telepathy", "Genius intellect"],
+    "firstAppearance": "X-Men #1 (1963)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/af/92/f8/af92f87004ec0fb63b7a8ef1d34b0557.jpg",
+    "lore": "Just because someone stumbles and loses their path, doesn't mean they're lost forever."
+  },
+
+  {
+    "name": "Rogue",
+    "alias": "Anna Marie",
+    "powers": ["Power absorption", "Flight", "Superhuman strength"],
+    "firstAppearance": "Avengers Annual #10 (1981)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/c3/42/cb/c342cb55daf2c4baced15e0a77367380.jpg",
+    "lore": "Ah don't need no savin'!"
+  },
+  {
+    "name": "Gambit",
+    "alias": "Remy LeBeau",
+    "powers": ["Kinetic energy charging", "Hypnotic charm", "Expert staff fighter"],
+    "firstAppearance": "Uncanny X-Men #266 (1990)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c7925bb2-64ed-400f-b536-2bd6a242ea93/dpbuw5-c213a16f-b9fa-4500-8f46-99556fc83e9b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OTI1YmIyLTY0ZWQtNDAwZi1iNTM2LTJiZDZhMjQyZWE5M1wvZHBidXc1LWMyMTNhMTZmLWI5ZmEtNDUwMC04ZjQ2LTk5NTU2ZmM4M2U5Yi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Ekwya2UtbfeJWpNrcFu5nP6IGYhYKruf5HJxbAx4Mks",
+    "lore": "Mon ami, you're in for a world of hurt."
+  },
+  {
+    "name": "Beast",
+    "alias": "Hank McCoy",
+    "powers": ["Superhuman strength", "Genius intellect", "Enhanced agility"],
+    "firstAppearance": "X-Men #1 (1963)",
+    "affiliations": ["X-Men", "Avengers"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/91/17/e1/9117e1d1b1566a2a04b17351be65ab04.jpg",
+    "lore": "Oh my stars and garters!"
+  },
+  {
+    "name": "Jean Grey",
+    "alias": "Phoenix",
+    "powers": ["Telepathy", "Telekinesis", "Phoenix Force"],
+    "firstAppearance": "X-Men #1 (1963)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/960935fd-bbdf-4421-8219-2385bf2507b5/d8l7wz8-2ffff4aa-24b2-46a9-a887-5950973524ad.jpg/v1/fill/w_459,h_770,q_75,strp/jean_grey__the_phoenix_by_demetria_olympia_d8l7wz8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzcwIiwicGF0aCI6IlwvZlwvOTYwOTM1ZmQtYmJkZi00NDIxLTgyMTktMjM4NWJmMjUwN2I1XC9kOGw3d3o4LTJmZmZmNGFhLTI0YjItNDZhOS1hODg3LTU5NTA5NzM1MjRhZC5qcGciLCJ3aWR0aCI6Ijw9NDU5In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.pAO00NF_U8-KjflZ5cCAWrL-U_PqORYMOV6pJOgOkR4",
+    "lore": "I am fire and life incarnate!"
+  },
+  {
+    "name": "Nightcrawler",
+    "alias": "Kurt Wagner",
+    "powers": ["Teleportation", "Wall-crawling", "Prehensile tail"],
+    "firstAppearance": "Giant-Size X-Men #1 (1975)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://cafans.b-cdn.net/images/Category_24206/subcat_61237/E7m6b4dO_1711241225321gpadd.jpeg",
+    "lore": "For me, my X-Men!"
+  },
+
+  {
+    "name": "Colossus",
+    "alias": "Piotr Rasputin",
+    "powers": ["Organic steel form", "Superhuman strength", "Durability"],
+    "firstAppearance": "Giant-Size X-Men #1 (1975)",
+    "affiliations": ["X-Men"],
+    "universe": "Marvel",
+    "image": "https://64.media.tumblr.com/6ff380b8133e0c97e6617ae17b0d4ba1/2e0122dd06e9b7dd-3b/s1280x1920/6e15b0233b0bf30de93ce294b13caf35fed77682.jpg",
+    "lore": "I am the shield of the X-Men."
+  },
+  {
+    "name": "Silver Surfer",
+    "alias": "Norrin Radd",
+    "powers": ["Cosmic power", "Flight", "Energy manipulation"],
+    "firstAppearance": "Fantastic Four #48 (1966)",
+    "affiliations": [],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/2c/a4/55/2ca4558fb46e2286232d50f0d0a93556.jpg",
+    "lore": "All that you know is but a whisper of the cosmic symphony."
+  },
+  {
+    "name": "Ghost Rider",
+    "alias": "Johnny Blaze",
+    "powers": ["Hellfire manipulation", "Superhuman strength", "Penance Stare"],
+    "firstAppearance": "Marvel Spotlight #5 (1972)",
+    "affiliations": [],
+    "universe": "Marvel",
+    "image": "https://i.redd.it/9dvxe4ae4whz.jpg",
+    "lore": "The spirit of vengeance is upon you!"
+  },
+  {
+    "name": "Blade",
+    "alias": "Eric Brooks",
+    "powers": ["Vampire abilities", "Master martial artist", "Vampire weaknesses immunity"],
+    "firstAppearance": "Tomb of Dracula #10 (1973)",
+    "affiliations": [],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/474x/a1/66/72/a166727726de3959786112465b0feb8c.jpg",
+    "lore": "Some motherfuckers are always trying to ice skate uphill."
+  },
+  {
+    "name": "Moon Knight",
+    "alias": "Marc Spector",
+    "powers": ["Peak human condition", "Multiple personalities", "Lunar empowerment"],
+    "firstAppearance": "Werewolf by Night #32 (1975)",
+    "affiliations": [],
+    "universe": "Marvel",
+    "image": "https://techjambo.com.br/wp-content/uploads/2022/09/Cavaleiro-da-Lua-Desenho-2-672x1024.png",
+    "lore": "I am the fist of Khonshu."
+  },
+ 
+  {
+    "name": "Star-Lord",
+    "alias": "Peter Quill",
+    "powers": ["Master tactician", "Expert marksman", "Element gun"],
+    "firstAppearance": "Marvel Preview #4 (1976)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/8a/0d/55/8a0d558ea3839c93957d015d8c12ce45.jpg",
+    "lore": "I'm Star-Lord, man. Legendary outlaw?"
+  },
+  {
+    "name": "Groot",
+    "alias": "Groot",
+    "powers": ["Superhuman strength", "Regeneration", "Plant manipulation"],
+    "firstAppearance": "Tales to Astonish #13 (1960)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://cafans.b-cdn.net/images/Category_168410/subcat_237458/Dm9kP2y7_280523203514lola.jpg",
+    "lore": "I am Groot."
+  },
+  {
+    "name": "Rocket Raccoon",
+    "alias": "Rocket",
+    "powers": ["Genius intellect", "Expert marksman", "Tactical genius"],
+    "firstAppearance": "Marvel Preview #7 (1976)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/474x/1a/79/ce/1a79ce6718474973650d00462e2a6395.jpg",
+    "lore": "Ain't no thing like me, 'cept me."
+  },
+  {
+    "name": "Drax the Destroyer",
+    "alias": "Drax",
+    "powers": ["Superhuman strength", "Durability", "Combat skills"],
+    "firstAppearance": "Iron Man #55 (1973)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/8d/dc/23/8ddc230c274629e5bcf0b0f02312b6dc.jpg",
+    "lore": "You cannot take my vengeance from me!"
+  },
+  {
+    "name": "Gamora",
+    "alias": "Gamora",
+    "powers": ["Superhuman agility", "Master assassin", "Combat skills"],
+    "firstAppearance": "Strange Tales #180 (1975)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/fd/f2/f7/fdf2f797272f509f5c510d5f7b8089a7.jpg",
+    "lore": "I am the deadliest woman in the galaxy."
+  },
+ 
+  {
+    "name": "Nebula",
+    "alias": "Nebula",
+    "powers": ["Cybernetic enhancements", "Combat skills", "Weapons expert"],
+    "firstAppearance": "Avengers #257 (1985)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.etsystatic.com/25141311/r/il/89b835/4660359774/il_fullxfull.4660359774_sahb.jpg",
+    "lore": "I will not be a pawn in your game."
+  },
+  {
+    "name": "Mantis",
+    "alias": "Mantis",
+    "powers": ["Empathy", "Combat skills", "Energy manipulation"],
+    "firstAppearance": "Avengers #112 (1973)",
+    "affiliations": ["Guardians of the Galaxy"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/1e/c6/ae/1ec6aecbece8dc8b0eb5c0903adbbd80.jpg",
+    "lore": "I can feel your emotions."
+  },
+  {
+    "name": "She-Hulk",
+    "alias": "Jennifer Walters",
+    "powers": ["Superhuman strength", "Durability", "Lawyer"],
+    "firstAppearance": "Savage She-Hulk #1 (1980)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://coloringpagesonly.com/wp-content/uploads/2022/05/She-Hulk-Superhero.png",
+    "lore": "Don't make me angry. You wouldn't like me when I'm angry... wait, actually you would."
+  },
+  {
+    "name": "Ms. Marvel",
+    "alias": "Kamala Khan",
+    "powers": ["Shape-shifting", "Elasticity", "Healing factor"],
+    "firstAppearance": "Captain Marvel #14 (2013)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "https://www.lostonwallace.com/wp-content/uploads/2018/11/msmarvel.jpg",
+    "lore": "Good is not a thing you are. It's a thing you do."
+  },
+  {
+    "name": "Squirrel Girl",
+    "alias": "Doreen Green",
+    "powers": ["Squirrel-like abilities", "Superhuman strength", "Unbeatable in combat"],
+    "firstAppearance": "Marvel Super-Heroes #8 (1991)",
+    "affiliations": ["Great Lakes Avengers"],
+    "universe": "Marvel",
+    "image": "https://jscottcampbell.com/cdn/shop/files/OA_Marvel_Rivals_1_2025_D_Squirrel_Girl_inks_1024px_w.png?v=1741729461",
+    "lore": "I beat Thanos. No big deal."
+  },
+
+  {
+    "name": "Luke Cage",
+    "alias": "Carl Lucas",
+    "powers": ["Unbreakable skin", "Superhuman strength", "Durability"],
+    "firstAppearance": "Hero for Hire #1 (1972)",
+    "affiliations": ["Defenders", "Avengers"],
+    "universe": "Marvel",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/85edf2164817625.63fd45cd2b3ac.jpg",
+    "lore": "Sweet Christmas!"
+  },
+  {
+    "name": "Iron Fist",
+    "alias": "Danny Rand",
+    "powers": ["Chi mastery", "Superhuman strength", "Healing factor"],
+    "firstAppearance": "Marvel Premiere #15 (1974)",
+    "affiliations": ["Defenders"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/63/52/ba/6352ba2b3296e6fa586bf2a139acef45.jpg",
+    "lore": "I am the Immortal Iron Fist."
+  },
+  {
+    "name": "Jessica Jones",
+    "alias": "Jessica Campbell Jones Cage",
+    "powers": ["Superhuman strength", "Flight", "Private investigator"],
+    "firstAppearance": "Alias #1 (2001)",
+    "affiliations": ["Defenders"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/fe/82/53/fe8253ff2ab1be66d15b3e19b0780688.jpg",
+    "lore": "I don't dress up like a flag to beat people up."
+  },
+  {
+    "name": "The Thing",
+    "alias": "Ben Grimm",
+    "powers": ["Superhuman strength", "Rock-like skin", "Durability"],
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "affiliations": ["Fantastic Four"],
+    "universe": "Marvel",
+    "image": "https://64.media.tumblr.com/714128216f7f4d900f3815e21b8db3c8/tumblr_oquvsdb0Kc1ug9aljo1_1280.jpg",
+    "lore": "It's clobberin' time!"
+  },
+  {
+    "name": "Human Torch",
+    "alias": "Johnny Storm",
+    "powers": ["Pyrokinesis", "Flight", "Plasma form"],
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "affiliations": ["Fantastic Four"],
+    "universe": "Marvel",
+    "image": "https://printablefreecoloring.com/drawing/superheroes/coloring-the-human-torch-81610.jpg",
+    "lore": "Flame on!"
+  },
+
+  {
+    "name": "Invisible Woman",
+    "alias": "Susan Storm",
+    "powers": ["Invisibility", "Force field generation", "Flight"],
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "affiliations": ["Fantastic Four"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d10176d-00da-4e84-aaf9-fd613b137c6b/d1omfwl-202e9db6-b6fa-4b7a-83e2-8c11f653d49a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkMTAxNzZkLTAwZGEtNGU4NC1hYWY5LWZkNjEzYjEzN2M2YlwvZDFvbWZ3bC0yMDJlOWRiNi1iNmZhLTRiN2EtODNlMi04YzExZjY1M2Q0OWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7uy_R7YiWotl4Zl3toNili5eKVhkX5LYQlHj8UIfOaQ",
+    "lore": "Don't underestimate me."
+  },
+  {
+    "name": "Mr. Fantastic",
+    "alias": "Reed Richards",
+    "powers": ["Elasticity", "Genius intellect"],
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "affiliations": ["Fantastic Four"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fd4c70b8-8dd9-4058-996f-e9c0dfd1ef77/dqabul-78356e25-e8d9-410b-bd97-57b069fccec1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZkNGM3MGI4LThkZDktNDA1OC05OTZmLWU5YzBkZmQxZWY3N1wvZHFhYnVsLTc4MzU2ZTI1LWU4ZDktNDEwYi1iZDk3LTU3YjA2OWZjY2VjMS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.1ta6Gyfay6r3Xfgykyw-wC2zJHCXs0ljkOyMbxoe8Fw",
+    "lore": "It's fantastic!"
+  },
+  {
+    "name": "Namor",
+    "alias": "Namor McKenzie",
+    "powers": ["Superhuman strength", "Underwater breathing", "Flight"],
+    "firstAppearance": "Motion Picture Funnies Weekly #1 (1939)",
+    "affiliations": ["Fantastic Four", "X-Men"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93209cc7-0965-42f3-accc-a5d38f489443/dfhka6l-91c7061b-9f2a-4f03-b832-3707c30a9cca.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkzMjA5Y2M3LTA5NjUtNDJmMy1hY2NjLWE1ZDM4ZjQ4OTQ0M1wvZGZoa2E2bC05MWM3MDYxYi05ZjJhLTRmMDMtYjgzMi0zNzA3YzMwYTljY2EuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BK7EnIR36M0zkLF6eQCu1soGj7pD7bnIhlDpqyrar1U",
+    "lore": "Imperius Rex!"
+  },
+  {
+    "name": "Black Bolt",
+    "alias": "Blackagar Boltagon",
+    "powers": ["Voice of destruction", "Superhuman strength", "Flight"],
+    "firstAppearance": "Fantastic Four #45 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/d6/ca/bf/d6cabf22c54694430d98f0a753e2b04b.jpg",
+    "lore": "His whisper can level a city."
+  },
+  {
+    "name": "Medusa",
+    "alias": "Medusalith Amaquelin",
+    "powers": ["Prehensile hair", "Superhuman strength"],
+    "firstAppearance": "Fantastic Four #36 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://pbs.twimg.com/media/EZnme-qWkAAPW_i.jpg",
+    "lore": "My hair is my weapon."
+  },
+ 
+  {
+    "name": "Crystal",
+    "alias": "Crystalia Amaquelin",
+    "powers": ["Elemental control"],
+    "firstAppearance": "Fantastic Four #45 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://images.squarespace-cdn.com/content/v1/554fdd12e4b0a8858a7a0f1c/1431572464229-UYCA9KLF6LRO5RZLSWR0/image-asset.jpeg",
+    "lore": "I command the elements."
+  },
+  {
+    "name": "Lockjaw",
+    "alias": "Lockjaw",
+    "powers": ["Teleportation", "Superhuman strength"],
+    "firstAppearance": "Fantastic Four #45 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://kirbymuseum.org/blogs/kirby-vision/wp-content/uploads/sites/5/2010/05/lockjawcommission72.jpg",
+    "lore": "The giant teleporting dog of the Inhumans."
+  },
+  {
+    "name": "Karnak",
+    "alias": "Karnak Mander-Azur",
+    "powers": ["Finding weaknesses in anything", "Martial arts"],
+    "firstAppearance": "Fantastic Four #45 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/58/2e/c0/582ec06d10e00483c5b3a55b85d8dc3d.jpg",
+    "lore": "Nothing is unbreakable."
+  },
+  {
+    "name": "Triton",
+    "alias": "Triton",
+    "powers": ["Underwater breathing", "Superhuman strength"],
+    "firstAppearance": "Fantastic Four #45 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d06b6bcf-6c01-4e7e-96ba-13a995d5e727/d24viu6-f14f2a1f-f075-433b-b034-2f978d59ca5f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QwNmI2YmNmLTZjMDEtNGU3ZS05NmJhLTEzYTk5NWQ1ZTcyN1wvZDI0dml1Ni1mMTRmMmExZi1mMDc1LTQzM2ItYjAzNC0yZjk3OGQ1OWNhNWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-WYFlxgLr4DEU9pXQnBOGLjcbM2Oorq3jXpVGTAtDVU",
+    "lore": "The aquatic Inhuman."
+  },
+  {
+    "name": "Gorgon",
+    "alias": "Gorgon",
+    "powers": ["Superhuman strength", "Hooves that create seismic waves"],
+    "firstAppearance": "Fantastic Four #44 (1965)",
+    "affiliations": ["Inhumans"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/41/2d/18/412d18af225dfb7578fee58062649009.jpg",
+    "lore": "My stomp can shatter mountains."
+  },
+  
+  {
+    "name": "Hellboy",
+    "alias": "Anung Un Rama",
+    "powers": ["Superhuman strength", "Right Hand of Doom", "Durability"],
+    "firstAppearance": "San Diego Comic-Con Comics #2 (1993)",
+    "affiliations": ["B.P.R.D."],
+    "universe": "Other",
+    "image": "https://i.pinimg.com/736x/c7/83/23/c78323c341a84ba8a3b48cc36ec7284e.jpg",
+    "lore": "I'm not a demon. I'm a person."
+  },
+  {
+    "name": "Spawn",
+    "alias": "Al Simmons",
+    "powers": ["Superhuman strength", "Necroplasmic armor", "Hellspawn abilities"],
+    "firstAppearance": "Spawn #1 (1992)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://i.pinimg.com/736x/70/7c/63/707c6354e358b851d2953e3dec41d652.jpg",
+    "lore": "I am Hell's most powerful soldier."
+  },
+  {
+    "name": "Invincible",
+    "alias": "Mark Grayson",
+    "powers": ["Superhuman strength", "Flight", "Durability"],
+    "firstAppearance": "Invincible #1 (2003)",
+    "affiliations": ["Guardians of the Globe"],
+    "universe": "Other",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a09e0f9-de27-457a-a42a-f2d05ad8b853/ddugvuq-98b5fc53-c68f-438e-959a-2710ad40175b.jpg/v1/fill/w_1280,h_1600,q_75,strp/invincible_by_g_kwan155_ddugvuq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcLzlhMDllMGY5LWRlMjctNDU3YS1hNDJhLWYyZDA1YWQ4Yjg1M1wvZGR1Z3Z1cS05OGI1ZmM1My1jNjhmLTQzOGUtOTU5YS0yNzEwYWQ0MDE3NWIuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.DEgNXpLNTaM3hH7oHQLljRIulVhCQFUuDQiaE7A1Y0w",
+    "lore": "I'm not like other superheroes."
+  },
+  {
+    "name": "The Tick",
+    "alias": "The Tick",
+    "powers": ["Superhuman strength", "Durability", "Nigh-invulnerability"],
+    "firstAppearance": "The Tick #1 (1988)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://s3images.coroflot.com/user_files/individual_files/large_722045_yf8sdheijuu0jqgdc8e_envym.png",
+    "lore": "Spoon!"
+  },
+  {
+    "name": "Shadowhawk",
+    "alias": "Paul Johnstone",
+    "powers": ["Enhanced strength", "Night vision", "Claws"],
+    "firstAppearance": "Shadowhawk #1 (1992)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://spart.b-cdn.net/Images/Category_2/subcat_118/2910232042159tGSEiHSNz.jpg",
+    "lore": "Justice is blind."
+  },
+ 
+  {
+    "name": "Static",
+    "alias": "Virgil Hawkins",
+    "powers": ["Electrokinesis", "Electromagnetic flight"],
+    "firstAppearance": "Static #1 (1993)",
+    "affiliations": ["Static Shock"],
+    "universe": "Other",
+    "image": "https://i.pinimg.com/736x/85/6f/54/856f540057454ae87749cb635e5aa84f.jpg",
+    "lore": "I'm Static, and I'm shocking!"
+  },
+  {
+    "name": "Icon",
+    "alias": "Arnus",
+    "powers": ["Superhuman strength", "Flight", "Durability"],
+    "firstAppearance": "Icon #1 (1993)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://img.freepik.com/premium-photo/muscular-man-vector-comic-book-noir-style-from-black-hawk-down_899449-207538.jpg",
+    "lore": "With great power comes great responsibility... to use it wisely."
+  },
+  {
+    "name": "Rocket",
+    "alias": "Raquel Ervin",
+    "powers": ["Genius intellect", "Gadgets"],
+    "firstAppearance": "Icon #1 (1993)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://www.supercoloring.com/sites/default/files/styles/coloring_full/public/cif/2017/07/the-nightwing-coloring-page.png",
+    "lore": "I may not have powers, but I've got brains."
+  },
+  {
+    "name": "Savage Dragon",
+    "alias": "Dragon",
+    "powers": ["Superhuman strength", "Healing factor", "Durability"],
+    "firstAppearance": "Megaton #2 (1982)",
+    "affiliations": ["Chicago Police Department"],
+    "universe": "Other",
+    "image": "https://www.shonborn.net/images/art/dragon.gif",
+    "lore": "I'm the law!"
+  },
+  {
+    "name": "Witchblade",
+    "alias": "Sara Pezzini",
+    "powers": ["Shape-shifting weapon", "Enhanced abilities"],
+    "firstAppearance": "Witchblade #1 (1995)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcZDU_GpdbbflBKw_eFsg2Lq3ezx1WAzzSA7VitTr6iDDV22eDRkSUM5jHAvMLOd6b0kAcQ_qu0dVtu7l8BxI58O8fsL9UQynfH8Ifp7oWz4gbz-W3fqKojd0Xv4ODfaCpQT4NpEM2Qv4/s1600/DS_622_Witchblade.jpg",
+    "lore": "The Witchblade chooses its wielder."
+  },
+
+  {
+    "name": "The Darkness",
+    "alias": "Jackie Estacado",
+    "powers": ["Darkness manipulation", "Creature creation"],
+    "firstAppearance": "The Darkness #1 (1996)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://i.pinimg.com/736x/44/5a/a3/445aa3d1e3f6d4a94e015ca63b763a29.jpg",
+    "lore": "The Darkness is both a gift and a curse."
+  },
+  {
+    "name": "Lady Death",
+    "alias": "Hope",
+    "powers": ["Immortality", "Superhuman strength", "Soul manipulation"],
+    "firstAppearance": "Evil Ernie #1 (1991)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKINWP3zk-nifjrxBh2zADRhY6YIrgSnl78H6j29F751zn3vOHXj20UH79Ezy37tX8ao1HqkelRfDtcjOQQAXxgKn1i_ckbGzzBjhq3vhDUy96UateV3mudNtvIRBVqUzuiuIc78JqHIVi/s1600/ladydeath3-inkswip.PNG",
+    "lore": "I am the end of all things."
+  },
+  {
+    "name": "Judge Dredd",
+    "alias": "Joseph Dredd",
+    "powers": ["Peak human condition", "Master of law"],
+    "firstAppearance": "2000 AD #2 (1977)",
+    "affiliations": ["Judges"],
+    "universe": "Other",
+    "image": "https://i.pinimg.com/originals/25/f1/e8/25f1e8df921682da2cb6876fa2e7ff09.jpg",
+    "lore": "I am the law!"
+  },
+  {
+    "name": "The Crow",
+    "alias": "Eric Draven",
+    "powers": ["Resurrection", "Superhuman abilities", "Invulnerability"],
+    "firstAppearance": "Caliber Presents #1 (1989)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://images8.alphacoders.com/478/478941.jpg",
+    "lore": "It can't rain all the time."
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles",
+    "alias": "Leonardo, Michelangelo, Donatello, Raphael",
+    "powers": ["Martial arts", "Weapons mastery", "Enhanced agility"],
+    "firstAppearance": "Teenage Mutant Ninja Turtles #1 (1984)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "https://static.wikia.nocookie.net/monstermovies/images/4/4e/Teenage_Mutant_Ninja_Turtles.jpg/revision/latest?cb=20160212220309",
+    "lore": "Cowabunga!"
+  },
+ 
+  {
+    "name": "Hellcat",
+    "alias": "Patsy Walker",
+    "powers": ["Superhuman agility", "Psychic sensitivity"],
+    "firstAppearance": "The Avengers #144 (1976)",
+    "affiliations": ["Defenders"],
+    "universe": "Marvel",
+    "image": "https://i.pinimg.com/736x/c3/a3/f2/c3a3f2efe023beb8e9b5687a749e4436.jpg",
+    "lore": "I'm more than just a pretty face."
+  },
+  {
+    "name": "White Tiger",
+    "alias": "Ava Ayala",
+    "powers": ["Superhuman strength", "Enhanced senses", "Amulet of power"],
+    "firstAppearance": "Deadly Hands of Kung Fu #19 (1975)",
+    "affiliations": ["Avengers"],
+    "universe": "Marvel",
+    "image": "whitetiger.jpg",
+    "lore": "The power of the tiger is mine to command."
+  },
+  {
+    "name": "Power Man",
+    "alias": "Victor Alvarez",
+    "powers": ["Superhuman strength", "Durability", "Chi absorption"],
+    "firstAppearance": "Shadowland: Power Man #1 (2010)",
+    "affiliations": ["Heroes for Hire"],
+    "universe": "Marvel",
+    "image": "powerman.jpg",
+    "lore": "I'm the new Power Man."
+  },
+  {
+    "name": "Blue Beetle",
+    "alias": "Jaime Reyes",
+    "powers": ["Scarab armor", "Weapon creation", "Flight"],
+    "firstAppearance": "Infinite Crisis #3 (2006)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "bluebeetle.jpg",
+    "lore": "The scarab chose me."
+  },
+  {
+    "name": "Booster Gold",
+    "alias": "Michael Jon Carter",
+    "powers": ["Powered armor", "Time travel", "Force fields"],
+    "firstAppearance": "Action Comics #583 (1986)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "boostergold.jpg",
+    "lore": "The greatest hero you've never heard of."
+  },
+
+  {
+    "name": "Plastic Man",
+    "alias": "Eel O'Brian",
+    "powers": ["Shape-shifting", "Elasticity", "Durability"],
+    "firstAppearance": "Police Comics #1 (1941)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "plasticman.jpg",
+    "lore": "I'm stretchy!"
+  },
+  {
+    "name": "The Question",
+    "alias": "Vic Sage",
+    "powers": ["Master detective", "Martial arts", "Peak human condition"],
+    "firstAppearance": "Blue Beetle #1 (1967)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "thequestion.jpg",
+    "lore": "Who is the Question?"
+  },
+  {
+    "name": "Swamp Thing",
+    "alias": "Alec Holland",
+    "powers": ["Plant manipulation", "Superhuman strength", "Immortality"],
+    "firstAppearance": "House of Secrets #92 (1971)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "swampthing.jpg",
+    "lore": "I am the swamp."
+  },
+  {
+    "name": "John Constantine",
+    "alias": "John Constantine",
+    "powers": ["Master of magic", "Occult knowledge", "Manipulation"],
+    "firstAppearance": "The Saga of the Swamp Thing #37 (1985)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "johnconstantine.jpg",
+    "lore": "I'm the one who steps from the shadows, all trenchcoat and cigarette."
+  },
+  {
+    "name": "Zatanna",
+    "alias": "Zatanna Zatara",
+    "powers": ["Magic", "Reality warping", "Spell casting"],
+    "firstAppearance": "Hawkman #4 (1964)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "zatanna.jpg",
+    "lore": "!em rof efil ym sseccus ot srewop ym esu I"
+  },
+
+  {
+    "name": "Animal Man",
+    "alias": "Buddy Baker",
+    "powers": ["Animal mimicry", "Flight", "Superhuman strength"],
+    "firstAppearance": "Strange Adventures #180 (1965)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "animalman.jpg",
+    "lore": "I can take on the abilities of any animal."
+  },
+  {
+    "name": "Firestorm",
+    "alias": "Ronnie Raymond & Martin Stein",
+    "powers": ["Molecular manipulation", "Flight", "Energy projection"],
+    "firstAppearance": "Firestorm #1 (1978)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "firestorm.jpg",
+    "lore": "We are Firestorm!"
+  },
+  {
+    "name": "Black Lightning",
+    "alias": "Jefferson Pierce",
+    "powers": ["Electrokinesis", "Flight", "Energy projection"],
+    "firstAppearance": "Black Lightning #1 (1977)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "blacklightning.jpg",
+    "lore": "I am the storm."
+  },
+  {
+    "name": "Static Shock",
+    "alias": "Virgil Hawkins",
+    "powers": ["Electrokinesis", "Electromagnetic flight"],
+    "firstAppearance": "Static #1 (1993)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "staticshock.jpg",
+    "lore": "I'm Static, and I'm shocking!"
+  },
+  {
+    "name": "Cyborg",
+    "alias": "Victor Stone",
+    "powers": ["Cybernetic enhancements", "Superhuman strength", "Technopathy"],
+    "firstAppearance": "DC Comics Presents #26 (1980)",
+    "affiliations": ["Justice League", "Teen Titans"],
+    "universe": "DC",
+    "image": "cyborg.jpg",
+    "lore": "I'm more machine than man now."
+  },
+
+  {
+    "name": "Starfire",
+    "alias": "Koriand'r",
+    "powers": ["Superhuman strength", "Energy projection", "Flight"],
+    "firstAppearance": "DC Comics Presents #26 (1980)",
+    "affiliations": ["Teen Titans"],
+    "universe": "DC",
+    "image": "starfire.jpg",
+    "lore": "I am not a weapon. I am a person."
+  },
+  {
+    "name": "Raven",
+    "alias": "Rachel Roth",
+    "powers": ["Empathy", "Telekinesis", "Dark magic"],
+    "firstAppearance": "DC Comics Presents #26 (1980)",
+    "affiliations": ["Teen Titans"],
+    "universe": "DC",
+    "image": "raven.jpg",
+    "lore": "Azarath Metrion Zinthos!"
+  },
+  {
+    "name": "Beast Boy",
+    "alias": "Garfield Logan",
+    "powers": ["Shape-shifting", "Animal transformation"],
+    "firstAppearance": "Doom Patrol #99 (1965)",
+    "affiliations": ["Teen Titans"],
+    "universe": "DC",
+    "image": "beastboy.jpg",
+    "lore": "I can be any animal I want!"
+  },
+  {
+    "name": "Robin",
+    "alias": "Dick Grayson",
+    "powers": ["Peak human condition", "Master acrobat", "Expert detective"],
+    "firstAppearance": "Detective Comics #38 (1940)",
+    "affiliations": ["Teen Titans", "Bat Family"],
+    "universe": "DC",
+    "image": "robin.jpg",
+    "lore": "Holy [insert noun], Batman!"
+  },
+  {
+    "name": "Red Hood",
+    "alias": "Jason Todd",
+    "powers": ["Peak human condition", "Master martial artist", "Weapons expert"],
+    "firstAppearance": "Batman #357 (1983)",
+    "affiliations": ["Bat Family"],
+    "universe": "DC",
+    "image": "redhood.jpg",
+    "lore": "I'm the Robin who lived."
+  },
+
+  {
+    "name": "Batgirl",
+    "alias": "Barbara Gordon",
+    "powers": ["Peak human condition", "Master detective", "Computer expert"],
+    "firstAppearance": "Detective Comics #359 (1967)",
+    "affiliations": ["Bat Family"],
+    "universe": "DC",
+    "image": "batgirl.jpg",
+    "lore": "I'm not just a sidekick."
+  },
+  {
+    "name": "Catwoman",
+    "alias": "Selina Kyle",
+    "powers": ["Peak human agility", "Master thief", "Combat skills"],
+    "firstAppearance": "Batman #1 (1940)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "catwoman.jpg",
+    "lore": "I'm not a hero, and I'm not a villain. I'm just me."
+  },
+  {
+    "name": "Harley Quinn",
+    "alias": "Harleen Quinzel",
+    "powers": ["Peak human agility", "Combat skills", "Immunity to toxins"],
+    "firstAppearance": "Batman: The Animated Series (1992)",
+    "affiliations": ["Suicide Squad"],
+    "universe": "DC",
+    "image": "harleyquinn.jpg",
+    "lore": "I'm Harley freakin' Quinn!"
+  },
+  {
+    "name": "Poison Ivy",
+    "alias": "Pamela Isley",
+    "powers": ["Plant manipulation", "Toxin immunity", "Pheromone control"],
+    "firstAppearance": "Batman #181 (1966)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "poisonivy.jpg",
+    "lore": "The green is all that matters."
+  },
+  {
+    "name": "The Joker",
+    "alias": "Unknown",
+    "powers": ["Criminal mastermind", "Toxins", "High pain tolerance"],
+    "firstAppearance": "Batman #1 (1940)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "joker.jpg",
+    "lore": "Why so serious?"
+  },
+
+  {
+    "name": "Lex Luthor",
+    "alias": "Alexander Luthor",
+    "powers": ["Genius intellect", "Powered armor"],
+    "firstAppearance": "Action Comics #23 (1940)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "lexluthor.jpg",
+    "lore": "The greatest criminal mind of our time."
+  },
+  {
+    "name": "Doctor Fate",
+    "alias": "Kent Nelson",
+    "powers": ["Magic", "Flight", "Reality warping"],
+    "firstAppearance": "More Fun Comics #55 (1940)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "doctorfate.jpg",
+    "lore": "The helmet of fate chooses its wearer."
+  },
+  {
+    "name": "Hawkman",
+    "alias": "Katar Hol",
+    "powers": ["Flight", "Superhuman strength", "Weapons mastery"],
+    "firstAppearance": "Flash Comics #1 (1940)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "hawkman.jpg",
+    "lore": "I have lived many lives."
+  },
+  {
+    "name": "Hawkgirl",
+    "alias": "Shayera Hol",
+    "powers": ["Flight", "Superhuman strength", "Weapons mastery"],
+    "firstAppearance": "Flash Comics #1 (1940)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "hawkgirl.jpg",
+    "lore": "I am the wings of justice."
+  },
+  {
+    "name": "The Atom",
+    "alias": "Ray Palmer",
+    "powers": ["Size manipulation", "Superhuman strength at small size"],
+    "firstAppearance": "Showcase #34 (1961)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "theatom.jpg",
+    "lore": "The smallest hero with the biggest heart."
+  },
+
+  {
+    "name": "Black Adam",
+    "alias": "Teth-Adam",
+    "powers": ["Superhuman strength", "Flight", "Lightning control"],
+    "firstAppearance": "Marvel Family #1 (1945)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "blackadam.jpg",
+    "lore": "Shazam!"
+  },
+  {
+    "name": "Shazam",
+    "alias": "Billy Batson",
+    "powers": ["Superhuman strength", "Flight", "Lightning control"],
+    "firstAppearance": "Whiz Comics #2 (1940)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "shazam.jpg",
+    "lore": "SHAZAM!"
+  },
+  {
+    "name": "Captain Atom",
+    "alias": "Nathaniel Adam",
+    "powers": ["Energy absorption", "Flight", "Superhuman strength"],
+    "firstAppearance": "Space Adventures #33 (1960)",
+    "affiliations": ["Justice League"],
+    "universe": "DC",
+    "image": "captainatom.jpg",
+    "lore": "I am the nuclear man."
+  },
+  {
+    "name": "The Spectre",
+    "alias": "Jim Corrigan",
+    "powers": ["Reality warping", "Omnipotence", "Divine vengeance"],
+    "firstAppearance": "More Fun Comics #52 (1940)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "thespectre.jpg",
+    "lore": "I am the wrath of God."
+  },
+  {
+    "name": "Deadman",
+    "alias": "Boston Brand",
+    "powers": ["Invisibility", "Possession", "Intangibility"],
+    "firstAppearance": "Strange Adventures #205 (1967)",
+    "affiliations": [],
+    "universe": "DC",
+    "image": "deadman.jpg",
+    "lore": "I'm already dead."
+  },
+
+  {
+    "name": "The Phantom",
+    "alias": "Kit Walker",
+    "powers": ["Peak human condition", "Master detective", "Skilled marksman"],
+    "firstAppearance": "The Phantom #1 (1936)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "thephantom.jpg",
+    "lore": "The ghost who walks."
+  },
+  {
+    "name": "Flash Gordon",
+    "alias": "Flash Gordon",
+    "powers": ["Peak human condition", "Master pilot"],
+    "firstAppearance": "Flash Gordon #1 (1934)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "flashgordon.jpg",
+    "lore": "For the love of Mongo!"
+  },
+  {
+    "name": "Buck Rogers",
+    "alias": "Anthony Rogers",
+    "powers": ["Peak human condition", "Future technology"],
+    "firstAppearance": "Amazing Stories (1928)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "buckrogers.jpg",
+    "lore": "I'm a man out of time."
+  },
+  {
+    "name": "The Rocketeer",
+    "alias": "Cliff Secord",
+    "powers": ["Jet pack", "Peak human condition"],
+    "firstAppearance": "Starslayer #2 (1982)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "therocketeer.jpg",
+    "lore": "I'm the Rocketeer!"
+  },
+  {
+    "name": "The Shadow",
+    "alias": "Lamont Cranston",
+    "powers": ["Hypnosis", "Master of disguise", "Peak human condition"],
+    "firstAppearance": "The Shadow Magazine (1931)",
+    "affiliations": [],
+    "universe": "Other",
+    "image": "theshadow.jpg",
+    "lore": "Who knows what evil lurks in the hearts of men? The Shadow knows!"
+  }
+]
+,
+"upcomingComicBooks": [
+  {
+    "title": "X-Men: Hellfire Gala 2024",
+    "writer": "Gerry Duggan",
+    "penciler": "Lucas Werneck",
+    "publisher": "Marvel Comics",
+    "cover": "https://www.irenebrination.com/.a/6a00e55290e7c488330278801d6afe200d-800wi",
+    "lore": "Krakoa's most extravagant event returns! The mutant nation hosts its annual met gala where shocking reveals and political maneuvers unfold beneath the glamour. Expect game-changing status quo shifts as Marvel teases 'three deaths and three new X-Men' from this star-studded affair where every floral-adorned costume hides lethal intentions."
+  },
+  {
+    "title": "Batman: The Gotham War",
+    "writer": "Chip Zdarsky",
+    "penciler": "Jorge Jiménez",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/919fCCVel7L._UF1000,1000_QL80_.jpg",
+    "lore": "Bruce Wayne's radical plan to eliminate crime backfires catastrophically when Catwoman organizes Gotham's criminals into a regulated thieves guild. As Batman's no-kill rule clashes with her pragmatic reform, the Bat-Family fractures in this brutal ideological war. Jiménez's kinetic art makes every rooftop brawl feel like cinematic combat."
+  },
+
+  {
+    "title": "Knight Terrors",
+    "writer": "Joshua Williamson",
+    "penciler": "Howard Porter",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/813N9oLOw3L._UF1000,1000_QL80_.jpg",
+    "lore": "DC's 2023 horror event plunges heroes into personalized nightmares when Insomnia steals the Dreamstone. Batman battles zombie Robins, Superman faces Krypton's ghosts, and Wonder Woman confronts Amazons-turned-demons. Porter's surreal art makes every sleep-deprived hallucination more terrifying than the last."
+  },
+  {
+    "title": "Ultimate Invasion",
+    "writer": "Jonathan Hickman",
+    "penciler": "Bryan Hitch",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91TeaG++5LL._UF1000,1000_QL80_.jpg",
+    "lore": "Hickman reboots Marvel's Ultimate Universe with a terrifying twist: the Maker (evil Reed Richards) reshapes reality to eliminate superheroes. When young Tony Stark discovers his destiny wasn't to build armor but to prevent its creation, Hitch's widescreen action meets Hickman's signature dense worldbuilding for a fresh take on familiar icons."
+  },
+  {
+    "title": "World's Finest: Teen Titans",
+    "writer": "Mark Waid",
+    "penciler": "Emanuela Lupacchino",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/91CHQoThpPL._UF1000,1000_QL80_.jpg",
+    "lore": "Waid's nostalgic yet modern take on Dick Grayson's original Titans squad bursts with youthful energy. Lupacchino's expressive art captures Speedy's arrogance, Donna's grace, and Aqualad's awkwardness as they face the Brotherhood of Evil. The shocking identity of their mysterious benefactor will rewrite Titans history."
+  },
+  {
+    "title": "Venom: Lethal Protector II",
+    "writer": "David Michelinie",
+    "penciler": "Iban Coello",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/A16Y33LggVL._UF1000,1000_QL80_.jpg",
+    "lore": "The original Venom creative team reunites for a sequel to the 1993 classic. Eddie Brock returns to San Francisco to battle new symbiote hybrids, with Coello rendering every tendril and tooth in grotesque detail. The reveal of a 'good' symbiote police force creates moral dilemmas for Marvel's most complex antihero."
+  },
+  {
+    "title": "The Penguin",
+    "writer": "Tom King",
+    "penciler": "Rafael De Latorre",
+    "publisher": "DC Comics",
+    "cover": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1728495827-91FdZpmG-IL.jpg?crop=1xw:1xh;center,top&resize=980:*",
+    "lore": "King's noir masterpiece follows Oswald Cobblepot's rise from disgraced mobster to Gotham's crime emperor. De Latorre's rain-soaked art makes every umbrella conceal a weapon, every restaurant meal a power play. The heartbreaking flashbacks to young Penguin's abuse redefine Batman's most underestimated foe."
+  },
+  {
+    "title": "G.O.D.S.",
+    "writer": "Jonathan Hickman",
+    "penciler": "Valerio Schiti",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/9/e0/65298fe6c3bf0/clean.jpg",
+    "lore": "Hickman's ambitious new cosmology introduces The-Powers-That-Be vs. The-Natural-Order-Of-Things, with mortal wizard Wyn as their pawn. Schiti's mind-bending designs make abstract concepts like 'The Cubisk' feel tangible. This isn't just a comic—it's a metaphysical blueprint for Marvel's next decade."
+  },
+  {
+    "title": "Unstoppable Doom Patrol",
+    "writer": "Dennis Culver",
+    "penciler": "Chris Burnham",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/91o6OFOP0tL._UF1000,1000_QL80_.jpg",
+    "lore": "The world's strangest heroes return with Burnham's psychedelic art amplifying their weirdness. When metahuman organs become black market commodities, Robotman's cyber-rage, Crazy Jane's personas, and Negative Man's energy form collide in chaotic battles that redefine disability representation in comics."
+  },
+  {
+    "title": "Carnage Reigns",
+    "writer": "Alex Paknadel",
+    "penciler": "Francesco Manna",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/916YhwQ5EvL._UF1000,1000_QL80_.jpg",
+    "lore": "Cletus Kasady evolves into a god-tier threat by bonding with the Darkhold, creating symbiote-worshipping cults worldwide. Manna's horror-influenced art makes every tendril ooze menace as Miles Morales and Iron Man unite against this apocalyptic threat. The chilling 'Carnage-verse' finale will leave symbiote fans screaming."
+  },
+  {
+    "title": "Green Arrow: The Longbow Hunters Saga",
+    "writer": "Joshua Williamson",
+    "penciler": "Sean Izaakse",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/817vaVvWGwL.jpg",
+    "lore": "Reimagining Mike Grell's classic, this modern take follows Ollie and Dinah's bloody crusade against human traffickers. Izaakse's kinetic archery sequences and Williamson's political edge make every arrow strike resonate. The shocking return of a fan-favorite villain will change Green Arrow's mythology forever."
+  },
+  {
+    "title": "Moon Knight: City of the Dead",
+    "writer": "David Pepose",
+    "penciler": "Marcelo Ferreira",
+    "publisher": "Marvel Comics",
+    "cover": "https://cdn.marvel.com/u/prod/marvel/i/mg/e/60/64b04e1ec1cab/clean.jpg",
+    "lore": "Marc Spector becomes the avatar of Egyptian death god Anubis, protecting souls trapped in a supernatural limbo beneath Cairo. Ferreira's haunting art makes every hallucination indistinguishable from reality. The twist about Moon Knight's 'fourth personality' will shatter fans' expectations."
+  },
+  {
+    "title": "The Joker: Year One",
+    "writer": "Matthew Rosenberg",
+    "penciler": "Francesco Francavilla",
+    "publisher": "DC Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710817939i/210141458.jpg",
+    "lore": "Francavilla's neon-noir art style reimagines the Clown Prince's early days through unreliable narrators. Is he a failed comedian? A mob enforcer? A grieving father? Rosenberg's script keeps you guessing until the chilling final page that recontextualizes Batman's entire rogues gallery."
+  },
+  {
+    "title": "Children of the Vault",
+    "writer": "Deniz Camp",
+    "penciler": "Luca Maresca",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/91uwv+d+JRL._UF1000,1000_QL80_.jpg",
+    "lore": "This X-Men spin-off explores the posthuman civilization that evolved in isolation for 6,000 years. Maresca's sleek designs make their advanced technology feel alien yet plausible. When Cable invades their paradise to prevent humanity's extinction, the moral complexities will divide mutant fans."
+  },
+  {
+    "title": "The Vigil",
+    "writer": "Ram V",
+    "penciler": "Lalit Kumar Sharma",
+    "publisher": "DC Comics",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692926571i/186491446.jpg",
+    "lore": "DC's new Indian superhero team blends cyberpunk with Hindu mythology. Sharma's Mumbai-set action sequences are packed with inventive tech like chakra-powered neural interfaces. The revelation that their leader may be an ancient god in disguise adds philosophical depth to the explosive action."
+  },
+  {
+    "title": "Ghost Rider/Wolverine: Weapons of Vengeance",
+    "writer": "Benjamin Percy",
+    "penciler": "Geoff Shaw",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/A1GyY3EVWtL._UF1000,1000_QL80_.jpg",
+    "lore": "Johnny Blaze and Logan hunt a demonic serial killer collecting cursed weapons. Shaw's visceral art makes every hellfire chain and adamantium slash feel brutal. The 'Bloodstone Bastard' villain's connection to both characters' pasts creates Marvel's most violent buddy-cop dynamic."
+  },
+  {
+    "title": "Alan Scott: The Green Lantern",
+    "writer": "Tim Sheridan",
+    "penciler": "Cian Tormey",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/81RI9lIBA6L.jpg",
+    "lore": "DC's first gay superhero headlines this 1940s-set mystery where his ring's magic is tied to queer persecution. Tormey's art channels vintage pulp with modern sensitivity. The emotional climax involving Alan's wartime lover will redefine Green Lantern's origin for a new generation."
+  },
+  {
+    "title": "Rogue & Gambit",
+    "writer": "Stephanie Phillips",
+    "penciler": "Carlos Gomez",
+    "publisher": "Marvel Comics",
+    "cover": "https://m.media-amazon.com/images/I/81ogHDhLqFL.jpg",
+    "lore": "Marvel's favorite on-again-off-again couple star in a romantic heist adventure through mutant paradise. Gomez captures their chemistry in every smoldering glance and acrobatic team-up. The theft of a 'love amplifier' device leads to hilarious and heartfelt revelations about their decades-long dance."
+  },
+  {
+    "title": "The Riddler: Year One",
+    "writer": "Paul Dano",
+    "penciler": "Stevan Subic",
+    "publisher": "DC Comics",
+    "cover": "https://m.media-amazon.com/images/I/81DfWFBck6L._UF1000,1000_QL80_.jpg",
+    "lore": "The actor who portrayed Riddler in 'The Batman' pens this psychological origin story. Subic's scribbly, anxious art style mirrors Edward Nashton's unraveling mind. The final puzzle reveals a chilling connection to Bruce Wayne's childhood that even Batman never suspected."
+  }
+]
+}

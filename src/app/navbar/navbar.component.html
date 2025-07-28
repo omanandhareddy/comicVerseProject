@@ -1,0 +1,39 @@
+
+<nav class="comic-navbar">
+  <div class="logo">Comic<span>Verse</span></div>
+
+  <div class="nav-links">
+    <a>Home</a>
+    <a (click)="toNavigate()">Popular</a>
+    <a (click)="toFav()">Favourites</a>
+    <a (click)="toChar()">Heros</a>
+  </div>
+
+  <div class="nav-actions">
+    <input type="text" placeholder="Search comics..." class="search-bar" (click)="toNew()" />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s"
+      alt="User"
+      class="profile-pic"
+      (click)="toggleModal()"
+    />
+  </div>
+</nav>
+
+
+<div class="profile-modal" *ngIf="showModal">
+  <div class="modal-card">
+    <div class="profile-header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="avatar" />
+      <div class="user-info">
+        <h3>{{ profile.name || 'Comic Fan' }}</h3>
+        <p>{{ profile.email || 'your@email.com' }}</p>
+      </div>
+    </div>
+    <div class="profile-actions">
+      <button (click)="toFav()">Favourites</button>
+      <button>Edit Profile</button>
+      <button class="logout" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</div>

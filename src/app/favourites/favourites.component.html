@@ -1,0 +1,20 @@
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+
+<nav class="fav-navbar">
+  <div class="btn-con">
+    <button class="back-btn">←</button>
+  </div>
+  <div class="nav-con">
+    <h1 class="nav-title">FAVOURITES ({{ favourites.length }})</h1>
+  </div>
+</nav>
+
+<div class="favourites-container">
+  <div *ngFor="let comic of favourites" class="card-verse">
+    <div class="card-content">
+      <div class="remove-btn" (click)="removeFromFavourites(comic.id)">✕</div>
+      <div class="card-label-top">{{ comic.title }}</div>
+      <div class="card-cover" [style.backgroundImage]="'url(' + comic.cover + ')'"></div>
+    </div>
+  </div>
+</div>

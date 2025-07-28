@@ -1,0 +1,17 @@
+<div class="login-background">
+    <div class="login-container">
+      <h2>Sign Up to <span>ComicVerse</span></h2>
+      <input type="text" placeholder="Username" [(ngModel)]="Username" required />
+      <input type="password" placeholder="Password" [(ngModel)]="password" required />
+      <input type="password" placeholder="Confirm Password" [(ngModel)]="ConfirmPassword" required />
+      <button (click)="onHome()">Sign Up</button>
+      <p class="error-msg" *ngIf="errorMsg">{{ errorMsg }}</p>
+      <p class="success-msg" *ngIf="successMsg">{{ successMsg }}</p>
+      <p class="forgot">Forgot your password?</p>
+      <p class="exist">
+        Already have an account?
+        <button (click)="toLogin()" type="button">Go to Login</button>
+      </p>
+    </div>
+  </div>
+  

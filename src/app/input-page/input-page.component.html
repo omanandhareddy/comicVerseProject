@@ -1,0 +1,34 @@
+<app-loader *ngIf="isLoading"></app-loader>
+
+<div *ngIf="!isLoading" class="body-wrapper">
+  <nav class="comic-navbar-input">
+    <div class="logo-input">Comic<span class="logo-highlight">Verse</span></div>
+
+    <div class="nav-links-input">
+      <a class="nav-link-item-input" (click)="toHome()">Home</a>
+      <a class="nav-link-item-input" (click)="toNavigate()">Popular</a>
+      <a class="nav-link-item-input" (click)="toFa()">Favourites</a>
+      <a class="nav-link-item-input" (click)="ToH()">Heros</a>
+    </div>
+
+    <div class="nav-actions">
+      <input type="text" placeholder="Search comics..." class="search-bar-input" [(ngModel)]="inputFilter"/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" />
+    </div>
+  </nav>
+
+  <div *ngIf="(comicList | inputPipe: inputFilter).length > 0; else noComics">
+    <div class="comic-grid-input">
+      <div class="comic-card-input" *ngFor="let comic of comicList | inputPipe: inputFilter">
+        <img [src]="comic.cover" [alt]="comic.title" class="comic-card-img-input" />
+        <h4 class="comic-title-input">{{ comic.title }}</h4>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noComics>
+    <div class="empty-message">
+      <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-c294-6230-8d77-dbebf7c8dcfe/raw?se=2025-07-27T14%3A32%3A14Z&sp=r&sv=2024-08-04&sr=b&scid=a9b5f456-5c6c-57df-8f85-e78cd3944170&skoid=add8ee7d-5fc7-451e-b06e-a82b2276cf62&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T19%3A59%3A26Z&ske=2025-07-27T19%3A59%3A26Z&sks=b&skv=2024-08-04&sig=XTyJwDq2tJ646uwm1xPSVbavk39kXqGz%2B6UJu5OjrnE%3D" alt="No Comics Found" class="empty-state-img" />
+    </div>
+  </ng-template>
+</div>

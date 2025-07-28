@@ -1,0 +1,23 @@
+
+<nav class="comic-navbar">
+  <div class="logo">Comic<span>Verse</span></div>
+
+  <div class="nav-links">
+    <a (click)="toHome()">Home</a>
+    <a>Popular</a>
+    <a (click)="toFavourites()">Favourites</a>
+    <a (click)="toHeros()">Heros</a>
+  </div>
+
+  <div class="nav-actions">
+    <input type="text" placeholder="Search comics..." class="search-bar" [(ngModel)]="searchText"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-pic" />
+  </div>
+</nav>
+<div class="comic-grid">
+  <div class="comic-card" *ngFor="let comic of comicList | filter:searchText" (click)="toOverView(comic)">
+    <img [src]="comic.cover" [alt]="comic.title" loading="lazy"/>
+  </div>
+</div>
+<app-footer></app-footer>
+
