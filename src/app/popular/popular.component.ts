@@ -17,7 +17,7 @@ import { FooterComponent } from '../footer/footer.component';
 export class PopularComponent implements OnInit{
   searchText:string='';
   selectedComicOver:any[]=[]
-  comicUrl='http://localhost:3001/COMICS'
+  comicUrl='https://dbjson-eosu.onrender.com/COMICS'
   comicList:any[]=[]
   constructor(private router:Router,private http:HttpClient,private overviewService:OverviewService){}
     toHome(){

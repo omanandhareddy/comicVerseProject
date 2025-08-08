@@ -30,7 +30,7 @@ comicList: any[] = [];
 isLoading = true;
 card:any[]=[];
 ngOnInit(): void {
-  this.http.get<any[]>('http://localhost:3001/COMICS').subscribe((data) => {
+  this.http.get<any[]>('https://dbjson-eosu.onrender.com/COMICS').subscribe((data) => {
     this.comicList = data;
     this.isLoading = false;
   });

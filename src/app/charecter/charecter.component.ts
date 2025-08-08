@@ -14,7 +14,7 @@ export class CharecterComponent implements OnInit {
   constructor(private http: HttpClient,private router:Router) {}
   heros: any[] = [];
   selectedHero: any = null;
-  url = 'http://localhost:3001/comicCharacters';
+  url = 'https://dbjson-eosu.onrender.com/comicCharacters';
 
   ngOnInit(): void {
     this.http.get<any[]>(this.url).subscribe((data) => (this.heros = data));

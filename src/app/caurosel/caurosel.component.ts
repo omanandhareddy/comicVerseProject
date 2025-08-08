@@ -25,9 +25,9 @@ export class CauroselComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http.get<any[]>('http://localhost:3001/trendig').subscribe(data => this.trendingComics = data);
-    this.http.get<any[]>('http://localhost:3001/originals').subscribe(data => this.originalComics = data);
-    this.http.get<any[]>('http://localhost:3001/upcomingComicBooks').subscribe(data=>this.upcomingComics=data)
+    this.http.get<any[]>('https://dbjson-eosu.onrender.com/trendig').subscribe(data => this.trendingComics = data);
+    this.http.get<any[]>('https://dbjson-eosu.onrender.com/originals').subscribe(data => this.originalComics = data);
+    this.http.get<any[]>('https://dbjson-eosu.onrender.com/upcomingComicBooks').subscribe(data=>this.upcomingComics=data)
   }
   scrollLeft(container: HTMLDivElement) {
     container.scrollBy({ left: -300, behavior: 'smooth' });
