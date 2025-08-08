@@ -3,13 +3,11 @@
   <div class="top-row-over">
     <div class="left-profile-over">
       <i class="fa fa-user-circle icon-over"></i>
-      <span class="username-over">NANDHA</span>
+      <span class="username-over" (click)="toAcc()">NANDHA</span>
     </div>
-
     <div class="center-logo-over">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo" class="logo-img-over" />
+     COMIC VERSE
     </div>
-
     <div class="right-actions-over">
       <div class="subscribe-over">
         <span class="subscribe-text-over">COMIC UNLIMITED<br><strong>VERSE</strong></span>
@@ -17,7 +15,6 @@
       <i class="fa fa-search icon-over" (click)="toNew()"></i>
     </div>
   </div>
-
   <div class="bottom-row-over">
     <a class="nav-link-over" (click)="toHome()">HOME</a>
     <a class="nav-link-over" (click)="toNavigate()">POPULAR</a>
@@ -25,35 +22,36 @@
     <a class="nav-link-over" (click)="toFav()">FAVOURITS</a>
   </div>
 </nav>
+<div class="overview-bg-wrapper-over" *ngIf="detailCard" [ngStyle]="{'background-image': 'url(' + detailCard.cover + ')'}">
 
-<div class="overview-container" *ngIf="detailCard">
-  <div class="cover-image">
-    <img [src]="detailCard.cover" alt="{{ detailCard.title }}" />
-  </div>
-  <div class="details">
-    <h1 class="comic-title">{{ detailCard.title }}</h1>
-    <div class="detail-meta">
-      <div><strong>Publisher:</strong><br> {{ detailCard.publisher }}</div>
-      <div><strong>Writer:</strong><br> {{ detailCard.writer }}</div>
-      <div><strong>Penciller:</strong><br> {{ detailCard.penciler }}</div>
+  <div class="overview-card-over">
+    <div class="cover-image-over">
+      <img [src]="detailCard.cover" alt="{{ detailCard.title }}" class="image-over"/>
     </div>
-    <div class="detail-description">
-      {{ detailCard.lore }}
-      <br />
-      <a href="#" class="variant-link">See Variant Covers</a>
-    </div>
-  </div>
-</div>
 
-<div class="recommended-section" *ngIf="recommendedComics.length">
-  <h2>Recommended Series</h2>
-  <div class="recommended-grid">
-    <div class="comic-card" *ngFor="let comic of recommendedComics">
-      <img [src]="comic.cover" alt="{{ comic.title }}" />
-      <h4>{{ comic.title }}</h4>
-      <p>{{ comic.year }}</p>
+    <div class="details-over">
+      <h1 class="comic-title-over">{{ detailCard.title }}</h1>
+
+      <div class="detail-meta-over">
+        <div><strong>Publisher:</strong><br> {{ detailCard.publisher }}</div>
+        <div><strong>Writer:</strong><br> {{ detailCard.writer }}</div>
+        <div><strong>Penciller:</strong><br> {{ detailCard.penciler }}</div>
+      </div>
+
+      <div class="detail-description-over">
+        {{ detailCard.lore }}
+        <br />
+        <button class="fav-btn-over" (click)="addToFav(detailCard)">Add to Favorites</button>
+      </div>
     </div>
   </div>
 </div>
-
+<h2 class="recommended-title-over">Recommended Series</h2>
+<div class="recommended-container-over">
+  <div *ngFor="let comic of recommendedComics" class="recommended-card-over" (click)="toOver(comic)">
+    <img [src]="comic.cover" class="recommended-img-over" alt="{{ comic.title }}">
+    <div class="recommended-title">{{ comic.title }}</div>
+    <div class="recommended-year">({{ comic.year || '----' }})</div>
+  </div>
+</div>
 <app-footer></app-footer>

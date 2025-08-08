@@ -10,11 +10,13 @@
 </nav>
 
 <div class="favourites-container">
-  <div *ngFor="let comic of favourites" class="card-verse">
-    <div class="card-content">
+  <div *ngFor="let comic of favourites" class="card-verse" >
+    <div class="card-content" >
       <div class="remove-btn" (click)="removeFromFavourites(comic.id)">✕</div>
       <div class="card-label-top">{{ comic.title }}</div>
-      <div class="card-cover" [style.backgroundImage]="'url(' + comic.cover + ')'"></div>
+      <div class="card-cover" [style.backgroundImage]="'url(' + comic.cover + ')'" (click)="toO(comic)"></div>
     </div>
   </div>
 </div>
+
+<app-footer></app-footer>

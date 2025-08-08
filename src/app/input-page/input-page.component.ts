@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { InputPipePipe } from '../input-pipe.pipe';
 import { LoaderComponent } from '../loader/loader.component';
+import { OverviewService } from '../overview.service';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-input-page',
@@ -14,7 +16,10 @@ import { LoaderComponent } from '../loader/loader.component';
 })
 export class InputPageComponent {
 inputFilter:string=''
-constructor(private router:Router,private http:HttpClient){}
+  user:any={}
+  updatedUsername = '';
+  showModal = false;
+constructor(private router:Router,private http:HttpClient,private overview:OverviewService){}
   toNavigate(){
      this.router.navigate(['/popular'])
   }
@@ -23,6 +28,7 @@ constructor(private router:Router,private http:HttpClient){}
   }
 comicList: any[] = [];
 isLoading = true;
+card:any[]=[];
 ngOnInit(): void {
   this.http.get<any[]>('http://localhost:3001/COMICS').subscribe((data) => {
     this.comicList = data;
@@ -34,5 +40,23 @@ toFa(){
 }
 ToH(){
   this.router.navigate(['/charecter']);
+}
+
+toDetail(comic:any){
+  this.card=comic
+  this.overview.addOverView(this.card);
+  this.router.navigate(['/overview']);
+}
+toggleModal() {
+  this.showModal = !this.showModal;
+}
+logout() {
+  this.router.navigate(['/login-page']);
+}
+toFav(){
+  this.router.navigate(['/favourites']) 
+ }
+ toUser(){
+  this.router.navigate(['/userDetails'])
 }
 }

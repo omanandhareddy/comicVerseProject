@@ -3,7 +3,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { FavouriteServiceService } from '../favourite-service.service';
+
 
 @Component({
   selector: 'app-caurosel',
@@ -22,7 +22,7 @@ export class CauroselComponent implements OnInit {
   upcomingComics:any[]=[]
   selectedComic: any = null;
 
-  constructor(private http: HttpClient,private favouriteServiceService:FavouriteServiceService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit() {
     this.http.get<any[]>('http://localhost:3001/trendig').subscribe(data => this.trendingComics = data);
@@ -42,7 +42,7 @@ export class CauroselComponent implements OnInit {
   }
   addToFavourites(){
     if(this.selectedComic){
-      this.favouriteServiceService.addFavourites(this.selectedComic)
+      this.http.post('https://jswtoken.onrender.com/auth/favourites', this.selectedComic, { withCredentials: true }).subscribe();
       this.selectedComic=null
     }
   }

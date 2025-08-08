@@ -11,19 +11,18 @@ body {
   background: #fffdf7;
 }
 
-
-.comic-navbar {
+/* NAVBAR STYLES */
+.navbar-comicverse {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fffbf2;
   padding: 1rem 2rem;
   border-bottom: 4px solid #000;
-  font-family: 'Comic Neue', sans-serif;
   flex-wrap: wrap;
 }
 
-.logo {
+.navbar-logo {
   font-size: 2rem;
   font-weight: bold;
   color: #000;
@@ -31,19 +30,20 @@ body {
   letter-spacing: 2px;
 }
 
-.logo span {
+.logo-highlight {
   color: red;
   text-shadow: 1px 1px 0 #000;
 }
 
-.nav-links {
+.navbar-links {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   margin: 1rem 0;
+  font-family: 'Comic Neue', cursive;
 }
 
-.nav-links a {
+.navbar-link {
   text-decoration: none;
   font-size: 1.1rem;
   color: #000;
@@ -53,20 +53,20 @@ body {
   cursor: pointer;
 }
 
-.nav-links a:hover {
+.navbar-link:hover {
   border: 2px solid #000;
   background: yellow;
   box-shadow: 2px 2px 0 #000;
 }
 
-.nav-actions {
+.navbar-actions {
   display: flex;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
-.search-bar {
+.navbar-search {
   padding: 0.4rem 0.8rem;
   border: 2px solid #000;
   font-size: 1rem;
@@ -76,7 +76,7 @@ body {
   width: 200px;
 }
 
-.profile-pic {
+.navbar-profile-img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -84,7 +84,7 @@ body {
   cursor: pointer;
 }
 
-
+/* MODAL STYLES */
 .profile-modal {
   position: absolute;
   top: 80px;
@@ -92,13 +92,12 @@ body {
   z-index: 99;
 }
 
-.modal-card {
+.profile-modal-card {
   width: 250px;
   background: #fff;
   border: 3px solid #ff0033;
   border-radius: 10px;
   box-shadow: 5px 5px 0px #000;
-  font-family: 'Comic Neue', cursive;
   padding: 15px;
   animation: bounceIn 0.3s ease-in-out;
 }
@@ -123,26 +122,26 @@ body {
   margin-bottom: 10px;
 }
 
-.avatar {
+.profile-avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: 2px solid #000;
 }
 
-.user-info h3 {
+.profile-user-info .profile-name {
   font-size: 16px;
   margin: 0;
   font-weight: bold;
 }
 
-.user-info p {
+.profile-user-info .profile-email {
   font-size: 13px;
   margin: 0;
   color: #555;
 }
 
-.profile-actions button {
+.profile-actions .profile-btn {
   width: 100%;
   background: #ff0033;
   border: none;
@@ -156,36 +155,35 @@ body {
   transition: transform 0.1s ease;
 }
 
-.profile-actions button:hover {
+.profile-actions .profile-btn:hover {
   transform: scale(1.05);
 }
 
-.profile-actions .logout {
-  background: #333;
-  color: #fff;
+.logout-btn {
+  background: #333 !important;
+  color: #fff !important;
 }
 
-
-
+/* RESPONSIVE */
 @media (max-width: 768px) {
-  .comic-navbar {
+  .navbar-comicverse {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
   }
 
-  .nav-links {
+  .navbar-links {
     justify-content: flex-start;
     width: 100%;
     gap: 1.2rem;
   }
 
-  .nav-actions {
+  .navbar-actions {
     width: 100%;
     justify-content: space-between;
   }
 
-  .search-bar {
+  .navbar-search {
     width: 100%;
     font-size: 1rem;
   }
@@ -197,41 +195,37 @@ body {
 }
 
 @media (max-width: 480px) {
-  .logo {
+  .navbar-logo {
     font-size: 1.5rem;
   }
 
-  .nav-links a {
+  .navbar-link {
     font-size: 1rem;
   }
 
-  .search-bar {
+  .navbar-search {
     font-size: 0.9rem;
   }
 
-  .modal-card {
+  .profile-modal-card {
     width: 90vw;
     padding: 10px;
   }
 
-  .user-info h3 {
+  .profile-user-info .profile-name {
     font-size: 14px;
   }
 
-  .user-info p {
+  .profile-user-info .profile-email {
     font-size: 12px;
   }
 
-  .profile-actions button {
+  .profile-actions .profile-btn {
     font-size: 14px;
   }
 
-  .avatar {
-    width: 35px;
-    height: 35px;
-  }
-
-  .profile-pic {
+  .profile-avatar,
+  .navbar-profile-img {
     width: 35px;
     height: 35px;
   }

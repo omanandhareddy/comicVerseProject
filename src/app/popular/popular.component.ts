@@ -17,8 +17,8 @@ import { FooterComponent } from '../footer/footer.component';
 export class PopularComponent implements OnInit{
   searchText:string='';
   selectedComicOver:any[]=[]
-comicUrl='http://localhost:3001/COMICS'
-comicList:any[]=[]
+  comicUrl='http://localhost:3001/COMICS'
+  comicList:any[]=[]
   constructor(private router:Router,private http:HttpClient,private overviewService:OverviewService){}
     toHome(){
       this.router.navigate(['/home-page'])

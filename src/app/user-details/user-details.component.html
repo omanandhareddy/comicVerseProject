@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<nav class="navbar-over">
+    <div class="top-row-over">
+      <div class="left-profile-over">
+        <i class="fa fa-user-circle icon-over"></i>
+        <span class="username-over" (click)="toAcc()">NANDHA</span>
+      </div>
+      <div class="center-logo-over">
+       COMIC VERSE
+      </div>
+      <div class="right-actions-over">
+        <div class="subscribe-over">
+          <span class="subscribe-text-over">COMIC UNLIMITED<br><strong>VERSE</strong></span>
+        </div>
+        <i class="fa fa-search icon-over" (click)="toNew()"></i>
+      </div>
+    </div>
+    <div class="bottom-row-over">
+      <a class="nav-link-over" (click)="toHome()">HOME</a>
+      <a class="nav-link-over" (click)="toNavigate()">POPULAR</a>
+      <a class="nav-link-over" (click)="toHeroes()">HEROS</a>
+      <a class="nav-link-over" (click)="toFav()">FAVOURITS</a>
+    </div>
+  </nav>
+
+<div class="profile-video-wrapper">
+  <video autoplay muted loop class="background-video">
+    <source src="assets/marvel.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="account-info">
+    <h1>MyAccount</h1>
+  </div>
+</div>
+
+
+
+  <div class="user-profile-sections">
+    <div class="user-info-left">
+      <div class="section-title">ACCOUNT INFO</div>
+      <ul class="account-list">
+        <li class="account-item">Account Info</li>
+      </ul>
+      <div class="section-title">MY COMICS</div>
+      <ul class="account-list">
+        <li class="account-item">Upload Comics</li>
+      </ul>
+    </div>
+
+    <div class="user-info-middle">
+      <div class="section-title">NAME & EMAIL</div>
+      <p class="info-line"><span class="info-label">USERNAME:</span> {{user.username}}</p>
+      <p class="info-line"><span class="info-label">PASSWORD:</span>••••••••</p>
+      <p class="info-line"><span class="info-label">EMAIL ADDRESS:</span> optional</p>
+      <button class="btn-update-account" (click)="openUpdateModal()">UPDATE ACCOUNT</button>
+    </div>
+  </div>
+  <div *ngIf="showUpdateModal" class="update-modal-backdrop">
+    <div class="update-modal-card">
+      <div class="modal-title">Update Account</div>
+  
+      <label class="modal-label">Username:</label>
+      <input [(ngModel)]="updatedUsername" class="modal-input" placeholder="Enter new username" />
+  
+      <label class="modal-label">Password:</label>
+      <input [(ngModel)]="updatedPassword" type="password" class="modal-input" placeholder="Enter new password" />
+  
+      <div class="modal-buttons">
+        <button class="btn-save" (click)="updateUser()">Save</button>
+        <button class="btn-cancel" (click)="closeUpdateModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+  
+
+<app-footer></app-footer>

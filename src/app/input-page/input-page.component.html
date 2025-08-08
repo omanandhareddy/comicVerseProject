@@ -13,14 +13,30 @@
 
     <div class="nav-actions">
       <input type="text" placeholder="Search comics..." class="search-bar-input" [(ngModel)]="inputFilter"/>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" (click)="toggleModal()"/>
     </div>
   </nav>
+  <div class="profile-modal" *ngIf="showModal">
+    <div class="profile-modal-card">
+      <div class="profile-header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" (click)="toUser()" />
+        <div class="profile-user-info">
+          <h3 class="profile-name">{{ user.username || 'Comic Fan' }}</h3>
+          <p class="profile-email">{{ user.password || '.........' }}</p>
+        </div>
+      </div>
+      <div class="profile-actions">
+        <button class="profile-btn" (click)="toFav()">Favourites</button>
+        <button class="profile-btn" (click)="toUser()">Edit Profile</button>
+        <button class="profile-btn logout-btn" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
 
   <div *ngIf="(comicList | inputPipe: inputFilter).length > 0; else noComics">
     <div class="comic-grid-input">
-      <div class="comic-card-input" *ngFor="let comic of comicList | inputPipe: inputFilter">
-        <img [src]="comic.cover" [alt]="comic.title" class="comic-card-img-input" />
+      <div class="comic-card-input" *ngFor="let comic of comicList | inputPipe: inputFilter" >
+        <img [src]="comic.cover" [alt]="comic.title" class="comic-card-img-input" (click)="toDetail(comic)"/>
         <h4 class="comic-title-input">{{ comic.title }}</h4>
       </div>
     </div>

@@ -9,7 +9,7 @@ export const authGuard: CanActivateFn = () => {
   const http = inject(HttpClient);
   const router = inject(Router);
   
-  return http.get('http://localhost:3000/auth/profile', { withCredentials: true }).pipe(
+  return http.get('https://jswtoken.onrender.com/auth/profile', { withCredentials: true }).pipe(
     map(() => true),
     catchError(() => {
       router.navigate(['/login-page']);

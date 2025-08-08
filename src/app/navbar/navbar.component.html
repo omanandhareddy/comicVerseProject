@@ -1,39 +1,37 @@
+<nav class="navbar-comicverse">
+  <div class="navbar-logo">Comic<span class="logo-highlight">Verse</span></div>
 
-<nav class="comic-navbar">
-  <div class="logo">Comic<span>Verse</span></div>
-
-  <div class="nav-links">
-    <a>Home</a>
-    <a (click)="toNavigate()">Popular</a>
-    <a (click)="toFav()">Favourites</a>
-    <a (click)="toChar()">Heros</a>
+  <div class="navbar-links">
+    <a class="navbar-link">Home</a>
+    <a class="navbar-link" (click)="toNavigate()">Popular</a>
+    <a class="navbar-link" (click)="toFav()">Favourites</a>
+    <a class="navbar-link" (click)="toChar()">Heros</a>
   </div>
 
-  <div class="nav-actions">
-    <input type="text" placeholder="Search comics..." class="search-bar" (click)="toNew()" />
+  <div class="navbar-actions">
+    <input type="text" placeholder="Search comics..." class="navbar-search" (click)="toNew()" />
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s"
       alt="User"
-      class="profile-pic"
+      class="navbar-profile-img"
       (click)="toggleModal()"
     />
   </div>
 </nav>
 
-
 <div class="profile-modal" *ngIf="showModal">
-  <div class="modal-card">
+  <div class="profile-modal-card">
     <div class="profile-header">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="avatar" />
-      <div class="user-info">
-        <h3>{{ profile.name || 'Comic Fan' }}</h3>
-        <p>{{ profile.email || 'your@email.com' }}</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" (click)="toUser()" />
+      <div class="profile-user-info">
+        <h3 class="profile-name">{{ user.username || 'Comic Fan' }}</h3>
+        <p class="profile-email">{{ profile.email || '.........' }}</p>
       </div>
     </div>
     <div class="profile-actions">
-      <button (click)="toFav()">Favourites</button>
-      <button>Edit Profile</button>
-      <button class="logout" (click)="logout()">Logout</button>
+      <button class="profile-btn" (click)="toFav()">Favourites</button>
+      <button class="profile-btn" (click)="toUser()">Edit Profile</button>
+      <button class="profile-btn logout-btn" (click)="logout()">Logout</button>
     </div>
   </div>
 </div>
