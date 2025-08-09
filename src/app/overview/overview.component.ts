@@ -18,7 +18,7 @@ export class OverviewComponent implements OnInit{
   detailCard: any;
   recommendedComics: any[] = [];
   selected:any[]=[]
-  comicUrl = 'http://localhost:https://dbjson-eosu.onrender.com/COMICS';
+  comicUrl = 'https://dbjson-eosu.onrender.com/COMICS';
   constructor(
     private router: Router,
     private overviewService: OverviewService,
