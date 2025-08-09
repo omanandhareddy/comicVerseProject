@@ -1,15 +1,28 @@
-/* ===== BASE STYLING FIXES ===== */
-* {
-  box-sizing: border-box;
+.logo-over span {
+  color: red;
 }
-
-body {
-  margin: 0;
-  padding: 0;
+.nav-links-over a {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 1.1rem;
 }
-
-/* Navbar Responsiveness */
-.navbar-over {
+.nav-actions-over {
+  display: flex;
+  align-items: center;
+}
+.search-bar-over {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.profile-pic-over {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.navbar-over-over {
   background-color: #1a1a1a;
   font-family: 'Bangers', sans-serif;
   color: white;
@@ -20,35 +33,60 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  flex-wrap: wrap; /* Allow wrapping on small screens */
+  padding: 10px 40px;
+  border-bottom: 1px solid #333;
 }
 
 .left-profile-over,
 .right-actions-over {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .icon-over {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
-.center-logo-over {
-  font-size: 1.5rem;
-  text-align: center;
+.username-over {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 
-/* Bottom navigation links */
+.center-logo-over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img-over {
+  height: 50px;
+}
+
+.subscribe-over {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mu-icon-over {
+  height: 25px;
+}
+
+.subscribe-text-over {
+  font-size: 0.7rem;
+  text-align: left;
+  line-height: 1.1;
+}
+
 .bottom-row-over {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Wrap on small screens */
-  gap: 20px;
+  gap: 30px;
   font-size: 1rem;
-  padding: 12px 0;
+  border-top: 1px solid #222;
+  padding: 15px 0;
 }
 
 .nav-link-over {
@@ -62,70 +100,142 @@ body {
   color: red;
 }
 
-/* ===== Overview Card ===== */
 .overview-bg-wrapper-over {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 40px 15px;
+  height: 100%;
+  width: 97%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  isolation: isolate;
+}
+
+.overview-bg-wrapper-over::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(15px);
+  background-color: rgba(0,0);
+  z-index: -1;
 }
 
 .overview-card-over {
   display: flex;
-  flex-wrap: wrap; /* Stack on small screens */
+  overflow: hidden;
   max-width: 1200px;
   width: 100%;
   color: white;
-  gap: 20px;
+  z-index: 10;
 }
 
 .cover-image-over {
-  flex: 1 1 300px;
-  max-width: 300px;
+  width: 300px;
+  flex-shrink: 0;
 }
 
 .image-over {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .details-over {
-  flex: 1 1 400px;
-  padding: 20px;
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .comic-title-over {
-  font-size: clamp(1.5rem, 4vw, 2rem); /* Responsive font size */
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .detail-meta-over {
   display: flex;
+  gap: 40px;
   flex-wrap: wrap;
-  gap: 20px;
+  margin-bottom: 20px;
   font-size: 1rem;
 }
 
-/* Buttons */
-.fav-btn-over {
-  margin-top: 15px;
-  padding: 10px 24px;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 14px;
+.detail-description-over {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
 }
 
-/* ===== Recommended Section ===== */
+.fav-btn-over {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: transparent;
+  color: white;
+  font-family: 'Orbitron', sans-serif; /* Cool sci-fi font */
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 0;
+  transform: skew(-15deg); /* Slant */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fav-btn-over::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.1;
+  transform: skew(-15deg);
+  transition: left 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.fav-btn-over:hover {
+  color: black;
+  background-color: white;
+  transform: skew(-15deg) scale(1.05);
+  box-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+.fav-btn-over:hover::before {
+  left: 0;
+}
+
+.recommended-title-over {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 50px 0 20px 20px;
+  color: #000;
+}
+
 .recommended-container-over {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  gap: 30px;
+  justify-content: flex-start;
+  padding: 0 20px 40px;
 }
 
 .recommended-card-over {
-  width: 200px;
+  width: 220px;
   background-color: #fff;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
   transition: transform 0.3s;
   cursor: pointer;
 }
@@ -136,49 +246,267 @@ body {
 
 .recommended-img-over {
   width: 100%;
+  max-width: 180px;
   height: auto;
+  object-fit: cover;
 }
 
-/* ===== MEDIA QUERIES ===== */
+.recommended-title {
+  font-weight: bold;
+  margin: 10px 5px 0;
+  font-size: 0.95rem;
+}
 
-/* Tablet adjustments */
-@media (max-width: 992px) {
+.recommended-year {
+  color: gray;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+/* Mobile Responsive Breakpoints */
+
+/* Tablets and small desktops */
+@media screen and (max-width: 1024px) {
   .top-row-over {
-    padding: 10px;
+    padding: 10px 20px;
   }
+  
+  .overview-bg-wrapper-over {
+    padding: 40px 15px;
+    width: 100%;
+  }
+  
+  .cover-image-over {
+    width: 250px;
+  }
+  
+  .details-over {
+    padding: 25px;
+  }
+  
+  .comic-title-over {
+    font-size: 1.8rem;
+  }
+  
+  .detail-meta-over {
+    gap: 25px;
+  }
+  
+  .recommended-container-over {
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .recommended-card-over {
+    width: 200px;
+  }
+}
 
+/* Mobile landscape */
+@media screen and (max-width: 768px) {
+  .top-row-over {
+    padding: 8px 15px;
+  }
+  
+  .left-profile-over,
+  .right-actions-over {
+    gap: 8px;
+  }
+  
+  .username-over {
+    display: none; /* Hide username on smaller screens */
+  }
+  
+  .logo-img-over {
+    height: 40px;
+  }
+  
+  .bottom-row-over {
+    gap: 20px;
+    padding: 12px 0;
+    font-size: 0.9rem;
+  }
+  
+  .nav-links-over a {
+    margin: 0 8px;
+    font-size: 1rem;
+  }
+  
   .overview-card-over {
     flex-direction: column;
-    align-items: center;
+    max-width: 100%;
+  }
+  
+  .cover-image-over {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .details-over {
+    padding: 20px;
+  }
+  
+  .comic-title-over {
+    font-size: 1.6rem;
     text-align: center;
   }
+  
+  .detail-meta-over {
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .detail-description-over {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .fav-btn-over {
+    align-self: center;
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+  
+  .recommended-title-over {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 40px 0 20px;
+  }
+  
+  .recommended-container-over {
+    gap: 20px;
+    padding: 0 15px 30px;
+  }
+  
+  .recommended-card-over {
+    width: 180px;
+  }
+}
 
+/* Mobile portrait */
+@media screen and (max-width: 480px) {
+  .top-row-over {
+    padding: 8px 10px;
+  }
+  
+  .subscribe-text-over {
+    display: none; /* Hide subscribe text on very small screens */
+  }
+  
+  .mu-icon-over {
+    height: 20px;
+  }
+  
+  .logo-img-over {
+    height: 35px;
+  }
+  
+  .bottom-row-over {
+    gap: 15px;
+    padding: 10px 0;
+    font-size: 0.8rem;
+  }
+  
+  .nav-links-over a {
+    margin: 0 5px;
+    font-size: 0.9rem;
+  }
+  
+  .overview-bg-wrapper-over {
+    padding: 20px 10px;
+  }
+  
   .details-over {
     padding: 15px;
   }
-}
-
-/* Mobile adjustments */
-@media (max-width: 600px) {
-  .top-row-over {
+  
+  .comic-title-over {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+  
+  .detail-meta-over {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .center-logo-over {
-    margin: 10px 0;
-  }
-
-  .bottom-row-over {
-    font-size: 0.9rem;
     gap: 10px;
+    text-align: center;
   }
-
+  
+  .detail-description-over {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
   .fav-btn-over {
-    width: 100%;
+    padding: 8px 20px;
+    font-size: 13px;
+    margin-top: 15px;
   }
-
+  
+  .recommended-title-over {
+    font-size: 1.4rem;
+    margin: 30px 0 15px;
+  }
+  
+  .recommended-container-over {
+    gap: 15px;
+    padding: 0 10px 25px;
+  }
+  
   .recommended-card-over {
     width: 160px;
+  }
+  
+  .recommended-img-over {
+    max-width: 140px;
+  }
+  
+  .recommended-title {
+    font-size: 0.9rem;
+    margin: 8px 5px 0;
+  }
+  
+  .recommended-year {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 360px) {
+  .profile-pic-over {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .icon-over {
+    font-size: 1.3rem;
+  }
+  
+  .search-bar-over {
+    padding: 6px;
+    width: 80px;
+  }
+  
+  .bottom-row-over {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .nav-link-over {
+    font-size: 0.75rem;
+  }
+  
+  .recommended-container-over {
+    justify-content: space-around;
+  }
+  
+  .recommended-card-over {
+    width: 140px;
+  }
+  
+  .recommended-img-over {
+    max-width: 120px;
   }
 }
