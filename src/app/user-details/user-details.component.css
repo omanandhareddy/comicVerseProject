@@ -116,14 +116,13 @@
   align-items: center;
   justify-content: center;
 }
-.account-info{
+
+.account-info {
   position: absolute;
   color: white;
   margin: auto;
   text-align: center;
   z-index: 3;
-  
-  
 }
 
 .background-video {
@@ -298,4 +297,277 @@
 
 .btn-cancel:hover {
   background: #d32f2f;
+}
+
+/* ==================== RESPONSIVE BREAKPOINTS ==================== */
+
+/* Tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .top-row-over {
+    padding: 10px 20px;
+  }
+  
+  .profile-video-wrapper {
+    height: 400px;
+  }
+  
+  .user-profile-sections {
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .user-info-left,
+  .user-info-middle {
+    padding: 18px;
+  }
+  
+  .section-title {
+    font-size: 1.1rem;
+  }
+  
+  .update-modal-card {
+    width: 320px;
+    padding: 20px;
+  }
+}
+
+/* Mobile landscape */
+@media screen and (max-width: 768px) {
+  .top-row-over {
+    padding: 8px 15px;
+  }
+  
+  .left-profile-over,
+  .right-actions-over {
+    gap: 8px;
+  }
+  
+  .username-over {
+    display: none; /* Hide username on smaller screens */
+  }
+  
+  .logo-img-over {
+    height: 40px;
+  }
+  
+  .bottom-row-over {
+    gap: 20px;
+    padding: 12px 0;
+    font-size: 0.9rem;
+  }
+  
+  .nav-links-over a {
+    margin: 0 8px;
+    font-size: 1rem;
+  }
+  
+  .profile-video-wrapper {
+    height: 300px;
+  }
+  
+  .user-profile-sections {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .user-info-left,
+  .user-info-middle {
+    flex: none;
+    padding: 15px;
+  }
+  
+  .section-title {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+  
+  .info-line {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn-update-account {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .update-modal-card {
+    width: 90%;
+    max-width: 300px;
+    padding: 18px;
+  }
+  
+  .modal-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile portrait */
+@media screen and (max-width: 480px) {
+  .top-row-over {
+    padding: 8px 10px;
+  }
+  
+  .subscribe-text-over {
+    display: none; /* Hide subscribe text on very small screens */
+  }
+  
+  .mu-icon-over {
+    height: 20px;
+  }
+  
+  .logo-img-over {
+    height: 35px;
+  }
+  
+  .bottom-row-over {
+    gap: 15px;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links-over a {
+    margin: 0 5px;
+    font-size: 0.9rem;
+  }
+  
+  .profile-video-wrapper {
+    height: 250px;
+  }
+  
+  .user-profile-sections {
+    padding: 10px;
+    gap: 12px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .user-info-left,
+  .user-info-middle {
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .section-title {
+    font-size: 0.95rem;
+    padding: 5px 8px;
+    margin-bottom: 8px;
+  }
+  
+  .account-item {
+    padding: 8px;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+  }
+  
+  .info-line {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .info-label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .btn-update-account {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  
+  .update-modal-card {
+    width: 95%;
+    max-width: 280px;
+    padding: 15px;
+  }
+  
+  .modal-title {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  
+  .modal-label {
+    font-size: 0.9rem;
+    margin-top: 8px;
+  }
+  
+  .modal-input {
+    padding: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .modal-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .btn-save,
+  .btn-cancel {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 360px) {
+  .profile-pic-over {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .icon-over {
+    font-size: 1.3rem;
+  }
+  
+  .search-bar-over {
+    padding: 6px;
+    width: 80px;
+  }
+  
+  .profile-video-wrapper {
+    height: 200px;
+  }
+  
+  .user-profile-sections {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .user-info-left,
+  .user-info-middle {
+    padding: 10px;
+  }
+  
+  .section-title {
+    font-size: 0.9rem;
+    padding: 4px 6px;
+  }
+  
+  .account-item {
+    padding: 6px;
+    font-size: 0.85rem;
+  }
+  
+  .info-line {
+    font-size: 0.85rem;
+  }
+  
+  .btn-update-account {
+    font-size: 0.8rem;
+  }
+  
+  .update-modal-card {
+    padding: 12px;
+  }
+  
+  .modal-title {
+    font-size: 1rem;
+  }
+  
+  .modal-label {
+    font-size: 0.85rem;
+  }
 }
