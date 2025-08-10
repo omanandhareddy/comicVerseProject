@@ -3,7 +3,7 @@
     <div class="top-row-over">
       <div class="left-profile-over">
         <i class="fa fa-user-circle icon-over"></i>
-        <span class="username-over" (click)="toAcc()">NANDHA</span>
+        <span class="username-over" (click)="toAcc()">{{user.username}}</span>
       </div>
       <div class="center-logo-over">
        COMIC VERSE
@@ -43,7 +43,7 @@
       </ul>
       <div class="section-title">MY COMICS</div>
       <ul class="account-list">
-        <li class="account-item">Upload Comics</li>
+        <li class="account-item" (click)="toUpload()">Upload Comics</li>
       </ul>
     </div>
 

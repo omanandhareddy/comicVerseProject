@@ -1,143 +1,233 @@
-
-body {
+.comic-footer-wrapper {
   margin: 0;
-  font-family: 'Bangers', cursive;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Comic Neue', cursive;
   background-color: #111;
   color: white;
 }
 
-.comic-footer {
+.comic-footer-wrapper *,
+.comic-footer-wrapper *::before,
+.comic-footer-wrapper *::after {
+  box-sizing: border-box;
+}
+
+.comic-footer-main {
   background-color: #000;
   color: white;
   padding: 50px 20px 20px;
-  
+  width: 100%;
 }
 
-.footer-container {
-  width: 100%;
-  height: 100%;
-  margin: auto;
+.comic-footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
 }
-
-.footer-section h3 {
+.comic-footer-heading {
   color: #ff0000;
   font-size: 24px;
   font-family: 'Permanent Marker', cursive;
   margin-bottom: 15px;
+  margin-top: 0;
 }
 
-.footer-section .logo {
-  color: #ff0000;
+.comic-footer-logo {
+  color: #c62828;
   font-family: 'Rampart One', cursive;
   font-size: 2rem;
-  color: #c62828;
+  margin: 0 0 15px 0;
 }
 
-.footer-section .logo span {
+.comic-footer-logo-span {
   color: white;
 }
 
-.footer-section p {
+.comic-footer-description {
   font-size: 16px;
   line-height: 1.5;
   color: #ccc;
-    font-family: 'Comic Neue', cursive;
-
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
 }
 
-.footer-section ul {
+.comic-footer-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.footer-section ul li {
+.comic-footer-list-item {
   margin-bottom: 10px;
 }
 
-.footer-section ul li a {
+.comic-footer-link {
   color: #ccc;
   text-decoration: none;
-    font-family: 'Comic Neue', cursive;
-  transition: 0.3s;
+  font-family: 'Comic Neue', cursive;
+  transition: all 0.3s ease;
+  font-size: 16px;
 }
 
-.footer-section ul li a:hover {
+.comic-footer-link:hover {
   color: #fff;
   text-shadow: 0 0 5px red;
 }
 
-.social-icons {
+.comic-footer-social-icons {
   display: flex;
   gap: 15px;
   font-size: 22px;
 }
 
-.social-icons a {
+.comic-footer-social-link {
   color: #ccc;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
-.social-icons a:hover {
+.comic-footer-social-link:hover {
   color: red;
   transform: scale(1.2);
 }
 
-.footer-bottom {
+.comic-footer-bottom {
   border-top: 1px solid #333;
   text-align: center;
   padding-top: 15px;
   font-size: 14px;
   color: #888;
   margin-top: 40px;
+  font-family: 'Comic Neue', cursive;
 }
 
-/* Responsive Font Sizes */
-@media (max-width: 600px) {
-  .footer-section h3 {
-    font-size: 20px;
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+  .comic-footer-main {
+      padding: 40px 15px 15px;
   }
 
-  .footer-section .logo {
-    font-size: 28px;
+  .comic-footer-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
   }
 
-  .footer-section p,
-  .footer-section ul li a {
-    font-size: 14px;
+  .comic-footer-heading {
+      font-size: 22px;
+      font-family: 'Permanent Marker', cursive;
+  }
+
+  .comic-footer-logo {
+      font-size: 1.8rem;
+      font-family: 'Rampart One', cursive;
+  }
+
+  .comic-footer-description {
+      font-size: 15px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .comic-footer-link {
+      font-size: 15px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .comic-footer-social-icons {
+      font-size: 20px;
   }
 }
-/* Remove default spacing from body and html */
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  background-color: #111;
-  color: white;/* Optional: ensure background extends fully */
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+  .comic-footer-main {
+      padding: 30px 10px 10px;
+  }
+
+  .comic-footer-container {
+      grid-template-columns: 1fr;
+      gap: 25px;
+      text-align: center;
+  }
+
+  .comic-footer-heading {
+      font-size: 20px;
+      font-family: 'Permanent Marker', cursive;
+      margin-bottom: 12px;
+  }
+
+  .comic-footer-logo {
+      font-size: 1.6rem;
+      font-family: 'Rampart One', cursive;
+  }
+
+  .comic-footer-description {
+      font-size: 14px;
+      font-family: 'Comic Neue', cursive;
+      margin-bottom: 15px;
+  }
+
+  .comic-footer-link {
+      font-size: 14px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .comic-footer-list-item {
+      margin-bottom: 8px;
+  }
+
+  .comic-footer-social-icons {
+      font-size: 18px;
+      justify-content: center;
+  }
+
+  .comic-footer-bottom {
+      font-size: 12px;
+      font-family: 'Comic Neue', cursive;
+      margin-top: 30px;
+  }
 }
 
-/* Ensure all components take full width */
-:host {
-  display: block;
-  width: 100%;
-}
+/* Extra Small Mobile */
+@media screen and (max-width: 400px) {
+  .comic-footer-main {
+      padding: 25px 8px 8px;
+  }
 
-/* Remove accidental padding in containers */
-.container,
-.wrapper,
-.main-container {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
+  .comic-footer-container {
+      gap: 20px;
+  }
 
-/* Apply border-box to all elements for layout consistency */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+  .comic-footer-heading {
+      font-size: 18px;
+      font-family: 'Permanent Marker', cursive;
+  }
 
+  .comic-footer-logo {
+      font-size: 1.4rem;
+      font-family: 'Rampart One', cursive;
+  }
+
+  .comic-footer-description {
+      font-size: 13px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .comic-footer-link {
+      font-size: 13px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .comic-footer-social-icons {
+      font-size: 16px;
+      gap: 12px;
+  }
+
+  .comic-footer-bottom {
+      font-size: 11px;
+      font-family: 'Comic Neue', cursive;
+  }
+}

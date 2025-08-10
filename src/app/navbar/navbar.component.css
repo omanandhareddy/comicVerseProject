@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-
-* {
+.navbar-wrapper {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   font-family: 'Comic Neue', cursive;
   background: #fffdf7;
 }
 
+.navbar-wrapper *,
+.navbar-wrapper *::before,
+.navbar-wrapper *::after {
+  box-sizing: border-box;
+}
+
 /* NAVBAR STYLES */
-.navbar-comicverse {
+.navbar-comicverse-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,20 +23,21 @@ body {
   flex-wrap: wrap;
 }
 
-.navbar-logo {
+.navbar-logo-text {
   font-size: 2rem;
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: 'Comic Neue', cursive;
 }
 
-.logo-highlight {
+.navbar-logo-highlight {
   color: red;
   text-shadow: 1px 1px 0 #000;
 }
 
-.navbar-links {
+.navbar-links-container {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -43,7 +45,7 @@ body {
   font-family: 'Comic Neue', cursive;
 }
 
-.navbar-link {
+.navbar-link-item {
   text-decoration: none;
   font-size: 1.1rem;
   color: #000;
@@ -51,22 +53,23 @@ body {
   padding: 0.3rem 0.7rem;
   transition: all 0.3s;
   cursor: pointer;
+  font-family: 'Comic Neue', cursive;
 }
 
-.navbar-link:hover {
+.navbar-link-item:hover {
   border: 2px solid #000;
   background: yellow;
   box-shadow: 2px 2px 0 #000;
 }
 
-.navbar-actions {
+.navbar-actions-container {
   display: flex;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
-.navbar-search {
+.navbar-search-input {
   padding: 0.4rem 0.8rem;
   border: 2px solid #000;
   font-size: 1rem;
@@ -74,9 +77,10 @@ body {
   background: #fff;
   box-shadow: 2px 2px 0 #000;
   width: 200px;
+  font-family: 'Comic Neue', cursive;
 }
 
-.navbar-profile-img {
+.navbar-profile-img-main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -85,35 +89,35 @@ body {
 }
 
 /* MODAL STYLES */
-.profile-modal {
+.navbar-profile-modal {
   position: absolute;
   top: 80px;
   right: 30px;
   z-index: 99;
 }
 
-.profile-modal-card {
+.navbar-profile-modal-card {
   width: 250px;
   background: #fff;
   border: 3px solid #ff0033;
   border-radius: 10px;
   box-shadow: 5px 5px 0px #000;
   padding: 15px;
-  animation: bounceIn 0.3s ease-in-out;
+  animation: bounceInNavbar 0.3s ease-in-out;
 }
 
-@keyframes bounceIn {
+@keyframes bounceInNavbar {
   0% {
-    transform: scale(0.8);
-    opacity: 0;
+      transform: scale(0.8);
+      opacity: 0;
   }
   100% {
-    transform: scale(1);
-    opacity: 1;
+      transform: scale(1);
+      opacity: 1;
   }
 }
 
-.profile-header {
+.navbar-profile-header {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -122,26 +126,29 @@ body {
   margin-bottom: 10px;
 }
 
-.profile-avatar {
+.navbar-profile-avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: 2px solid #000;
+  cursor: pointer;
 }
 
-.profile-user-info .profile-name {
+.navbar-profile-user-info .navbar-profile-name {
   font-size: 16px;
   margin: 0;
   font-weight: bold;
+  font-family: 'Comic Neue', cursive;
 }
 
-.profile-user-info .profile-email {
+.navbar-profile-user-info .navbar-profile-email {
   font-size: 13px;
   margin: 0;
   color: #555;
+  font-family: 'Comic Neue', cursive;
 }
 
-.profile-actions .profile-btn {
+.navbar-profile-actions .navbar-profile-btn {
   width: 100%;
   background: #ff0033;
   border: none;
@@ -153,80 +160,199 @@ body {
   cursor: pointer;
   box-shadow: 2px 2px 0px #000;
   transition: transform 0.1s ease;
+  font-family: 'Comic Neue', cursive;
 }
 
-.profile-actions .profile-btn:hover {
+.navbar-profile-actions .navbar-profile-btn:hover {
   transform: scale(1.05);
 }
 
-.logout-btn {
+.navbar-logout-btn {
   background: #333 !important;
   color: #fff !important;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .navbar-comicverse {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+/* RESPONSIVE - Tablet */
+@media screen and (max-width: 768px) {
+  .navbar-comicverse-main {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem 1.5rem;
   }
 
-  .navbar-links {
-    justify-content: flex-start;
-    width: 100%;
-    gap: 1.2rem;
+  .navbar-logo-text {
+      font-size: 1.8rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .navbar-actions {
-    width: 100%;
-    justify-content: space-between;
+  .navbar-links-container {
+      justify-content: flex-start;
+      width: 100%;
+      gap: 1.2rem;
+      margin: 0.5rem 0;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .navbar-search {
-    width: 100%;
-    font-size: 1rem;
+  .navbar-link-item {
+      font-size: 1rem;
+      padding: 0.4rem 0.8rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .profile-modal {
-    right: 10px;
-    top: 60px;
+  .navbar-actions-container {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .navbar-search-input {
+      width: 100%;
+      font-size: 1rem;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-modal {
+      right: 15px;
+      top: 70px;
+  }
+
+  .navbar-profile-modal-card {
+      width: 220px;
+  }
+
+  .navbar-profile-user-info .navbar-profile-name {
+      font-size: 15px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-user-info .navbar-profile-email {
+      font-size: 12px;
+      font-family: 'Comic Neue', cursive;
   }
 }
 
-@media (max-width: 480px) {
-  .navbar-logo {
-    font-size: 1.5rem;
+/* RESPONSIVE - Mobile */
+@media screen and (max-width: 600px) {
+  .navbar-comicverse-main {
+      padding: 1rem;
+      gap: 0.8rem;
   }
 
-  .navbar-link {
-    font-size: 1rem;
+  .navbar-logo-text {
+      font-size: 1.6rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .navbar-search {
-    font-size: 0.9rem;
+  .navbar-links-container {
+      gap: 1rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .profile-modal-card {
-    width: 90vw;
-    padding: 10px;
+  .navbar-link-item {
+      font-size: 0.95rem;
+      padding: 0.35rem 0.7rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .profile-user-info .profile-name {
-    font-size: 14px;
+  .navbar-search-input {
+      font-size: 0.95rem;
+      padding: 0.35rem 0.7rem;
+      font-family: 'Comic Neue', cursive;
   }
 
-  .profile-user-info .profile-email {
-    font-size: 12px;
+  .navbar-profile-img-main {
+      width: 38px;
+      height: 38px;
   }
 
-  .profile-actions .profile-btn {
-    font-size: 14px;
+  .navbar-profile-modal {
+      right: 10px;
+      top: 65px;
   }
 
-  .profile-avatar,
-  .navbar-profile-img {
-    width: 35px;
-    height: 35px;
+  .navbar-profile-modal-card {
+      width: 200px;
+      padding: 12px;
+  }
+
+  .navbar-profile-avatar {
+      width: 35px;
+      height: 35px;
+  }
+
+  .navbar-profile-user-info .navbar-profile-name {
+      font-size: 14px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-user-info .navbar-profile-email {
+      font-size: 11px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-actions .navbar-profile-btn {
+      font-size: 13px;
+      padding: 6px 0;
+      font-family: 'Comic Neue', cursive;
+  }
+}
+
+/* RESPONSIVE - Small Mobile */
+@media screen and (max-width: 480px) {
+  .navbar-comicverse-main {
+      padding: 0.8rem;
+  }
+
+  .navbar-logo-text {
+      font-size: 1.5rem;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-links-container {
+      gap: 0.8rem;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-link-item {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.6rem;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-search-input {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.6rem;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-img-main {
+      width: 35px;
+      height: 35px;
+  }
+
+  .navbar-profile-modal-card {
+      width: 90vw;
+      padding: 10px;
+  }
+
+  .navbar-profile-avatar {
+      width: 32px;
+      height: 32px;
+  }
+
+  .navbar-profile-user-info .navbar-profile-name {
+      font-size: 13px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-user-info .navbar-profile-email {
+      font-size: 10px;
+      font-family: 'Comic Neue', cursive;
+  }
+
+  .navbar-profile-actions .navbar-profile-btn {
+      font-size: 12px;
+      padding: 5px 0;
+      font-family: 'Comic Neue', cursive;
   }
 }

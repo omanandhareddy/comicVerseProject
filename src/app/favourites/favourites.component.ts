@@ -40,4 +40,7 @@ export class FavouritesComponent implements OnInit {
     this.Overview.addOverView(this.FavComic)
     this.router.navigate(['/overview'])
   }
+  back(){
+    this.router.navigate(['/home-page'])
+  }
 }

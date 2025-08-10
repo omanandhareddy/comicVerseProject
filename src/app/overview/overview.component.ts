@@ -14,10 +14,11 @@ import { HttpClient } from '@angular/common/http';
   styleUrl: './overview.component.css'
 })
 export class OverviewComponent implements OnInit{
-  
+  user:any={}
   detailCard: any;
   recommendedComics: any[] = [];
   selected:any[]=[]
+  updatedUsername:string=''
   comicUrl = 'https://dbjson-eosu.onrender.com/COMICS';
   constructor(
     private router: Router,
@@ -29,6 +30,11 @@ export class OverviewComponent implements OnInit{
     this.overviewService.overviewCard$.subscribe((data: any) => {
       this.detailCard = data;
       this.getRandomRecommendedComics();
+    });
+    this.http.get('https://jswtoken.onrender.com/auth/profile', { withCredentials: true })
+    .subscribe((data: any) => {
+      this.user = data;
+      this.updatedUsername = data.username;
     });
   }
   getRandomRecommendedComics(): void {

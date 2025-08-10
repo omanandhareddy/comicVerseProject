@@ -1,37 +1,41 @@
-<nav class="navbar-comicverse">
-  <div class="navbar-logo">Comic<span class="logo-highlight">Verse</span></div>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <div class="navbar-links">
-    <a class="navbar-link">Home</a>
-    <a class="navbar-link" (click)="toNavigate()">Popular</a>
-    <a class="navbar-link" (click)="toFav()">Favourites</a>
-    <a class="navbar-link" (click)="toChar()">Heros</a>
-  </div>
+<div class="navbar-wrapper">
+  <nav class="navbar-comicverse-main">
+      <div class="navbar-logo-text">Comic<span class="navbar-logo-highlight">Verse</span></div>
 
-  <div class="navbar-actions">
-    <input type="text" placeholder="Search comics..." class="navbar-search" (click)="toNew()" />
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s"
-      alt="User"
-      class="navbar-profile-img"
-      (click)="toggleModal()"
-    />
-  </div>
-</nav>
-
-<div class="profile-modal" *ngIf="showModal">
-  <div class="profile-modal-card">
-    <div class="profile-header">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-avatar" (click)="toUser()" />
-      <div class="profile-user-info">
-        <h3 class="profile-name">{{ user.username || 'Comic Fan' }}</h3>
-        <p class="profile-email">{{ profile.email || '.........' }}</p>
+      <div class="navbar-links-container">
+          <a class="navbar-link-item" onclick="navigateHome()">Home</a>
+          <a class="navbar-link-item" onclick="toNavigate()">Popular</a>
+          <a class="navbar-link-item" onclick="toFav()">Favourites</a>
+          <a class="navbar-link-item" onclick="toChar()">Heros</a>
       </div>
-    </div>
-    <div class="profile-actions">
-      <button class="profile-btn" (click)="toFav()">Favourites</button>
-      <button class="profile-btn" (click)="toUser()">Edit Profile</button>
-      <button class="profile-btn logout-btn" (click)="logout()">Logout</button>
-    </div>
+
+      <div class="navbar-actions-container">
+          <input type="text" placeholder="Search comics..." class="navbar-search-input" onclick="toNew()" />
+          <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s"
+              alt="User"
+              class="navbar-profile-img-main"
+              onclick="toggleModal()"
+          />
+      </div>
+  </nav>
+
+  <div class="navbar-profile-modal" id="profileModal" style="display: none;">
+      <div class="navbar-profile-modal-card">
+          <div class="navbar-profile-header">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="navbar-profile-avatar" onclick="toUser()" />
+              <div class="navbar-profile-user-info">
+                  <h3 class="navbar-profile-name">Comic Fan</h3>
+                  <p class="navbar-profile-email">fan@comicverse.com</p>
+              </div>
+          </div>
+          <div class="navbar-profile-actions">
+              <button class="navbar-profile-btn" onclick="toFav()">Favourites</button>
+              <button class="navbar-profile-btn" onclick="toUser()">Edit Profile</button>
+              <button class="navbar-profile-btn navbar-logout-btn" onclick="logout()">Logout</button>
+          </div>
+      </div>
   </div>
 </div>

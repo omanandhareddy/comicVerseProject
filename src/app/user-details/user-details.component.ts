@@ -80,4 +80,7 @@ export class UserDetailsComponent {
   toAcc(){
     this.router.navigate(['/userDetails']);
   }
+  toUpload(){
+    
+  }
 }
