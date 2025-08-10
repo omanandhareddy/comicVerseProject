@@ -5,36 +5,36 @@
       <div class="navbar-logo-text">Comic<span class="navbar-logo-highlight">Verse</span></div>
 
       <div class="navbar-links-container">
-          <a class="navbar-link-item" onclick="navigateHome()">Home</a>
-          <a class="navbar-link-item" onclick="toNavigate()">Popular</a>
-          <a class="navbar-link-item" onclick="toFav()">Favourites</a>
-          <a class="navbar-link-item" onclick="toChar()">Heros</a>
+          <a class="navbar-link-item" (click)="navigateHome()">Home</a>
+          <a class="navbar-link-item" (click)="toNavigate()">Popular</a>
+          <a class="navbar-link-item" (click)="toFav()">Favourites</a>
+          <a class="navbar-link-item" (click)="toChar()">Heros</a>
       </div>
 
       <div class="navbar-actions-container">
-          <input type="text" placeholder="Search comics..." class="navbar-search-input" onclick="toNew()" />
+          <input type="text" placeholder="Search comics..." class="navbar-search-input" (click)="toNew()" />
           <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s"
               alt="User"
               class="navbar-profile-img-main"
-              onclick="toggleModal()"
+              (click)="toggleModal()"
           />
       </div>
   </nav>
 
-  <div class="navbar-profile-modal" id="profileModal" style="display: none;">
+  <div class="navbar-profile-modal" *ngIf="showModal">
       <div class="navbar-profile-modal-card">
           <div class="navbar-profile-header">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="navbar-profile-avatar" onclick="toUser()" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="navbar-profile-avatar" (click)="toUser()" />
               <div class="navbar-profile-user-info">
-                  <h3 class="navbar-profile-name">Comic Fan</h3>
-                  <p class="navbar-profile-email">fan comicverse.com</p>
+                  <h3 class="navbar-profile-name">{{ user.username || 'Comic Fan' }}</h3>
+                  <p class="navbar-profile-email">{{ profile.email || 'fan&#64;comicverse.com' }}</p>
               </div>
           </div>
           <div class="navbar-profile-actions">
-              <button class="navbar-profile-btn" onclick="toFav()">Favourites</button>
-              <button class="navbar-profile-btn" onclick="toUser()">Edit Profile</button>
-              <button class="navbar-profile-btn navbar-logout-btn" onclick="logout()">Logout</button>
+              <button class="navbar-profile-btn" (click)="toFav()">Favourites</button>
+              <button class="navbar-profile-btn" (click)="toUser()">Edit Profile</button>
+              <button class="navbar-profile-btn navbar-logout-btn" (click)="logout()">Logout</button>
           </div>
       </div>
   </div>
