@@ -1,97 +1,45 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 import { CommonModule } from '@angular/common';
+import { trigger, transition, style, animate } from '@angular/animations';
 import { OverviewService } from '../overview.service';
 import { Router } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
-import { FavouritesService } from '../favourites.service'; // ADD THIS IMPORT
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-favourites',
-  imports: [CommonModule, FooterComponent],
+  imports: [CommonModule,FooterComponent],
   templateUrl: './favourites.component.html',
   styleUrl: './favourites.component.css',
+
 })
-export class FavouritesComponent implements OnInit, OnDestroy {
+export class FavouritesComponent implements OnInit {
   favourites: any[] = [];
-  favComic: any[] = [];
-  isLoading = false; // ADD THIS
-  error: string | null = null; // ADD THIS
+  FavComic:any[]=[];
 
-  private destroy$ = new Subject<void>(); // ADD THIS
+  constructor(private http:HttpClient, private  Overview:OverviewService,private router:Router) {}
 
-  constructor(
-    private favouritesService: FavouritesService, // REPLACE HttpClient with this
-    private overview: OverviewService,
-    private router: Router
-  ) {}
-
-  // REPLACE ngOnInit METHOD
   ngOnInit(): void {
-    this.favouritesService.favourites$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(favourites => {
-        this.favourites = favourites;
-      });
-
-    this.favouritesService.loading$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(loading => {
-        this.isLoading = loading;
-      });
-
-    this.favouritesService.error$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(error => {
-        this.error = error;
+    this.http.get<any[]>('https://jswtoken.onrender.com/auth/favourites', { withCredentials: true })
+      .subscribe(res => {
+        this.favourites = res;
       });
   }
 
-  // ADD THIS METHOD
-  ngOnDestroy(): void {
-    this.destroy$.next();
-    this.destroy$.complete();
+  removeFromFavourites(id: number) {
+    this.http.patch('https://jswtoken.onrender.com/auth/favourites/remove', { id }, { withCredentials: true })
+      .subscribe(() => {
+        this.ngOnInit();
+      });
   }
 
-  // REPLACE removeFromFavourites METHOD
-  removeFromFavourites(id: number): void {
-    if (confirm('Are you sure you want to remove this comic from favourites?')) {
-      this.favouritesService.removeFromFavourites(id)
-        .pipe(takeUntil(this.destroy$))
-        .subscribe({
-          next: (response) => {
-            if (response.success) {
-              console.log('Removed from favourites successfully');
-            } else {
-              console.log('Failed to remove:', response.message);
-            }
-          },
-          error: (error) => {
-            console.error('Error removing from favourites:', error);
-          }
-        });
-    }
+  toO(comic:any){
+    this.FavComic=comic;
+    this.Overview.addOverView(this.FavComic)
+    this.router.navigate(['/overview'])
   }
-
-  toO(comic: any): void {
-    this.favComic = comic;
-    this.overview.addOverView(this.favComic);
-    this.router.navigate(['/overview']);
-  }
-
-  back(): void {
-    this.router.navigate(['/home-page']);
-  }
-
-  // ADD THESE NEW METHODS
-  refresh(): void {
-    this.favouritesService.refreshFavourites()
-      .pipe(takeUntil(this.destroy$))
-      .subscribe();
-  }
-
-  clearError(): void {
-    this.favouritesService.clearError();
+  back(){
+    this.router.navigate(['/home-page'])
   }
 }
