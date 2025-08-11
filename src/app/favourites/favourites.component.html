@@ -9,9 +9,29 @@
   </div>
 </nav>
 
-<div class="favourites-container">
-  <div *ngFor="let comic of favourites" class="card-verse" >
-    <div class="card-content" >
+<!-- ADD LOADING STATE -->
+<div *ngIf="isLoading" class="loading-container">
+  <div class="loading-spinner">Loading favourites...</div>
+</div>
+
+<!-- ADD ERROR STATE -->
+<div *ngIf="error" class="error-container">
+  <p class="error-message">{{ error }}</p>
+  <button class="retry-btn" (click)="refresh()">Retry</button>
+  <button class="clear-error-btn" (click)="clearError()">×</button>
+</div>
+
+<!-- ADD EMPTY STATE -->
+<div *ngIf="favourites.length === 0 && !isLoading && !error" class="empty-state">
+  <h2>No favourites added yet!</h2>
+  <p>Start adding comics to your favourites to see them here.</p>
+  <button class="browse-btn" (click)="back()">Browse Comics</button>
+</div>
+
+<!-- EXISTING FAVOURITES CONTENT -->
+<div class="favourites-container" *ngIf="favourites.length > 0 && !isLoading">
+  <div *ngFor="let comic of favourites" class="card-verse">
+    <div class="card-content">
       <div class="remove-btn" (click)="removeFromFavourites(comic.id)">✕</div>
       <div class="card-label-top">{{ comic.title }}</div>
       <div class="card-cover" [style.backgroundImage]="'url(' + comic.cover + ')'" (click)="toO(comic)"></div>
