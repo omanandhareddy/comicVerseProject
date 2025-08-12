@@ -27,8 +27,8 @@ export class FavouritesComponent implements OnInit {
       });
   }
 
-  removeFromFavourites(id: number) {
-    this.http.patch('https://jswtoken.onrender.com/auth/favourites/remove', { id }, { withCredentials: true })
+  removeFromFavourites(title: string) {
+    this.http.patch('https://jswtoken.onrender.com/auth/favourites/remove', { title }, { withCredentials: true })
       .subscribe(() => {
         this.ngOnInit();
       });
