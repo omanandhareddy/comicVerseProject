@@ -51,7 +51,6 @@
   <div *ngFor="let comic of recommendedComics" class="recommended-card-over" (click)="toOver(comic)">
     <img [src]="comic.cover" class="recommended-img-over" alt="{{ comic.title }}">
     <div class="recommended-title">{{ comic.title }}</div>
-    <div class="recommended-year">({{ comic.year || '----' }})</div>
   </div>
 </div>
 <app-footer></app-footer>
