@@ -18,7 +18,7 @@ export class OverviewComponent implements OnInit{
   recommendedComics: any[] = [];
   selected:any[]=[]
   updatedUsername:string=''
-  comicUrl = 'https://dbjson-eosu.onrender.com/COMICS';
+  comicUrl = 'http://0.0.0.0:3001/COMICS';
   constructor(
     private router: Router,
     private overviewService: OverviewService,
@@ -36,13 +36,29 @@ export class OverviewComponent implements OnInit{
       this.updatedUsername = data.username;
     });
   }
+  // getRandomRecommendedComics(): void {
+  //   this.http.get<any[]>(this.comicUrl).subscribe((comics) => {
+  //     const filtered = comics.filter(c => c.id !== this.detailCard?.id);
+  //     const shuffled = filtered.sort(() => 0.5 - Math.random());
+  //     this.recommendedComics = shuffled.slice(0, 4);
+  //   });
+  // }
   getRandomRecommendedComics(): void {
-    this.http.get<any[]>(this.comicUrl).subscribe((comics) => {
-      const filtered = comics.filter(c => c.id !== this.detailCard?.id);
-      const shuffled = filtered.sort(() => 0.5 - Math.random());
-      this.recommendedComics = shuffled.slice(0, 4);
+    this.http.get<any[]>(this.comicUrl).subscribe({
+      next: (comics) => {
+        if (!comics || comics.length === 0) {
+          return;
+        }
+        const filtered = comics.filter(c => c.id !== this.detailCard?.id);
+        const shuffled = filtered.sort(() => 0.5 - Math.random());
+        this.recommendedComics = shuffled.slice(0, 4);
+      },
+      error: (error) => {
+        console.error('Error fetching comics:', error);
+        this.recommendedComics = [];
+      }
     });
-  }
+   }
   addToFav(card:any){
     this.http.post('https://jswtoken.onrender.com/auth/favourites', card, { withCredentials: true }).subscribe();
   }
