@@ -37,8 +37,9 @@ export class OverviewComponent implements OnInit{
     });
   }
   getRandomRecommendedComics(): void {
-    this.http.get<any[]>(this.comicUrl).subscribe((comics) => {
-      const filtered = comics.filter(c => c.id !== this.detailCard?.id);
+    this.http.get<any>(this.comicUrl).subscribe((data) => {
+      const comics: any[] = data.COMICS; // extract the array
+      const filtered = comics.filter((c: any) => c.id !== this.detailCard?.id);
       const shuffled = filtered.sort(() => 0.5 - Math.random());
       this.recommendedComics = shuffled.slice(0, 4);
     });
