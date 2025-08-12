@@ -28,7 +28,9 @@ export class OverviewComponent implements OnInit{
   ngOnInit(): void {
     this.overviewService.overviewCard$.subscribe((data: any) => {
       this.detailCard = data;
+       if (data) {  // Only call if data exists
       this.getRandomRecommendedComics();
+    }
     });
     this.http.get('https://jswtoken.onrender.com/auth/profile', { withCredentials: true })
     .subscribe((data: any) => {
@@ -43,22 +45,26 @@ export class OverviewComponent implements OnInit{
   //     this.recommendedComics = shuffled.slice(0, 4);
   //   });
   // }
-  getRandomRecommendedComics(): void {
-    this.http.get<any[]>(this.comicUrl).subscribe({
-      next: (comics) => {
-        if (!comics || comics.length === 0) {
-          return;
-        }
-        const filtered = comics.filter(c => c.id !== this.detailCard?.id);
-        const shuffled = filtered.sort(() => 0.5 - Math.random());
-        this.recommendedComics = shuffled.slice(0, 4);
-      },
-      error: (error) => {
-        console.error('Error fetching comics:', error);
-        this.recommendedComics = [];
-      }
-    });
-   }
+getRandomRecommendedComics(): void {
+  console.log('detailCard:', this.detailCard); // Check this first
+  
+  this.http.get<any[]>(this.comicUrl).subscribe({
+    next: (comics) => {
+      console.log('Raw comics data:', comics.length); // Check if data comes
+      
+      const filtered = comics.filter(c => c.id !== this.detailCard?.id);
+      console.log('Filtered comics:', filtered.length); // Check filtering
+      
+      const shuffled = filtered.sort(() => 0.5 - Math.random());
+      this.recommendedComics = shuffled.slice(0, 4);
+      
+      console.log('Final recommendedComics:', this.recommendedComics); // Check final result
+    },
+    error: (error) => {
+      console.error('Error:', error);
+    }
+  });
+}
   addToFav(card:any){
     this.http.post('https://jswtoken.onrender.com/auth/favourites', card, { withCredentials: true }).subscribe();
   }
