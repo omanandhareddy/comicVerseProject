@@ -18,7 +18,7 @@ export class OverviewComponent implements OnInit{
   recommendedComics: any[] = [];
   selected:any[]=[]
   updatedUsername:string=''
-  comicUrl = 'https://jswtoken.onrender.com/COMICS';
+  comicUrl = 'https://dbjson-eosu.onrender.com/COMICS';
   constructor(
     private router: Router,
     private overviewService: OverviewService,
@@ -28,7 +28,9 @@ export class OverviewComponent implements OnInit{
   ngOnInit(): void {
     this.overviewService.overviewCard$.subscribe((data: any) => {
       this.detailCard = data;
+       if (data) {  
       this.getRandomRecommendedComics();
+    }
     });
     this.http.get('https://jswtoken.onrender.com/auth/profile', { withCredentials: true })
     .subscribe((data: any) => {
@@ -43,7 +45,7 @@ export class OverviewComponent implements OnInit{
       this.recommendedComics = shuffled.slice(0, 4);
     });
   }
- 
+
   addToFav(card:any){
     this.http.post('https://jswtoken.onrender.com/auth/favourites', card, { withCredentials: true }).subscribe();
   }
