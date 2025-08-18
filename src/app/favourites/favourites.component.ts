@@ -17,7 +17,7 @@ import { HttpClient } from '@angular/common/http';
 export class FavouritesComponent implements OnInit {
   favourites: any[] = [];
   FavComic:any[]=[];
-
+  isLoading: boolean = true;
   constructor(private http:HttpClient, private  Overview:OverviewService,private router:Router) {}
 
   ngOnInit(): void {
@@ -25,6 +25,7 @@ export class FavouritesComponent implements OnInit {
       .subscribe(res => {
         this.favourites = res;
       });
+      this.isLoading = false;
   }
 
   removeFromFavourites(title: string) {

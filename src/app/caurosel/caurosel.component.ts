@@ -20,6 +20,7 @@ export class CauroselComponent implements OnInit {
   originalComics: any[] = [];
   upcomingComics:any[]=[]
   selectedComic: any = null;
+  isLoad:boolean=true;
 
   constructor(private http: HttpClient,private router:Router) {}
 
@@ -27,6 +28,7 @@ export class CauroselComponent implements OnInit {
     this.http.get<any[]>('https://dbjson-eosu.onrender.com/trendig').subscribe(data => this.trendingComics = data);
     this.http.get<any[]>('https://dbjson-eosu.onrender.com/originals').subscribe(data => this.originalComics = data);
     this.http.get<any[]>('https://dbjson-eosu.onrender.com/upcomingComicBooks').subscribe(data=>this.upcomingComics=data)
+    this.isLoad=false
   }
   scrollLeft(container: HTMLDivElement) {
     container.scrollBy({ left: -300, behavior: 'smooth' });
