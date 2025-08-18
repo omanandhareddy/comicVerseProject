@@ -5,8 +5,13 @@
     <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(trendingScroll)">&#10094;</button>
 
     <div class="comic-carousel-scroll-container" #trendingScroll>
-      <div *ngIf="isLoad">
-        <div class="skeleton-card" *ngFor="let s of [1,2,3,4,5]"></div>
+      <div *ngIf="isLoad" class="skeleton-wrapper-home">
+        <app-skeleton-loader
+          *ngFor="let i of [1,2,3,4,5,6,7,8,9]"
+          width="160px"
+          height="240px"
+          borderRadius="6px">
+        </app-skeleton-loader>
       </div>
       <div class="comic-carousel-comic-card" *ngFor="let comic of trendingComics" (click)="showComic(comic)">
         <img class="comic-carousel-cover-img" [src]="comic?.cover" [alt]="comic?.title" loading="lazy" />
@@ -22,8 +27,13 @@
     <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(originalScroll)">&#10094;</button>
 
     <div class="comic-carousel-scroll-container" #originalScroll>
-      <div *ngIf="isLoad">
-        <div class="skeleton-card" *ngFor="let s of [1,2,3,4,5]"></div>
+      <div *ngIf="isLoad" class="skeleton-wrapper-home">
+        <app-skeleton-loader
+          *ngFor="let i of [1,2,3,4,5,6,7,8,9]"
+          width="160px"
+          height="240px"
+          borderRadius="6px">
+        </app-skeleton-loader>
       </div>
       <div class="comic-carousel-comic-card" *ngFor="let comic of originalComics" (click)="showComic(comic)">
         <img class="comic-carousel-cover-img" [src]="comic.cover" [alt]="comic.title" loading="lazy" />
@@ -39,8 +49,13 @@
     <button class="comic-carousel-nav-btn comic-carousel-nav-left" (click)="scrollLeft(upcomingScroll)">&#10094;</button>
 
     <div class="comic-carousel-scroll-container" #upcomingScroll>
-      <div *ngIf="isLoad">
-        <div class="skeleton-card" *ngFor="let s of [1,2,3,4,5]"></div>
+      <div *ngIf="isLoad" class="skeleton-wrapper-home">
+        <app-skeleton-loader
+          *ngFor="let i of [1,2,3,4,5,6,7,8,9]"
+          width="160px"
+          height="240px"
+          borderRadius="6px">
+        </app-skeleton-loader>
       </div>
       <div class="comic-carousel-comic-card" *ngFor="let comic of upcomingComics" (click)="showComic(comic)">
         <img class="comic-carousel-cover-img" [src]="comic.cover" [alt]="comic.title" loading="lazy" />

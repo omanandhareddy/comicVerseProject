@@ -239,3 +239,27 @@ body {
     padding: 6px 10px;
   }
 }
+.skeleton-wrapper-char {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .skeleton-wrapper-char {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .skeleton-wrapper-char {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.8rem;
+    padding: 0.5rem;
+  }
+}

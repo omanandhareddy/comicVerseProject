@@ -3,10 +3,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
+import { SkeletonLoaderComponent } from '../skeleton-loader/skeleton-loader.component';
 
 @Component({
   selector: 'app-charecter',
-  imports: [HttpClientModule, CommonModule,FooterComponent],
+  imports: [HttpClientModule, CommonModule,FooterComponent,SkeletonLoaderComponent],
   templateUrl: './charecter.component.html',
   styleUrl: './charecter.component.css'
 })
@@ -15,9 +16,11 @@ export class CharecterComponent implements OnInit {
   heros: any[] = [];
   selectedHero: any = null;
   url = 'https://dbjson-eosu.onrender.com/comicCharacters';
+  isLoading:boolean=true;
 
   ngOnInit(): void {
     this.http.get<any[]>(this.url).subscribe((data) => (this.heros = data));
+    this.isLoading=false
   }
 
   selectHero(hero: any) {

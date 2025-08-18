@@ -6,10 +6,11 @@ import { OverviewService } from '../overview.service';
 import { Router } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
 import { HttpClient } from '@angular/common/http';
+import { SkeletonLoaderComponent } from '../skeleton-loader/skeleton-loader.component';
 
 @Component({
   selector: 'app-favourites',
-  imports: [CommonModule,FooterComponent],
+  imports: [CommonModule,FooterComponent,SkeletonLoaderComponent],
   templateUrl: './favourites.component.html',
   styleUrl: './favourites.component.css',
 

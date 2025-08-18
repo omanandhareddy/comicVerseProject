@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
 import { OverviewService } from '../overview.service';
+import { SkeletonLoaderComponent } from '../skeleton-loader/skeleton-loader.component';
 
 @Component({
   selector: 'app-caurosel',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule],
+  imports: [CommonModule, FormsModule, HttpClientModule,SkeletonLoaderComponent],
   templateUrl: './caurosel.component.html',
   styleUrl: './caurosel.component.css'
 })
