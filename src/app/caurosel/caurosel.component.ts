@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-caurosel',
@@ -20,7 +21,7 @@ export class CauroselComponent implements OnInit {
   upcomingComics:any[]=[]
   selectedComic: any = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient,private router:Router) {}
 
   ngOnInit() {
     this.http.get<any[]>('https://dbjson-eosu.onrender.com/trendig').subscribe(data => this.trendingComics = data);
@@ -34,7 +35,9 @@ export class CauroselComponent implements OnInit {
   scrollRight(container: HTMLDivElement) {
     container.scrollBy({ left: 300, behavior: 'smooth' });
   }
-
+  toOverViewPage(){
+    this.router.navigate(['/overview'])
+  }
   showComic(comic: any) {
     this.selectedComic = comic;
   }

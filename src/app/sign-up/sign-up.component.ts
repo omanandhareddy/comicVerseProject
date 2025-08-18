@@ -23,7 +23,7 @@ export class SignUpComponent {
   onHome() {
     this.errorMsg = '';
     this.successMsg = '';
-    if (!this.Username || !this.password || !this.ConfirmPassword) {
+    if (!this.Username.trim() || !this.password.trim() || !this.ConfirmPassword.trim()) {
       this.errorMsg = 'Please fill in all fields!';
       return;
     }
@@ -34,9 +34,7 @@ export class SignUpComponent {
     this.authService.register(this.Username, this.password).subscribe({
       next: (res: any) => {
         this.successMsg = res.message;
-        setTimeout(() => {
           this.router.navigate(['/home-page']);
-        }, 1000);
       },
       error: (err) => {
         this.errorMsg = err.error.message || 'Something went wrong!';

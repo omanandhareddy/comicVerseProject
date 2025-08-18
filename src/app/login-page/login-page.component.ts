@@ -20,7 +20,7 @@ export class LoginPageComponent {
   constructor(private authService: AuthServiceService, private router: Router) {}
 
   onLogin() {
-    this.authService.login(this.Username, this.password).subscribe({
+    this.authService.login(this.Username.trim(), this.password.trim()).subscribe({
       next: () => this.router.navigate(['/home-page']),
       error: err => this.errorMsg = err.error.message
     });

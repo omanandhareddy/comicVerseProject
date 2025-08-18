@@ -7,15 +7,17 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FilterPipe } from '../filter.pipe';
 import { OverviewService } from '../overview.service';
 import { FooterComponent } from '../footer/footer.component';
+import { SkeletonLoaderComponent } from '../skeleton-loader/skeleton-loader.component';
 
 @Component({
   selector: 'app-popular',
-  imports: [CommonModule,FormsModule,HttpClientModule,FilterPipe,FooterComponent],
+  imports: [CommonModule,FormsModule,HttpClientModule,FilterPipe,FooterComponent,SkeletonLoaderComponent],
   templateUrl: './popular.component.html',
   styleUrl: './popular.component.css'
 })
 export class PopularComponent implements OnInit{
   searchText:string='';
+  isLoading: boolean = true; 
   selectedComicOver:any[]=[]
   comicUrl='https://dbjson-eosu.onrender.com/COMICS'
   comicList:any[]=[]
@@ -38,6 +40,7 @@ export class PopularComponent implements OnInit{
 ngOnInit(): any {
   this.http.get<any[]>(this.comicUrl).subscribe((data)=>{
     this.comicList=data
+    this.isLoading=false
   })
 }
 }

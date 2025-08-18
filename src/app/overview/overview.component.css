@@ -168,9 +168,17 @@
 }
 
 .detail-description-over {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: white;
+  .detail-description-over {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+    letter-spacing: 0.3px;      /* Slight spacing between letters for readability */
+    word-spacing: 2px;   
+    margin-top: 1rem;     /* space above */
+    margin-bottom: 1.5rem; /* space below */
+    padding: 0.5rem 1rem; /* inner spacing (top/bottom, left/right) */
+  }
+  
 }
 
 .fav-btn-over {

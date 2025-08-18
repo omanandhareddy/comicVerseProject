@@ -52,7 +52,7 @@
       <button class="comic-carousel-add-btn" (click)="addToFavourites()">Add To Favourites</button>
       </div>
       <div>
-        <img class="comic-carousel-cover-pop-img" [src]="selectedComic.cover" [alt]="selectedComic.title" loading="lazy" />
+        <img class="comic-carousel-cover-pop-img" [src]="selectedComic.cover" [alt]="selectedComic.title" loading="lazy"  (click)="toOverViewPage()">
       </div>
     </div>
    
