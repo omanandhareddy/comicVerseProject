@@ -14,7 +14,7 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJsWi_Lp39eb2B-O9Hmjic-ctmLOh2tsP_A&s" alt="User" class="profile-pic" />
   </div>
 </nav>
-<ng-container *ngIf="isLoading">
+<ng-container *ngIf="isLoading" class="skeleton-wrapper">
   <app-skeleton-loader
     *ngFor="let i of [1,2,3,4,5,6]"
     width="160px"
