@@ -5,8 +5,9 @@
   font-family: 'Comic Neue', cursive;
   background: #fffdf7;
   position: fixed;
-  top: 0;       
-  left: 0;
+  top: -10;       
+  left: -10;
+  width: 100%; 
   z-index: 1000; 
 }
 
