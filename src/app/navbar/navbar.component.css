@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Comic Neue', cursive;
   background: #fffdf7;
+  position: fixed;
+  top: 0;        
+  z-index: 1000; 
 }
 
 .navbar-wrapper *,

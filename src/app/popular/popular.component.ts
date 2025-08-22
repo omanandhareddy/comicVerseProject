@@ -43,4 +43,5 @@ ngOnInit(): any {
     this.isLoading=false
   })
 }
+
 }
