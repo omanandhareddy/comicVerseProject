@@ -39,7 +39,7 @@ export class PopularComponent implements OnInit{
 
 ngOnInit(): any {
   this.http.get<any[]>(this.comicUrl).subscribe((data)=>{
-    this.comicList = data.map(c => ({ ...c, loaded: false }));
+    this.comicList = data
     this.isLoading=false
   })
 }
