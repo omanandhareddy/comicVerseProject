@@ -37,14 +37,13 @@ export class CauroselComponent implements OnInit {
   scrollLeft(container: HTMLDivElement) {
     container.scrollBy({ left: -300, behavior: 'smooth' });
   }
-
   scrollRight(container: HTMLDivElement) {
     container.scrollBy({ left: 300, behavior: 'smooth' });
   }
   toOverViewPage(selectedComic:any){
   this.comic=selectedComic
   this.overview.addOverView(this.comic)
-    this.router.navigate(['/overview'])
+  this.router.navigate(['/overview'])
   }
   showComic(comic: any) {
     this.selectedComic = comic;

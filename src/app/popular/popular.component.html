@@ -24,7 +24,11 @@
 </div>
 <div class="comic-grid">
   <div class="comic-card" *ngFor="let comic of comicList | filter:searchText" (click)="toOverView(comic)">
-    <img [src]="comic.cover" [alt]="comic.title" loading="lazy"/>
+    <div class="loading-bar" *ngIf="!comic.loaded">
+      <div class="loading-bar-element"></div>
+    </div>
+    <img [src]="comic.cover" [alt]="comic.title" loading="lazy" [hidden]="!comic.loaded"
+    (load)="comic.loaded = true"/>
   </div>
 </div>
 <app-footer></app-footer>
